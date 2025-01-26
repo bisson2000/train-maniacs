@@ -1,0 +1,9 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#twilightforest:in_twilight_forest",
+    "features": [
+      "create:zinc_ore"
+    ],
+    "step": "underground_ores"
+  }
+  

@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
 
+    // combining
     [
         ["minecraft:iron_ore"],
         ["minecraft:deepslate_iron_ore"],
@@ -33,47 +34,15 @@ ServerEvents.recipes(event => {
         ["mekanism:deepslate_osmium_ore"],
     ].forEach((removedOutputInfo) => {
         const [removedOutput] = removedOutputInfo;
-        event.forEachRecipe({mod: "mekanism"}, recipe => {
-            console.info(`recipe: ${recipe.json}`);
-            console.info(`recipe: ${recipe.getId()}`);
-        });
-        event.remove({type:"mekanism:combining", output: removedOutput})
-        //event.remove({mod: "create", id: recipeID});
-        /*event.forEachRecipe({mod: "create"}, recipe => {
-            let changedFlag = false;
+        event.remove({mod:"mekanism", type:"mekanism:combining", output: removedOutput})
+    });
 
-            // Input
-            //console.info(`recipe: ${recipe.json}`);
-            //if (recipe.json?.get("input")?.getAsJsonObject().get("fluid")?.asString === fluid) {
-            //    recipe.json.get("input").addProperty("fluid", replacement);
-            //    console.info(`match: ${replacement}`);
-            //    changedFlag = true;
-            //}
-
-            // output
-            if (recipe.json 
-                && recipe.json.get("output")
-                && recipe.json.get("output").get("fluid")
-                && recipe.json.get("output").get("fluid").asString === fluid) {
-                recipe.json.get("output").addProperty("fluid", replacement);
-                //console.info(`match o: ${replacement}`);
-                changedFlag = true;
-            }
-
-            // bonus
-            if (recipe.json 
-                && recipe.json.get("bonus")
-                && recipe.json.get("bonus").get("fluid")
-                && recipe.json.get("bonus").get("fluid").asString === fluid) {
-                recipe.json.get("bonus").addProperty("fluid", replacement);
-                //console.info(`match b: ${replacement}`);
-                changedFlag = true;
-            }
-
-            if (changedFlag) {
-                recipe.save();
-            }
-        });*/
+    // items
+    [
+        ["mekanism:quantum_entangloporter"],
+    ].forEach((replacementInfo) => {
+        const [recipeID] = replacementInfo;
+        event.remove({mod: "mekanism", id: recipeID});
     });
 
 });
