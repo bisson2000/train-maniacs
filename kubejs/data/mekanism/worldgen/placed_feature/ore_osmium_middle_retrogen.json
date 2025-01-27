@@ -23,10 +23,10 @@
       "type": "minecraft:in_square"
     },
     {
-      "type": "biggeroreclusters:center_chunk_placement"
+      "type": "sparseoreclusters:center_chunk_placement"
     },
     {
-      "type": "biggeroreclusters:spread_filter"
+      "type": "sparseoreclusters:spread_filter"
     },
     {
       "type": "minecraft:height_range",
