@@ -1,0 +1,20 @@
+{
+  "type": "mekanism:ore",
+  "config": {
+    "oreVeinType": {
+      "type": "fluorite",
+      "index": 1
+    },
+    "targets": [
+      {
+        "state": {
+          "Name": "mekanismaaa:glacio_fluorite_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:glacio_stone"
+        }
+      }
+    ]
+  }
+}

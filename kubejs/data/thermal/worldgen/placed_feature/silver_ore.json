@@ -1,0 +1,37 @@
+{
+  "feature": "thermal:silver_ore",
+  "placement": [
+    {
+      "type": "thermal:config",
+      "config": "silver_ore"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "biggeroreclusters:center_chunk_placement"
+    },
+    {
+      "type": "biggeroreclusters:spread_filter"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 40
+        },
+        "min_inclusive": {
+          "absolute": -60
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
