@@ -1,0 +1,25 @@
+{
+  "feature": "immersiveengineering:uranium",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "immersiveengineering:ie_range",
+        "value": 5
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "biggeroreclusters:center_chunk_placement"
+    },
+    {
+      "type": "biggeroreclusters:spread_filter"
+    },
+    {
+      "type": "immersiveengineering:ie_count",
+      "value": 5
+    }
+  ]
+}
