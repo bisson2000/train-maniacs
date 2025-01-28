@@ -1,0 +1,33 @@
+{
+  "feature": "aether:gravitite_ore",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "sparseoreclusters:center_chunk_placement"
+    },
+    {
+      "type": "sparseoreclusters:spread_filter"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "above_bottom": 74
+        },
+        "min_inclusive": {
+          "above_bottom": -58
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

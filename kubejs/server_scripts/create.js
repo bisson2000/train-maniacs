@@ -1,11 +1,15 @@
+// priority: 0
+
 ServerEvents.recipes(event => {
 
+    // Ore gen recipes
     [
         ["create:splashing/gravel"],
         ["create:splashing/soul_sand"],
         ["create:splashing/sand"],
         ["create:splashing/red_sand"],
         ["create:splashing/gravel"],
+        ["create:filling/redstone"],
     ].forEach((replacementInfo) => {
         const [recipeID] = replacementInfo;
         //event.forEachRecipe({mod: "create"}, recipe => {
