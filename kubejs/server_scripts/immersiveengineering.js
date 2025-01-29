@@ -25,4 +25,14 @@ ServerEvents.recipes(event => {
         const [recipeID] = replacementInfo;
         event.remove({mod: "immersiveengineering", id: recipeID});
     });
+
+    // mechanical components
+    [
+        ["immersiveengineering:crafting/component_steel"],
+        ["immersiveengineering:crafting/component_iron"],
+    ].forEach((replacementInfo) => {
+        const [recipeID] = replacementInfo;
+        event.remove({mod: "immersiveengineering", id: recipeID});
+    });
+
 });

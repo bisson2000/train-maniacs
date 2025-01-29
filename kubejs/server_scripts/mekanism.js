@@ -47,4 +47,8 @@ ServerEvents.recipes(event => {
         event.remove({mod: "mekanism", id: recipeID});
     });
 
+    //event.forEachRecipe({mod: "mekanism"}, recipe => {
+    //    console.info(`recipe: ${recipe.json}`);
+    //})
+
 });
