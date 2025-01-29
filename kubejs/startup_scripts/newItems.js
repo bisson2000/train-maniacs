@@ -1,6 +1,6 @@
 StartupEvents.registry('item', event => {  
     // Capacitors
-    //event.create('grainy_capacitor', 'basic').texture('trainmaniacs:item/grainy_capacitor');
+    event.create('grainy_capacitor', 'basic').texture('trainmaniacs:item/grainy_capacitor');
     event.create('decuplic_capacitor', 'basic').texture('trainmaniacs:item/decuplic_capacitor');
     event.create('octodecuplic_capacitor', 'basic').texture('trainmaniacs:item/octodecuplic_capacitor');
 
