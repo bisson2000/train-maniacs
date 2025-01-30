@@ -14,4 +14,17 @@ ServerEvents.recipes(event => {
         event.remove({mod: "createaddition", type:"createaddition:rolling", output: outputItem});
     });
 
+    // Creosote
+    event.forEachRecipe({mod: "createaddition", id: "createaddition:filling/treated_wood_planks"}, recipe => {
+        if (recipe.json && recipe.json.getAsJsonArray("ingredients")) {
+            recipe.json.getAsJsonArray("ingredients").forEach(element => {
+                if(element.asJsonObject.get("fluid") && element.asJsonObject.get("fluid").asString === "immersiveengineering:creosote") {
+                    element.asJsonObject.remove("fluid");
+                    element.asJsonObject.addProperty("fluidTag", "forge:creosote");
+                    recipe.save();
+                }
+            });
+        }
+    });
+
 });

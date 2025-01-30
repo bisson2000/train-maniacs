@@ -35,6 +35,15 @@ ServerEvents.recipes(event => {
         event.remove({mod: "immersiveengineering", id: recipeID});
     });
 
+    // coal coke
+    event.forEachRecipe({mod: "immersiveengineering", type:"immersiveengineering:coke_oven"}, recipe => {
+        if (recipe.json && recipe.json.getAsJsonObject("result") && recipe.json.getAsJsonObject("result").get("tag")) {
+            recipe.json.getAsJsonObject("result").remove("tag");
+            recipe.json.getAsJsonObject("result").addProperty("item", "thermal:coal_coke");
+            recipe.save();
+        }
+    });
+
     // Capacitors, aka accumulator
     event.remove({mod: "immersiveengineering", id: "immersiveengineering:crafting/capacitor_lv"});
     event.shaped(Item.of("immersiveengineering:capacitor_lv", 1), // arg 1: output
