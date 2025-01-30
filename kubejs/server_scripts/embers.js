@@ -2,6 +2,7 @@
 
 ServerEvents.recipes(event => {
     
+    // fluids
     [
         ["embers:molten_iron", "tconstruct:molten_iron"],
         ["embers:molten_gold", "tconstruct:molten_gold"],
@@ -57,5 +58,9 @@ ServerEvents.recipes(event => {
             }
         });
     });
+
+    // bore
+    event.replaceInput({mod: "embers", id: "embers:ember_bore"}, "minecraft:iron_ingot", "#forge:plates/iron");
+    event.replaceInput({mod: "embers", id: "embers:ember_bore"}, "minecraft:copper_ingot", "#forge:plates/copper");
 
 });
