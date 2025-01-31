@@ -89,4 +89,7 @@ ServerEvents.recipes(event => {
             }
         });
     });
+
+    // glowstone
+    event.remove({mod: "nuclearcraft", id: "nuclearcraft:irradiator/sand"});
 });

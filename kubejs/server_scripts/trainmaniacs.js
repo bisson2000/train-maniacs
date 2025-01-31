@@ -1,21 +1,6 @@
 // priority: 1
 
 ServerEvents.recipes(event => {
-    
-    // TODO:
-    // capacitors
-    event.shaped(
-        Item.of('kubejs:grainy_capacitor', 1), // arg 1: output
-        [
-          ' G ',
-          ' R ', // arg 2: the shape (array of strings)
-          ' R '
-        ],
-        {
-          G: 'enderio:grains_of_infinity',
-          R: 'kubejs:flux_induced_iron',  //arg 3: the mapping object
-        }
-    );
 
     // raw_flux_induced_iron
     event.shaped(
@@ -34,6 +19,66 @@ ServerEvents.recipes(event => {
     // flux_induced_iron
     event.smelting('1x kubejs:flux_induced_iron', 'kubejs:raw_flux_induced_iron', 0.25, 200); // 0.25xp and 10s (200 ticks)
     event.blasting('1x kubejs:flux_induced_iron', 'kubejs:raw_flux_induced_iron', 0.25, 100);
+    
+    // TODO:
+    // capacitors
+    event.shaped(
+        Item.of('kubejs:grainy_capacitor', 1), // arg 1: output
+        [
+          ' G ',
+          ' R ', // arg 2: the shape (array of strings)
+          ' R '
+        ],
+        {
+          G: 'enderio:grains_of_infinity',
+          R: 'kubejs:flux_induced_iron',  //arg 3: the mapping object
+        }
+    );
+    event.remove({mod: "enderio", id: "enderio:double_layer_capacitor"});
+    event.shaped(
+      Item.of('enderio:double_layer_capacitor', 1), // arg 1: output
+      [
+        'BQE',
+        'CDC', // arg 2: the shape (array of strings)
+        'EQB'
+      ],
+      {
+        E: "#forge:ingots/energetic_alloy",
+        Q: "#forge:gems/quartz",
+        C: "enderio:basic_capacitor",
+        D: "#forge:dusts/coal",
+        B: "#forge:ingots/bronze"
+      }
+    );
+    event.remove({mod: "enderio", id: "enderio:octadic_capacitor"});
+    event.shaped(
+      Item.of('enderio:octadic_capacitor', 1),
+      [
+        ' VZ',
+        'CDC',
+        'ZV '
+      ],
+      {
+        V: "#forge:ingots/vibrant_alloy",
+        Z: "aether:zanite_gemstone",
+        C: "enderio:double_layer_capacitor",
+        D: "minecraft:glowstone",
+      }
+    );
+
+    // fork here. Start creating chips. Keep octodecuplic_capacitor for advanced tiers of mekanism, with more advanced chips
+    event.recipes.enderio.slicing(Item.of("kubejs:decuplic_capacitor", 1), ["kubejs:decuplic_capacitor", "#forge:ingots/end_steel", "kubejs:decuplic_capacitor", "createdeco:industrial_iron_ingot", "ae2:fluix_dust", "createdeco:industrial_iron_ingot"]);
+    event.shaped(Item.of("kubejs:microchip_tier_1", 1), [
+      "LLL",
+      "ROR",
+      "LLL"
+    ], {
+      L: "#forge:plates/lead",
+      R: "#forge:dusts/redstone",
+      O: "enderio:octadic_capacitor",
+    });
+
+    // ********************END OF CUSTOM CAPACITORS **********************//
 
     // embers
     // Mechanical Core
@@ -121,14 +166,14 @@ ServerEvents.recipes(event => {
     event.remove({mod: "pneumaticcraft", id: "pneumaticcraft:pressure_chamber/capacitor"});
     event.custom({
       type: "pneumaticcraft:pressure_chamber",
-      inputs: [{type:"pneumaticcraft:stacked_item", count: 2, tag:"pneumaticcraft:wiring"},{tag:"forge:slimeballs"},{item:"pneumaticcraft:plastic"},{item:"kubejs:octodecuplic_capacitor"}, {tag:"forge:ingots/compressed_iron"}],
+      inputs: [{type:"pneumaticcraft:stacked_item", count: 2, tag:"pneumaticcraft:wiring"},{tag:"forge:slimeballs"},{item:"pneumaticcraft:plastic"},{item:"kubejs:decuplic_capacitor"}, {tag:"forge:ingots/compressed_iron"}],
       pressure: 1.0,
       results:[{item:"pneumaticcraft:capacitor"}]
     });
     event.remove({mod: "pneumaticcraft", id: "pneumaticcraft:pressure_chamber/transistor"});
     event.custom({
       type: "pneumaticcraft:pressure_chamber",
-      inputs: [{type:"pneumaticcraft:stacked_item", count: 3, tag:"pneumaticcraft:wiring"},{item:"kubejs:flux_induced_iron"},{item:"pneumaticcraft:plastic"},{item:"kubejs:octodecuplic_capacitor"}, {tag:"forge:ingots/compressed_iron"}],
+      inputs: [{type:"pneumaticcraft:stacked_item", count: 3, tag:"pneumaticcraft:wiring"},{item:"kubejs:flux_induced_iron"},{item:"pneumaticcraft:plastic"},{item:"kubejs:microchip_tier_1"}, {tag:"forge:ingots/compressed_iron"}],
       pressure: 1.0,
       results:[{item:"pneumaticcraft:transistor"}]
     });

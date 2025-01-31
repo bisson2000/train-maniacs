@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
                 }
             });
         }
-    })
+    });
 });
 
 ServerEvents.tags('item', event => {

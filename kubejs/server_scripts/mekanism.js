@@ -47,6 +47,13 @@ ServerEvents.recipes(event => {
         event.remove({mod: "mekanism", id: recipeID});
     });
 
+    // Teleporter
+    event.remove({id: "mekanism:teleporter"});
+    event.remove({id: "mekanism:teleporter_frame"});
+
+    // glowstone
+    event.remove({mod: "mekanism", id: "mekanism:nucleosynthesizing/glowstone_block"});
+
     //event.forEachRecipe({mod: "mekanism"}, recipe => {
     //    console.info(`recipe: ${recipe.json}`);
     //})
