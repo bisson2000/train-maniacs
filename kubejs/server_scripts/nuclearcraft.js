@@ -92,4 +92,15 @@ ServerEvents.recipes(event => {
 
     // glowstone
     event.remove({mod: "nuclearcraft", id: "nuclearcraft:irradiator/sand"});
+
+    // leacher
+    event.remove({mod: "nuclearcraft", id: "nuclearcraft:leacher"});
+    event.remove({mod: "nuclearcraft", type: "nuclearcraft:leacher"});
+
+    // all require a chassis
+    event.replaceInput({mod: "nuclearcraft", id: "nuclearcraft:manufactory"}, "minecraft:piston", "nuclearcraft:chassis");
+    event.replaceInput({mod: "nuclearcraft", id: "nuclearcraft:alloy_smelter"}, "minecraft:blast_furnace", "nuclearcraft:chassis");
+
+    // chassis require uranium
+    event.replaceInput({mod: "nuclearcraft", id: "nuclearcraft:chassis"}, "nuclearcraft:tough_alloy_ingot", "#forge:ingots/uranium");
 });
