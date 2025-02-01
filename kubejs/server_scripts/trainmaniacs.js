@@ -67,7 +67,7 @@ ServerEvents.recipes(event => {
     );
 
     // fork here. Start creating chips. Keep octodecuplic_capacitor for advanced tiers of mekanism, with more advanced chips
-    event.recipes.enderio.slicing(Item.of("kubejs:decuplic_capacitor", 1), ["kubejs:decuplic_capacitor", "#forge:ingots/end_steel", "kubejs:decuplic_capacitor", "createdeco:industrial_iron_ingot", "ae2:fluix_dust", "createdeco:industrial_iron_ingot"]);
+    event.recipes.enderio.slicing(Item.of("kubejs:decuplic_capacitor", 1), ["enderio:octadic_capacitor", "#forge:ingots/end_steel", "enderio:octadic_capacitor", "createdeco:industrial_iron_ingot", "ae2:fluix_dust", "createdeco:industrial_iron_ingot"]);
     event.shaped(Item.of("kubejs:microchip_tier_1", 1), [
       "LLL",
       "ROR",
@@ -161,6 +161,25 @@ ServerEvents.recipes(event => {
     // Immersive Engineering
     event.replaceInput({mod: "immersiveengineering", id: "immersiveengineering:crafting/heavy_engineering"}, "#forge:ingots/electrum", "immersiveengineering:light_engineering");
     event.replaceInput({mod: "immersiveengineering", id: "immersiveengineering:crafting/light_engineering"}, "#forge:ingots/copper", "enderio:basic_capacitor");
+
+    // ad_astra
+    event.remove({mod: "ad_astra", id: "ad_astra:nasa_workbench"});
+    event.shaped(
+      Item.of('ad_astra:nasa_workbench', 1),
+      [
+        'RKR',
+        'AWA',
+        'PSP'
+      ],
+      {
+        K: "aether:silver_dungeon_key",
+        R: '#forge:rods/electrum',
+        W: "thermal:machine_frame",
+        S: '#forge:storage_blocks/steel',
+        P: "#forge:plates/steel",
+        A: "enderio:redstone_alloy_ingot"
+      }
+    );
 
     // pneumaticcraft
     event.remove({mod: "pneumaticcraft", id: "pneumaticcraft:pressure_chamber/capacitor"});

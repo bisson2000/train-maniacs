@@ -56,6 +56,6 @@ ServerEvents.recipes(event => {
 
     //event.forEachRecipe({mod: "mekanism"}, recipe => {
     //    console.info(`recipe: ${recipe.json}`);
-    //})
+    //});
 
 });

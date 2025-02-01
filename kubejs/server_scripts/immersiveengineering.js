@@ -20,6 +20,8 @@ ServerEvents.recipes(event => {
         ["immersiveengineering:metalpress/rod_copper"],
         ["immersiveengineering:metalpress/rod_gold"],
         ["immersiveengineering:metalpress/rod_iron"],
+        ["immersiveengineering:crafting/stick_aluminum"],
+        ["immersiveengineering:crafting/stick_steel"],
         ["immersiveengineering:crafting/stick_iron"],
     ].forEach((replacementInfo) => {
         const [recipeID] = replacementInfo;
