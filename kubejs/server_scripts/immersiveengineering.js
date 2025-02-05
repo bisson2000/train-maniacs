@@ -45,6 +45,7 @@ ServerEvents.recipes(event => {
             recipe.save();
         }
     });
+    event.remove({mod: "immersiveengineering", output: "immersiveengineering:coal_coke"});
 
     // Capacitors, aka accumulator
     event.remove({mod: "immersiveengineering", id: "immersiveengineering:crafting/capacitor_lv"});

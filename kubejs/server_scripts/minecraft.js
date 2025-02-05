@@ -2,7 +2,15 @@
 
 ServerEvents.recipes(event => {
 
-    // modify machine frame base recipe
-    //event.replaceInput({id:"thermal:machine_frame"}, {item: "minecraft:iron_ingot"}, {item: "kubejs:flux_induced_iron"});
+    // for clay
+    event.shaped(Item.of('minecraft:pointed_dripstone', 1), [
+        'CCC',
+        'G G',
+        ' S '
+      ], {
+        C: "minecraft:cobblestone",
+        G: 'minecraft:gravel',
+        S: 'minecraft:sand',
+    });
 
 });

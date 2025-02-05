@@ -2,6 +2,17 @@
 
 ServerEvents.recipes(event => {
 
+    /**
+     * TODOs: 
+     * advanced oil processing
+     * microchip tier 3 with advanced oil processing
+     * infinite end stone
+     * infinite ender pearls
+     * infinite nether stars
+     * blood farm idea
+     * explain infinite glowstone loop
+     */
+
     // raw_flux_induced_iron
     event.shaped(
       Item.of("kubejs:raw_flux_induced_iron", 1),
@@ -78,7 +89,17 @@ ServerEvents.recipes(event => {
       O: "enderio:octadic_capacitor",
     });
 
-    // ********************END OF CUSTOM CAPACITORS **********************//
+    event.shaped(Item.of("kubejs:microchip_tier_2", 1), [
+      " D ",
+      "CPC",
+      " D "
+    ], {
+      C: "kubejs:microchip_tier_1",
+      P: "pneumaticcraft:printed_circuit_board",
+      D: "#forge:dusts/diamond",
+    });
+
+    // ********************END OF CUSTOM RECIPES **********************//
 
     // embers
     // Mechanical Core
@@ -110,8 +131,6 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod: "megacells", id: "megacells:cells/cell_component_1m"}, "ae2:sky_dust", "ae2:sky_stone_brick");
     event.replaceInput({mod: "megacells", id: "megacells:cells/cell_component_16m"}, "#forge:dusts/ender_pearl", "#forge:ingots/enderium");
     event.replaceInput({mod: "megacells", id: "megacells:cells/cell_component_16m"}, "#forge:dusts/ender_pearl", "#forge:ingots/enderium");
-
-    
 
     // Thermal
     // recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:ingotRedAlloy>, <thermalfoundation:material:513>);
@@ -180,6 +199,33 @@ ServerEvents.recipes(event => {
         A: "enderio:redstone_alloy_ingot"
       }
     );
+    event.replaceInput({mod: "ad_astra", id: "ad_astra:coal_generator"}, "minecraft:furnace", "thermal:machine_frame");
+    event.replaceInput({mod: "ad_astra", id: "ad_astra:fuel_refinery"}, "minecraft:furnace", "thermal:machine_frame");
+    event.replaceInput({mod: "ad_astra", id: "ad_astra:fuel_refinery"}, "minecraft:bucket", "enderio:octadic_capacitor");
+
+    // ad_astra rockets
+    event.remove({mod: "ad_astra", id: "ad_astra:desh_engine"});
+    event.shaped(Item.of("ad_astra:desh_engine", 1), [
+      "PPP",
+      "PEP",
+      "WFW"
+    ], {
+      P: "#forge:plates/desh",
+      E: "ad_astra:steel_engine",
+      F: "ad_astra:fan",
+      W: "#forge:wires/gold",
+    });
+    event.remove({mod: "ad_astra", id: "ad_astra:desh_tank"});
+    event.shaped(Item.of("ad_astra:desh_tank", 1), [
+      "PPW",
+      "PTR",
+      "PPW"
+    ], {
+      P: "#forge:plates/desh",
+      T: "ad_astra:steel_tank",
+      R: "#forge:rods/steel",
+      W: "#forge:wires/gold",
+    });
 
     // pneumaticcraft
     event.remove({mod: "pneumaticcraft", id: "pneumaticcraft:pressure_chamber/capacitor"});
@@ -196,6 +242,13 @@ ServerEvents.recipes(event => {
       pressure: 1.0,
       results:[{item:"pneumaticcraft:transistor"}]
     });
+
+    // bloodmagic
+    // blood magic depends on desh. Replace all gold with it
+    event.replaceInput({mod: "bloodmagic", input: "minecraft:gold_ingot"}, "minecraft:gold_ingot", "ad_astra:desh_ingot");
+    event.replaceInput({mod: "bloodmagic", id: "bloodmagic:altar/slate"}, "#bookshelf:stones", "enderio:octadic_capacitor");
+
+    // botania depends on ostrum
 
     // mekanism
     event.forEachRecipe({mod: "mekanism", id:"mekanism:metallurgic_infusing/alloy/infused"}, recipe => {
@@ -215,6 +268,41 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod: "mekanism", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
     event.replaceInput({mod: "mekanism", input: "minecraft:furnace"}, "minecraft:furnace", "ironfurnaces:obsidian_furnace");
     event.replaceInput({mod: "mekanism", id: "mekanism:metallurgic_infuser"}, "#forge:ingots/osmium", "mekanism:steel_casing") ;
+
+    // mekanism control circuits
+    event.remove({mod: "mekanism", id: "mekanism:control_circuit/advanced"});
+    event.shaped(Item.of("mekanism:advanced_control_circuit", 1), [
+      " M ",
+      "ACA",
+      " M "
+    ], {
+      M: "kubejs:microchip_tier_2",
+      A: "mekanism:alloy_infused",
+      C: "mekanism:basic_control_circuit",
+    });
+
+    event.remove({mod: "mekanism", id: "mekanism:control_circuit/elite"});
+    event.shaped(Item.of("mekanism:elite_control_circuit", 1), [
+      " M ",
+      "ACA",
+      " M "
+    ], {
+      M: "kubejs:microchip_tier_3",
+      A: "mekanism:alloy_reinforced",
+      C: "mekanism:advanced_control_circuit",
+    });
+
+    event.remove({mod: "mekanism", id: "mekanism:control_circuit/ultimate"});
+    event.shaped(Item.of("mekanism:ultimate_control_circuit", 1), [
+      " M ",
+      "ACA",
+      " M "
+    ], {
+      M: "ad_astra:calorite_tank",
+      A: "mekanism:alloy_reinforced",
+      C: "mekanism:elite_control_circuit",
+    });
+
     // mekanism casing
     event.remove({mod: "mekanism", id: "mekanism:steel_casing"});
     event.shaped(Item.of("mekanism:steel_casing", 1), [
@@ -230,4 +318,6 @@ ServerEvents.recipes(event => {
 
     // minecraft
     event.replaceInput({mod: "minecraft", id: "minecraft:piston"}, "#forge:ingots/iron", "kubejs:flux_induced_iron");
+
+    
 });

@@ -54,6 +54,9 @@ ServerEvents.recipes(event => {
             });
         }
     });
+
+    // redstone
+    event.remove({mod: "thermal", id: "thermal:compat/create/bottler_create_redstone"})
 });
 
 ServerEvents.tags('item', event => {

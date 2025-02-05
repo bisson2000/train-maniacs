@@ -26,9 +26,4 @@ ServerEvents.recipes(event => {
         ingredients: [{tag:"forge:ingots/iron"}, {tag:"forge:dusts/coal"}, {tag:"forge:dusts/coal"}, {tag:"forge:dusts/coal"}],
         result: {count:1, id:"mekanism:ingot_steel"}
     });
-    
-    // 
-    event.forEachRecipe({mod:"ad_astra"}, (recipe) => {
-        console.info(`recipe: ${recipe.json}`);
-    });
 });
