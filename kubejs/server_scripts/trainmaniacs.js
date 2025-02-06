@@ -159,14 +159,15 @@ ServerEvents.recipes(event => {
     event.shaped(
       Item.of('thermal:machine_frame', 1), // arg 1: output
       [
-        'IGI',
+        'ZGD',
         'GHG', // arg 2: the shape (array of strings)
-        'IGI'
+        'DGZ'
       ],
       {
-        G: 'tconstruct:clear_glass',
-        H: 'immersiveengineering:heavy_engineering',
-        I: 'minecraft:iron_ingot',  //arg 3: the mapping object
+        Z: 'create:zinc_ingot',
+        D: 'embers:dawnstone_ingot',
+        G: 'mob_grinding_utils:tinted_glass',
+        H: 'immersiveengineering:heavy_engineering',  //arg 3: the mapping object
       }
     );
     // Thermal dynamos
@@ -252,6 +253,29 @@ ServerEvents.recipes(event => {
       T: "ad_astra:steel_tank",
       R: "#forge:rods/steel",
       W: "#forge:wires/gold",
+    });
+
+    event.remove({mod: "ad_astra", id: "ad_astra:ostrum_engine"});
+    event.shaped(Item.of("ad_astra:ostrum_engine", 1), [
+      "PPP",
+      "PEP",
+      "WFW"
+    ], {
+      P: "#forge:plates/ostrum",
+      E: "ad_astra:desh_engine",
+      F: "ad_astra:fan",
+      W: "bloodmagic:reinforcedslate",
+    });
+    event.remove({mod: "ad_astra", id: "ad_astra:ostrum_tank"});
+    event.shaped(Item.of("ad_astra:ostrum_tank", 1), [
+      "PPW",
+      "PTR",
+      "PPW"
+    ], {
+      P: "#forge:plates/ostrum",
+      T: "ad_astra:desh_tank",
+      R: "#forge:rods/steel",
+      W: "bloodmagic:reinforcedslate",
     });
 
     // pneumaticcraft
@@ -348,17 +372,22 @@ ServerEvents.recipes(event => {
       F: "thermal:machine_frame"
     });
 
+    // bigreactors
+    event.replaceInput({mod: "bigreactors", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
+
     // nuclearcraft
+    event.replaceInput({mod: "nuclearcraft", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
     event.remove({mod: "nuclearcraft", id: "nuclearcraft:chassis"});
     event.shaped(Item.of("nuclearcraft:chassis", 1), [
       "SPM",
       "PUP",
-      "MPS"
+      "MCS"
     ], {
       S: "#forge:ingots/soularium",
       P: "#forge:plates/steel",
       M: "#forge:ingots/magnesium",
       U: "#forge:ingots/uranium",
+      C: "kubejs:microchip_tier_3",
     });
 
     // minecraft
