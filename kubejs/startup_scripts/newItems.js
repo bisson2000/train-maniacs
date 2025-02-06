@@ -12,4 +12,6 @@ StartupEvents.registry('item', event => {
     event.create("microchip_tier_1", "basic").texture('trainmaniacs:item/chip_tier_1');
     event.create("microchip_tier_2", "basic").texture('trainmaniacs:item/chip_tier_2');
     event.create("microchip_tier_3", "basic").texture('trainmaniacs:item/chip_tier_3');
-})
+    event.create("unfinished_microchip_tier_3", "basic").texture('trainmaniacs:item/unfinished_chip_tier_3');
+    
+});

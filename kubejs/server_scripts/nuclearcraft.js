@@ -103,4 +103,8 @@ ServerEvents.recipes(event => {
 
     // chassis require uranium
     event.replaceInput({mod: "nuclearcraft", id: "nuclearcraft:chassis"}, "nuclearcraft:tough_alloy_ingot", "#forge:ingots/uranium");
+
+    // enderium
+    event.remove({mod: "nuclearcraft", id: "nuclearcraft:manufactory/ender_pearl"});
+    //event.replaceOutput({mod: "nuclearcraft", id: "nuclearcraft:manufactory/ender_pearl"}, "thermal:enderium_dust", "#forge:dusts/ender_pearl");
 });

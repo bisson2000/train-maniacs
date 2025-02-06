@@ -4,13 +4,14 @@ ServerEvents.recipes(event => {
 
     /**
      * TODOs: 
-     * advanced oil processing
-     * microchip tier 3 with advanced oil processing
-     * infinite end stone
-     * infinite ender pearls
-     * infinite nether stars
-     * blood farm idea
-     * explain infinite glowstone loop
+     * infinite end stone - done
+     * infinite grains of infinity - done
+     * microchip tier 3 with advanced oil processing - done. With lubricant
+     * Disable enderio
+     * infinite ender pearls - done
+     * infinite nether stars: nether spawner + killer - done
+     * blood farm idea: Well of Suffering - done
+     * explain infinite glowstone loop. Make cinder flour easier? - done
      */
 
     // raw_flux_induced_iron
@@ -99,6 +100,17 @@ ServerEvents.recipes(event => {
       D: "#forge:dusts/diamond",
     });
 
+    event.shaped(Item.of("kubejs:unfinished_microchip_tier_3", 1), [
+      " D ",
+      "CPC",
+      " D "
+    ], {
+      C: "kubejs:microchip_tier_2",
+      P: "bloodmagic:demonslate",
+      D: "bigreactors:benitoite_crystal",
+    });
+    event.recipes.thermal.bottler(["kubejs:microchip_tier_3"], ["kubejs:unfinished_microchip_tier_3", Fluid.of("pneumaticcraft:lubricant", 250)]);
+
     // ********************END OF CUSTOM RECIPES **********************//
 
     // embers
@@ -165,6 +177,8 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod: "thermal", id: "thermal:dynamo_gourmand"}, "#forge:ingots/tin", "immersiveengineering:capacitor_mv");
     event.replaceInput({mod: "thermal", id: "thermal:dynamo_gourmand"}, "minecraft:iron_ingot", "immersiveengineering:component_steel");
 
+    event.recipes.thermal.insolator(["2x enderio:grains_of_infinity"], ["enderio:grains_of_infinity"]); // infinite grains of infinity
+
     // Enderio
     event.replaceInput({mod:"enderio", input:"enderio:grains_of_infinity"}, "enderio:grains_of_infinity", "kubejs:grainy_capacitor");
     event.replaceInput({mod:"enderio", id: "enderio:alloy_smelter"}, "minecraft:furnace", "enderio:primitive_alloy_smelter");
@@ -176,6 +190,12 @@ ServerEvents.recipes(event => {
       3200,
       1.0
     );
+
+    event.recipes.enderio.alloy_smelting(Item.of("minecraft:end_stone"), // end stone
+      ["#forge:sand", "aether:ambrosium_shard"],
+      3200,
+      1.0
+    ); 
 
     // Immersive Engineering
     event.replaceInput({mod: "immersiveengineering", id: "immersiveengineering:crafting/heavy_engineering"}, "#forge:ingots/electrum", "immersiveengineering:light_engineering");

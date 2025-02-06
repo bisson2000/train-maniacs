@@ -27,4 +27,8 @@ ServerEvents.recipes(event => {
         }
     });
 
+
+    // netherrack boost
+    event.remove({mod: "createaddition", id: "createaddition:mixing/netherrack"});
+    event.recipes.create.mixing(["8x minecraft:netherrack"], ["#forge:cobblestone", "create:cinder_flour", Fluid.of("minecraft:lava", 25)]);
 });

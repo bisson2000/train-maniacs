@@ -54,4 +54,9 @@ ServerEvents.recipes(event => {
         });*/
     });
 
+    // ender dust:
+    event.remove({mod: "create", id: "create:milling/compat/ae2/ender_pearl"});
+    event.recipes.create.milling(["2x ae2:ender_dust"], ["minecraft:ender_pearl"]);
+    //event.replaceOutput({mod: "create", id: "create:milling/compat/ae2/ender_pearl"}, "ae2:ender_dust", "2x ae2:ender_dust");
+
 });

@@ -56,7 +56,21 @@ ServerEvents.recipes(event => {
     });
 
     // redstone
-    event.remove({mod: "thermal", id: "thermal:compat/create/bottler_create_redstone"})
+    event.remove({mod: "thermal", id: "thermal:compat/create/bottler_create_redstone"});
+
+    // lava
+    event.remove({mod: "thermal", id: "thermal:machines/crucible/crucible_netherrack_to_lava"});
+
+    // ender dust:
+    event.replaceOutput({mod: "thermal", id: "thermal:earth_charge/ender_pearl_dust_from_ender_pearl"}, "thermal:ender_pearl_dust", "ae2:ender_dust");
+    event.replaceOutput({mod: "thermal", id: "thermal:machines/pulverizer/pulverizer_ender_pearl"}, "thermal:ender_pearl_dust", "ae2:ender_dust");
+
+    //event.forEachRecipe({mod:"thermal"}, (recipe) => {
+    //    console.info(`recipe: ${recipe.json}`);
+    //});
+
+    // cinder flour
+    //event.recipes.thermal.
 });
 
 ServerEvents.tags('item', event => {
