@@ -4,6 +4,8 @@ ServerEvents.recipes(event => {
 
     /**
      * TODOs: 
+     * Modify botania
+     * Modify cobblefordays recipes
      * infinite end stone - done
      * infinite grains of infinity - done
      * microchip tier 3 with advanced oil processing - done. With lubricant
@@ -12,6 +14,11 @@ ServerEvents.recipes(event => {
      * infinite nether stars: nether spawner + killer - done
      * blood farm idea: Well of Suffering - done
      * explain infinite glowstone loop. Make cinder flour easier? - done
+     * 
+     * Lock rocket crafting behin progression
+     * Tier 1: Silver key
+     * Tier 3: Gold key (Infernal)
+     * Tier 4: Platinum key
      */
 
     // raw_flux_induced_iron
@@ -66,15 +73,16 @@ ServerEvents.recipes(event => {
     event.shaped(
       Item.of('enderio:octadic_capacitor', 1),
       [
-        ' VZ',
+        'PVZ',
         'CDC',
-        'ZV '
+        'ZVP'
       ],
       {
         V: "#forge:ingots/vibrant_alloy",
         Z: "aether:zanite_gemstone",
         C: "enderio:double_layer_capacitor",
         D: "minecraft:glowstone",
+        P: "minecraft:prismarine_crystals",
       }
     );
 
@@ -182,7 +190,6 @@ ServerEvents.recipes(event => {
     // Enderio
     event.replaceInput({mod:"enderio", input:"enderio:grains_of_infinity"}, "enderio:grains_of_infinity", "kubejs:grainy_capacitor");
     event.replaceInput({mod:"enderio", id: "enderio:alloy_smelter"}, "minecraft:furnace", "enderio:primitive_alloy_smelter");
-    event.replaceInput({mod:"enderio", id: "enderio:alloy_smelting/redstone_alloy_ingot"}, "minecraft:furnace", "enderio:primitive_alloy_smelter");
     
     event.remove({mod: "enderio", id: "enderio:alloy_smelting/redstone_alloy_ingot"});
     event.recipes.enderio.alloy_smelting(Item.of("enderio:redstone_alloy_ingot"), 
@@ -269,6 +276,11 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod: "bloodmagic", id: "bloodmagic:altar/slate"}, "#bookshelf:stones", "enderio:octadic_capacitor");
 
     // botania depends on ostrum
+    // remove lingingrock. Use ostrum instead
+    event.remove({mod: "botania", id: "botania:pure_daisy/livingrock"});
+    event.recipes.botania.pure_daisy("botania:livingrock", "ad_astra:ostrum_block");
+    event.remove({mod: "botania", id: "botania:mana_infusion/manasteel"});
+    event.recipes.botania.mana_infusion("botania:manasteel_ingot", "enderio:redstone_alloy_ingot", 4000);
 
     // mekanism
     event.forEachRecipe({mod: "mekanism", id:"mekanism:metallurgic_infusing/alloy/infused"}, recipe => {
@@ -334,6 +346,19 @@ ServerEvents.recipes(event => {
       G: "pneumaticcraft:transistor",
       O: "#forge:ingots/osmium",
       F: "thermal:machine_frame"
+    });
+
+    // nuclearcraft
+    event.remove({mod: "nuclearcraft", id: "nuclearcraft:chassis"});
+    event.shaped(Item.of("nuclearcraft:chassis", 1), [
+      "SPM",
+      "PUP",
+      "MPS"
+    ], {
+      S: "#forge:ingots/soularium",
+      P: "#forge:plates/steel",
+      M: "#forge:ingots/magnesium",
+      U: "#forge:ingots/uranium",
     });
 
     // minecraft
