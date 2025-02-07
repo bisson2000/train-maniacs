@@ -106,5 +106,31 @@ ServerEvents.recipes(event => {
 
     // enderium
     event.remove({mod: "nuclearcraft", id: "nuclearcraft:manufactory/ender_pearl"});
+
+    // fluorite
+    event.replaceOutput({mod: "nuclearcraft", id: "nuclearcraft:rock_crusher/diorite"}, "mekanism:dust_fluorite", "");
+
+    // Fuel reprocessor. Allow basic fuels to be reprocessed
+    event.forEachRecipe({mod: "nuclearcraft", type: "nuclearcraft:fuel_reprocessor"}, recipe => {
+        const targetName = "nuclearcraft:depleted_"
+        const newTarget = "nuclearcraft:"
+        if (recipe.json
+            && recipe.json.getAsJsonArray("input")
+            && recipe.json.getAsJsonArray("input").get(0)
+            && recipe.json.getAsJsonArray("input").get(0).asJsonObject
+            && recipe.json.getAsJsonArray("input").get(0).asJsonObject.get("item")
+            && recipe.json.getAsJsonArray("input").get(0).asJsonObject.get("item").asString
+            && recipe.json.getAsJsonArray("input").get(0).asJsonObject.get("item").asString.startsWith(targetName)
+            //&& String.prototype.startsWith(recipe.json.getAsJsonArray("input").get(0).asJsonObject.get("item").asString, "depleted_")
+        ) {
+            let copy = recipe.json.deepCopy().asJsonObject;
+            const replacedItem = copy.getAsJsonArray("input").get(0).asJsonObject.get("item").asString.replace(targetName, newTarget);
+            copy.getAsJsonArray("input").get(0).asJsonObject.remove("item");
+            copy.getAsJsonArray("input").get(0).asJsonObject.addProperty("item", replacedItem);
+            event.custom(copy);
+            console.info(`recipe: ${copy}`);
+        }
+    });
+
     //event.replaceOutput({mod: "nuclearcraft", id: "nuclearcraft:manufactory/ender_pearl"}, "thermal:enderium_dust", "#forge:dusts/ender_pearl");
 });

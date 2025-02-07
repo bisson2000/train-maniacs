@@ -6,6 +6,10 @@ ServerEvents.recipes(event => {
      * TODOs: 
      * Modify botania
      * Modify cobblefordays recipes
+     * Modify mekanism fusion reactor recipe - Done. Not with the pack
+     * Remove waystones for draconic evolution dislocators?
+     * Remove bigreactors?
+     * Portals to dimensions
      * infinite end stone - done
      * infinite grains of infinity - done
      * microchip tier 3 with advanced oil processing - done. With lubricant
@@ -115,7 +119,7 @@ ServerEvents.recipes(event => {
     ], {
       C: "kubejs:microchip_tier_2",
       P: "bloodmagic:demonslate",
-      D: "bigreactors:benitoite_crystal",
+      D: "#forge:plates/netherite",
     });
     event.recipes.thermal.bottler(["kubejs:microchip_tier_3"], ["kubejs:unfinished_microchip_tier_3", Fluid.of("pneumaticcraft:lubricant", 250)]);
 
@@ -373,7 +377,7 @@ ServerEvents.recipes(event => {
     });
 
     // bigreactors
-    event.replaceInput({mod: "bigreactors", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
+    //event.replaceInput({mod: "bigreactors", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
 
     // nuclearcraft
     event.replaceInput({mod: "nuclearcraft", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
@@ -389,6 +393,15 @@ ServerEvents.recipes(event => {
       U: "#forge:ingots/uranium",
       C: "kubejs:microchip_tier_3",
     });
+
+    // draconic evolution
+    event.remove({mod: "draconicevolution", id: "draconicevolution:components/draconium_core"});
+    event.recipes.botania.runic_altar("draconicevolution:draconium_core", [
+      "2x botania:elementium_ingot",
+      "2x nuclearcraft:tough_alloy_ingot",
+      "1x #forge:ingots/uranium",
+    ], 80000);
+
 
     // minecraft
     event.replaceInput({mod: "minecraft", id: "minecraft:piston"}, "#forge:ingots/iron", "kubejs:flux_induced_iron");

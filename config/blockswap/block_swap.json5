@@ -89,11 +89,11 @@ to make editing this file much easier.
 		"thermal:lead_ore":"mekanism:lead_ore",
 		"embers:lead_ore":"mekanism:lead_ore",
 		"immersiveengineering:ore_lead":"mekanism:lead_ore",
-		"tfmg:lead_ore":"mekanism:lead_ore",
+		//"tfmg:lead_ore":"mekanism:lead_ore",
 		"thermal:deepslate_lead_ore":"mekanism:deepslate_lead_ore",
 		"embers:deepslate_lead_ore":"mekanism:deepslate_lead_ore",
 		"immersiveengineering:deepslate_ore_lead":"mekanism:deepslate_lead_ore",
-		"tfmg:deepslate_lead_ore":"mekanism:deepslate_lead_ore",
+		//"tfmg:deepslate_lead_ore":"mekanism:deepslate_lead_ore",
 		// tin
 		"thermal:tin_ore":"mekanism:tin_ore",
 		"nuclearcraft:tin_ore":"mekanism:tin_ore",
@@ -106,22 +106,20 @@ to make editing this file much easier.
 		"immersiveengineering:deepslate_ore_silver":"thermal:deepslate_silver_ore",
 		"nuclearcraft:silver_deepslate_ore":"thermal:deepslate_silver_ore",
 		// uranium
-		"bigreactors:yellorite_ore":"mekanism:uranium_ore",
 		"immersiveengineering:ore_uranium":"mekanism:uranium_ore",
 		"nuclearcraft:uranium_ore":"mekanism:uranium_ore",
-		"bigreactors:deepslate_yellorite_ore":"mekanism:deepslate_uranium_ore",
 		"immersiveengineering:deepslate_ore_uranium":"mekanism:deepslate_uranium_ore",
 		"nuclearcraft:uranium_deepslate_ore":"mekanism:deepslate_uranium_ore",
 		// nickel
 		"immersiveengineering:ore_nickel":"thermal:nickel_ore",
-		"tfmg:nickel_ore":"thermal:nickel_ore",
+		//"tfmg:nickel_ore":"thermal:nickel_ore",
 		"immersiveengineering:deepslate_ore_nickel":"thermal:deepslate_nickel_ore",
-		"tfmg:deepslate_nickel_ore":"thermal:deepslate_nickel_ore",
+		//"tfmg:deepslate_nickel_ore":"thermal:deepslate_nickel_ore",
 		// lithium
-		"nuclearcraft:lithium_ore":"tfmg:lithium_ore",
-		"nuclearcraft:lithium_deepslate_ore":"tfmg:deepslate_lithium_ore",
+		//"nuclearcraft:lithium_ore":"tfmg:lithium_ore",
+		//"nuclearcraft:lithium_deepslate_ore":"tfmg:deepslate_lithium_ore",
 		// oil
-		"tfmg:crude_oil":"pneumaticcraft:oil",
+		//"tfmg:crude_oil":"pneumaticcraft:oil",
 		"thermal:crude_oil_fluid":"pneumaticcraft:oil",
 		"ad_astra:oil":"pneumaticcraft:oil",
 		// bronze
