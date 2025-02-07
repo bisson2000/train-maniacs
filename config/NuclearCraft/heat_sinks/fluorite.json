@@ -1,0 +1,5 @@
+[{
+  "type": "fluorite",
+  "heat": 400,
+  "placement_rule": ["gold_heat_sink", "prismarine_heat_sink"]
+}]

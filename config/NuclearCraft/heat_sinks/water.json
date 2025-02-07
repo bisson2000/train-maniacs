@@ -1,0 +1,5 @@
+[{
+  "type": "water",
+  "heat": 40,
+  "placement_rule": ["fission_reactor_solid_fuel_cell|#nuclearcraft:moderators"]
+}]

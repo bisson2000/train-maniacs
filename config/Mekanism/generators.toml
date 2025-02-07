@@ -39,7 +39,7 @@
 		#Range: > 1
 		ethyleneBurnTicks = 40
 		#Multiplier for calculating the energy density of Ethylene (1 mB Hydrogen + 2 * bioGeneration * densityMultiplier).
-		ethyleneDensityMultiplier = "10"
+		ethyleneDensityMultiplier = "5"
 
 	#Turbine Settings
 	[generators.turbine]

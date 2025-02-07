@@ -1,0 +1,5 @@
+[{
+  "type": "active_cryotheum",
+  "heat": 1000,
+  "placement_rule": ["fission_reactor_solid_fuel_cell>2"]
+}]

@@ -1,0 +1,5 @@
+[{
+  "type": "enderium",
+  "heat": 280,
+  "placement_rule": ["#nuclearcraft:fission_reactor_casing^3"]
+}]

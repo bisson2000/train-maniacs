@@ -1,0 +1,5 @@
+[{
+  "type": "glowstone",
+  "heat": 240,
+  "placement_rule": ["#nuclearcraft:moderators>2"]
+}]
