@@ -128,7 +128,6 @@ ServerEvents.recipes(event => {
             copy.getAsJsonArray("input").get(0).asJsonObject.remove("item");
             copy.getAsJsonArray("input").get(0).asJsonObject.addProperty("item", replacedItem);
             event.custom(copy);
-            console.info(`recipe: ${copy}`);
         }
     });
 

@@ -4,12 +4,14 @@ ServerEvents.recipes(event => {
 
     /**
      * TODOs: 
+     * Portals to dimensions
      * Modify botania
      * Modify cobblefordays recipes
-     * Modify mekanism fusion reactor recipe - Done. Not with the pack
-     * Remove waystones for draconic evolution dislocators?
-     * Remove bigreactors?
-     * Portals to dimensions
+     * Mekanims: nerf  ethylene with configs
+     * Mekanims: nerf remove nuclear waste - done
+     * Modify mekanism fusion reactor recipe - Not needed. it depends on fluorite
+     * Remove waystones for draconic evolution dislocators? - done
+     * Remove bigreactors? - done
      * infinite end stone - done
      * infinite grains of infinity - done
      * microchip tier 3 with advanced oil processing - done. With lubricant
@@ -310,7 +312,14 @@ ServerEvents.recipes(event => {
     event.remove({mod: "botania", id: "botania:mana_infusion/manasteel"});
     event.recipes.botania.mana_infusion("botania:manasteel_ingot", "enderio:redstone_alloy_ingot", 4000);
 
+    // mekanismgenerator
+    event.replaceInput({mod: "mekanismgenerators", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
+
     // mekanism
+    event.replaceInput({mod: "mekanism", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
+    event.replaceInput({mod: "mekanism", input: "minecraft:furnace"}, "minecraft:furnace", "ironfurnaces:obsidian_furnace");
+    event.replaceInput({mod: "mekanism", id: "mekanism:metallurgic_infuser"}, "#forge:ingots/osmium", "mekanism:steel_casing") ;
+
     event.forEachRecipe({mod: "mekanism", id:"mekanism:metallurgic_infusing/alloy/infused"}, recipe => {
       if (recipe.json && recipe.json.get("itemInput") && recipe.json.getAsJsonObject("itemInput").getAsJsonObject("ingredient")) {
         recipe.json.getAsJsonObject("itemInput").getAsJsonObject("ingredient").remove("tag");
@@ -325,9 +334,6 @@ ServerEvents.recipes(event => {
         recipe.save();
       }
     });
-    event.replaceInput({mod: "mekanism", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
-    event.replaceInput({mod: "mekanism", input: "minecraft:furnace"}, "minecraft:furnace", "ironfurnaces:obsidian_furnace");
-    event.replaceInput({mod: "mekanism", id: "mekanism:metallurgic_infuser"}, "#forge:ingots/osmium", "mekanism:steel_casing") ;
 
     // mekanism control circuits
     event.remove({mod: "mekanism", id: "mekanism:control_circuit/advanced"});

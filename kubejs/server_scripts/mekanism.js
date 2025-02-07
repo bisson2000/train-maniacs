@@ -58,5 +58,14 @@ ServerEvents.recipes(event => {
     //    console.info(`recipe: ${recipe.json}`);
     //});
 
+    // spent nuclear waste
+    event.custom({
+        type:"mekanism:rotary",
+        fluidInput:{amount:1, tag:"forge:oxygen"},
+        fluidOutput:{amount:1, fluid:"mekanism:oxygen"},
+        gasInput:{amount:1, gas:"mekanism:spent_nuclear_waste"},
+        gasOutput:{amount:1, gas:"mekanism:oxygen"}
+    });
+
     // TODO: Units for armor
 });
