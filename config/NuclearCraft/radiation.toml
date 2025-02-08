@@ -2,14 +2,14 @@
 #Settings for Radiation
 [radiation]
 	#If radiation is enabled.
-	enabled = true
+	enabled = false
 	#General background radiation everywhere (pRad).
 	#Total radiation = background_radiation + dimension_radiation + chunk_radiation + in-game exposure
 	#Range: 0 ~ 10000
-	background_radiation = 50
+	background_radiation = 0
 	#Spread multiplier. How much radiation spreads from chunk to chunk per simulation. Bigger values might cause lag.
 	#Range: 0.01 ~ 0.9
-	spread_multiplier = 0.3
+	spread_multiplier = 0.01
 	#If chunk radiation (uRad) less than this value it won't affect chunks nearby.
 	#Bigger values - less lag, but less accurate radiation spread.
 	#Range: 100 ~ 100000
@@ -22,7 +22,7 @@
 	decay_speed_for_player = 50
 	#Rate at which player gets radiation dose.
 	#Range: 0.0 ~ 5.0
-	gain_speed_for_player = 0.015
+	gain_speed_for_player = 0.0
 	#List of items what cleans player radiation when used (pRad). Format: item_id|radiation
 	radiation_removal_items = ["minecraft:golden_carrot|10000000", "minecraft:golden_apple|100000000", "minecraft:enchanted_golden_apple|2500000000", "nuclearcraft:dominos|250000000", "nuclearcraft:moresmore|2500000000", "nuclearcraft:evenmoresmore|1000000000", "nuclearcraft:radaway|5000000000"]
 	#List of items what have radiation (pRad). Format: item_id|radiation
