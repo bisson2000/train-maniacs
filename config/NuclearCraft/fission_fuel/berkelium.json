@@ -5,7 +5,7 @@
     "forge_energy": 162000,
     "heat": 1248,
     "criticality": 32,
-    "depletion": 92,
+    "depletion": 644,
     "efficiency": 170,
     "isotopes": [248, 247]
   },
@@ -15,7 +15,7 @@
     "forge_energy": 40500,
     "heat": 208,
     "criticality": 73,
-    "depletion": 108,
+    "depletion": 756,
     "efficiency": 165,
     "isotopes": [248, 247]
   }

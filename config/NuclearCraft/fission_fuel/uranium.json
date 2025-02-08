@@ -5,7 +5,7 @@
     "forge_energy": 172800,
     "heat": 1440,
     "criticality": 39,
-    "depletion": 133,
+    "depletion": 931,
     "efficiency": 115,
     "isotopes": [233, 238]
   },
@@ -15,7 +15,7 @@
     "forge_energy": 144000,
     "heat": 1200,
     "criticality": 51,
-    "depletion": 240,
+    "depletion": 1680,
     "efficiency": 105,
     "isotopes": [235, 238]
   },
@@ -25,7 +25,7 @@
     "forge_energy": 43200,
     "heat": 240,
     "criticality": 78,
-    "depletion": 133,
+    "depletion": 931,
     "efficiency": 110,
     "isotopes": [233, 238]
   },
@@ -35,7 +35,7 @@
     "forge_energy": 36000,
     "heat": 200,
     "criticality": 102,
-    "depletion": 240,
+    "depletion": 1680,
     "efficiency": 100,
     "isotopes": [235, 238]
   }
