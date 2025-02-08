@@ -7,7 +7,8 @@ ServerEvents.recipes(event => {
      * Portals to dimensions
      * Modify botania
      * Modify cobblefordays recipes
-     * Mekanims: nerf  ethylene with configs
+     * Modify nuclearcraft cooling rates and fuels - done
+     * Mekanims: nerf  ethylene with configs - done, / 8
      * Mekanims: nerf remove nuclear waste - done
      * Modify mekanism fusion reactor recipe - Not needed. it depends on fluorite
      * Remove waystones for draconic evolution dislocators? - done
@@ -18,6 +19,7 @@ ServerEvents.recipes(event => {
      * Disable enderio
      * infinite ender pearls - done
      * infinite nether stars: nether spawner + killer - done
+     * infinite clay - done dripstone craft
      * blood farm idea: Well of Suffering - done
      * explain infinite glowstone loop. Make cinder flour easier? - done
      * 
@@ -382,9 +384,6 @@ ServerEvents.recipes(event => {
       F: "thermal:machine_frame"
     });
 
-    // bigreactors
-    //event.replaceInput({mod: "bigreactors", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
-
     // nuclearcraft
     event.replaceInput({mod: "nuclearcraft", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
     event.remove({mod: "nuclearcraft", id: "nuclearcraft:chassis"});
@@ -401,12 +400,16 @@ ServerEvents.recipes(event => {
     });
 
     // draconic evolution
+    event.replaceInput({mod: "draconicevolution", input: "minecraft:redstone_block"}, "minecraft:redstone_block", "enderio:redstone_alloy_block");
     event.remove({mod: "draconicevolution", id: "draconicevolution:components/draconium_core"});
     event.recipes.botania.runic_altar("draconicevolution:draconium_core", [
-      "2x botania:elementium_ingot",
-      "2x nuclearcraft:tough_alloy_ingot",
-      "1x #forge:ingots/uranium",
-    ], 80000);
+      "botania:elementium_ingot",
+      "botania:elementium_ingot",
+      "nuclearcraft:tough_alloy_ingot",
+      "nuclearcraft:tough_alloy_ingot",
+      "mekanism:ultimate_control_circuit",
+      "#forge:ingots/uranium",
+    ], 20000);
 
 
     // minecraft

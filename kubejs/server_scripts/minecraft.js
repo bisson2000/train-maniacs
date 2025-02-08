@@ -13,4 +13,7 @@ ServerEvents.recipes(event => {
         S: 'minecraft:sand',
     });
 
+    // remove all instances of nuggets
+    event.remove({type: "minecraft:crafting_shapeless", output: "#forge:nuggets"});
+    event.remove({type: "minecraft:crafting_shaped", output: "#forge:nuggets"});
 });

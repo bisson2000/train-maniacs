@@ -29,6 +29,52 @@ ServerEvents.recipes(event => {
         event.remove({mod:"thermal", type:"minecraft:crafting_shaped", output: removedOutput});
     });
 
+    // add nuggets
+    [
+        ["minecraft:netherite_ingot", "createdeco:netherite_nugget"],
+        ["createbigcannons:cast_iron_ingot", "createbigcannons:cast_iron_nugget"],
+        ["createbigcannons:nethersteel_ingot", "createbigcannons:nethersteel_nugget"],
+        ["createdeco:industrial_iron_ingot", "createdeco:industrial_iron_nugget"],
+        ["tconstruct:rose_gold_ingot", "tconstruct:rose_gold_nugget"],
+        ["ad_astra:desh_ingot", "ad_astra:desh_nugget"],
+        ["ad_astra:ostrum_ingot", "ad_astra:ostrum_nugget"],
+        ["ad_astra:calorite_ingot", "ad_astra:calorite_nugget"],
+        ["botania:manasteel_ingot", "botania:manasteel_nugget"],
+        ["botania:terrasteel_ingot", "botania:terrasteel_nugget"],
+        ["botania:elementium_ingot", "botania:elementium_nugget"],
+        ["embers:dawnstone_ingot", "embers:dawnstone_nugget"],
+        ["nuclearcraft:magnesium_ingot", "nuclearcraft:magnesium_nugget"],
+        ["nuclearcraft:cobalt_ingot", "nuclearcraft:cobalt_nugget"],
+        ["nuclearcraft:lithium_ingot", "nuclearcraft:lithium_nugget"],
+        ["nuclearcraft:platinum_ingot", "nuclearcraft:platinum_nugget"],
+        ["nuclearcraft:thorium_ingot", "nuclearcraft:thorium_nugget"],
+        ["nuclearcraft:beryllium_ingot", "nuclearcraft:beryllium_nugget"],
+        ["nuclearcraft:zirconium_ingot", "nuclearcraft:zirconium_nugget"],
+        ["nuclearcraft:boron_ingot", "nuclearcraft:boron_nugget"],
+        ["draconicevolution:draconium_ingot", "draconicevolution:draconium_nugget"],
+        ["draconicevolution:awakened_draconium_ingot", "draconicevolution:awakened_draconium_nugget"],
+        ["enderio:copper_alloy_ingot", "enderio:copper_alloy_nugget"],
+        ["enderio:energetic_alloy_ingot", "enderio:energetic_alloy_nugget"],
+        ["enderio:vibrant_alloy_ingot", "enderio:vibrant_alloy_nugget"],
+        ["enderio:redstone_alloy_ingot", "enderio:redstone_alloy_nugget"],
+        ["enderio:conductive_alloy_ingot", "enderio:conductive_alloy_nugget"],
+        ["enderio:pulsating_alloy_ingot", "enderio:pulsating_alloy_nugget"],
+        ["enderio:dark_steel_ingot", "enderio:dark_steel_nugget"],
+        ["enderio:soularium_ingot", "enderio:soularium_nugget"],
+        ["enderio:end_steel_ingot", "enderio:end_steel_nugget"],
+        ["extendedcrafting:black_iron_ingot", "extendedcrafting:black_iron_nugget"],
+        ["extendedcrafting:redstone_ingot", "extendedcrafting:redstone_nugget"],
+        ["extendedcrafting:enhanced_redstone_ingot", "extendedcrafting:enhanced_redstone_nugget"],
+        ["extendedcrafting:ender_ingot", "extendedcrafting:ender_nugget"],
+        ["extendedcrafting:enhanced_ender_ingot", "extendedcrafting:enhanced_ender_nugget"],
+        ["extendedcrafting:crystaltine_ingot", "extendedcrafting:crystaltine_nugget"],
+        ["extendedcrafting:the_ultimate_ingot", "extendedcrafting:the_ultimate_nugget"],
+    ].forEach((removedOutputInfo) => {
+        const [addedIngot, addedNugget] = removedOutputInfo;
+        const die = "thermal:press_unpacking_die";
+        event.recipes.thermal.press([Item.of(addedNugget, 9)], [addedIngot, die]);
+    });
+
     // Creosote
     event.forEachRecipe({mod: "thermal", type:"thermal:pyrolyzer"}, recipe => {
         if (recipe.json && recipe.json.getAsJsonArray("result")) {
