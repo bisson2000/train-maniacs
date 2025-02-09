@@ -7,6 +7,14 @@ ServerEvents.recipes(event => {
      * Portals to dimensions
      * Modify botania
      * Modify cobblefordays recipes
+     * Make ores more sparse. Encourage trains
+     * Add armor leveling system (armor plus)
+     * Add ironwood logic with torchberries
+     * Add dawnstone logic
+     * Add boss requirement for rockets
+     * Change recipes for hostile networks
+     * Add egg recipe
+     * Remove chicken chunk load - done
      * Modify nuclearcraft cooling rates and fuels - done
      * Mekanims: nerf  ethylene with configs - done, / 8
      * Mekanims: nerf remove nuclear waste - done
@@ -23,7 +31,7 @@ ServerEvents.recipes(event => {
      * blood farm idea: Well of Suffering - done
      * explain infinite glowstone loop. Make cinder flour easier? - done
      * 
-     * Lock rocket crafting behin progression
+     * Lock rocket crafting behind progression
      * Tier 1: Silver key
      * Tier 3: Gold key (Infernal)
      * Tier 4: Platinum key
@@ -284,6 +292,29 @@ ServerEvents.recipes(event => {
       T: "ad_astra:desh_tank",
       R: "#forge:rods/steel",
       W: "bloodmagic:reinforcedslate",
+    });
+
+    event.remove({mod: "ad_astra", id: "ad_astra:calorite_engine"});
+    event.shaped(Item.of("ad_astra:calorite_engine", 1), [
+      "PPP",
+      "PEP",
+      "WFW"
+    ], {
+      P: "#forge:plates/calorite",
+      E: "ad_astra:ostrum_engine",
+      F: "ad_astra:fan",
+      W: "#forge:ingots/terrasteel",
+    });
+    event.remove({mod: "ad_astra", id: "ad_astra:calorite_tank"});
+    event.shaped(Item.of("ad_astra:calorite_tank", 1), [
+      "PPW",
+      "PTR",
+      "PPW"
+    ], {
+      P: "#forge:plates/calorite",
+      T: "ad_astra:ostrum_tank",
+      R: "#forge:rods/steel",
+      W: "nuclearcraft:fuel_californium_hecf_251",
     });
 
     // pneumaticcraft
