@@ -9,8 +9,8 @@ ServerEvents.recipes(event => {
      * Modify botania
      * Make ores more sparse. Encourage trains
      * Add armor leveling system (armor plus)
-     * Add dawnstone logic. Unclock recipe when first dawnstone is created
      * Add ironwood logic with torchberries
+     * Add dawnstone logic. Unclock recipe when first dawnstone is created - done
      * Modify cobblefordays recipes - done
      * Change recipe for scanner - done
      * Change recipes for hostile networks - done
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
      * infinite end stone - done
      * infinite grains of infinity - done
      * microchip tier 3 with advanced oil processing - done. With lubricant
-     * Disable enderio
+     * Disable enderio? no
      * infinite ender pearls - done
      * infinite nether stars: nether spawner + killer - done
      * infinite clay - done dripstone craft
@@ -155,6 +155,8 @@ ServerEvents.recipes(event => {
           I: "#forge:ingots/iron",
         }
     );
+    // dawnstone
+    event.recipes.enderio.alloy_smelting("embers:dawnstone_ingot", ["1x #forge:ingots/copper", "1x #forge:ingots/gold"], 1600, 0.5);
 
     // create
     event.remove({mod: "create", id: "create:milling/compat/ae2/sky_stone_block"}); // for infinite sky stone
@@ -206,6 +208,22 @@ ServerEvents.recipes(event => {
 
     // Enderio
     event.replaceInput({mod:"enderio", input:"enderio:grains_of_infinity"}, "enderio:grains_of_infinity", "kubejs:grainy_capacitor");
+
+    event.remove({mod: "enderio", id: "enderio:primitive_alloy_smelter"});
+    event.shaped(
+      Item.of("enderio:primitive_alloy_smelter", 1),
+      [
+        'FFF',
+        'DGD',
+        'CDC'
+      ],
+      {
+        F: 'minecraft:furnace',
+        G: 'kubejs:grainy_capacitor',
+        C: 'minecraft:deepslate',
+        D: 'extendedcrafting:ender_ingot',
+      }
+    );
     event.replaceInput({mod:"enderio", id: "enderio:alloy_smelter"}, "minecraft:furnace", "enderio:primitive_alloy_smelter");
     
     event.remove({mod: "enderio", id: "enderio:alloy_smelting/redstone_alloy_ingot"});
