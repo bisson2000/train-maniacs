@@ -5,13 +5,13 @@ ServerEvents.recipes(event => {
     /**
      * TODOs: 
      * Portals to dimensions
+     * Add boss requirement for rockets
      * Modify botania
-     * Modify cobblefordays recipes
      * Make ores more sparse. Encourage trains
      * Add armor leveling system (armor plus)
+     * Add dawnstone logic. Unclock recipe when first dawnstone is created
      * Add ironwood logic with torchberries
-     * Add dawnstone logic
-     * Add boss requirement for rockets
+     * Modify cobblefordays recipes - done
      * Change recipe for scanner - done
      * Change recipes for hostile networks - done
      * Add egg recipe - done
@@ -170,7 +170,6 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod: "megacells", id: "megacells:cells/cell_component_16m"}, "#forge:dusts/ender_pearl", "#forge:ingots/enderium");
 
     // Thermal
-    // recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:ingotRedAlloy>, <thermalfoundation:material:513>);
     event.replaceInput({mod:"thermal", input: "#forge:dusts/redstone"}, "#forge:dusts/redstone", "kubejs:flux_induced_iron");
     event.remove({mod: "thermal", id: "thermal:machine_frame"}); // frame
     event.shaped(
@@ -182,7 +181,7 @@ ServerEvents.recipes(event => {
       ],
       {
         Z: 'create:zinc_ingot',
-        D: 'embers:dawnstone_ingot',
+        D: 'extendedcrafting:ender_ingot',
         G: 'mob_grinding_utils:tinted_glass',
         H: 'immersiveengineering:heavy_engineering',  //arg 3: the mapping object
       }

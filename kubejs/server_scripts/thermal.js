@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
         ["enderio:soularium_ingot", "enderio:soularium_nugget"],
         ["enderio:end_steel_ingot", "enderio:end_steel_nugget"],
         ["extendedcrafting:black_iron_ingot", "extendedcrafting:black_iron_nugget"],
-        ["extendedcrafting:redstone_ingot", "extendedcrafting:redstone_nugget"],
+        //["extendedcrafting:redstone_ingot", "extendedcrafting:redstone_nugget"],
         ["extendedcrafting:enhanced_redstone_ingot", "extendedcrafting:enhanced_redstone_nugget"],
         ["extendedcrafting:ender_ingot", "extendedcrafting:ender_nugget"],
         ["extendedcrafting:enhanced_ender_ingot", "extendedcrafting:enhanced_ender_nugget"],
