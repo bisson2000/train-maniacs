@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
      * Add dawnstone logic
      * Add boss requirement for rockets
      * Change recipes for hostile networks
-     * Add egg recipe
+     * Add egg recipe - done
      * Remove chicken chunk load - done
      * Modify nuclearcraft cooling rates and fuels - done
      * Mekanims: nerf  ethylene with configs - done, / 8

@@ -71,8 +71,10 @@ ServerEvents.recipes(event => {
         ["extendedcrafting:the_ultimate_ingot", "extendedcrafting:the_ultimate_nugget"],
     ].forEach((removedOutputInfo) => {
         const [addedIngot, addedNugget] = removedOutputInfo;
-        const die = "thermal:press_unpacking_die";
-        event.recipes.thermal.press([Item.of(addedNugget, 9)], [addedIngot, die]);
+        const unpackingDie = "thermal:press_unpacking_die";
+        const packingDie = "thermal:press_packing_3x3_die";
+        event.recipes.thermal.press([Item.of(addedNugget, 9)], [Item.of(addedIngot, 1), unpackingDie]);
+        event.recipes.thermal.press([Item.of(addedIngot, 1)], [Item.of(addedNugget, 9), packingDie]);
     });
 
     // Creosote
