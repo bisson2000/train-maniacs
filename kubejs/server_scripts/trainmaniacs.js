@@ -12,7 +12,8 @@ ServerEvents.recipes(event => {
      * Add ironwood logic with torchberries
      * Add dawnstone logic
      * Add boss requirement for rockets
-     * Change recipes for hostile networks
+     * Change recipe for scanner - done
+     * Change recipes for hostile networks - done
      * Add egg recipe - done
      * Remove chicken chunk load - done
      * Modify nuclearcraft cooling rates and fuels - done

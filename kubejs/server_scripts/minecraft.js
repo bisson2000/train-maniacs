@@ -8,9 +8,9 @@ ServerEvents.recipes(event => {
         'G G',
         ' S '
       ], {
-        C: "minecraft:cobblestone",
-        G: 'minecraft:gravel',
-        S: 'minecraft:sand',
+        C: "#forge:cobblestone/normal",
+        G: '#forge:gravel',
+        S: '#forge:sand',
     });
 
     // remove all instances of nuggets
