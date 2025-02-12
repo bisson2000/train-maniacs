@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
         "cast":{"tag":"tconstruct:casts/multi_use/plate"},
         "cooling_time":60,
         "fluid":{"amount":90,"fluid":"embers:molten_dawnstone"},
-        "result":{"item":"emebers:dawnstone_plate"}
+        "result":{"item":"embers:dawnstone_plate"}
     });
 
     // faucet requires dawnstone

@@ -253,7 +253,7 @@ ServerEvents.recipes(event => {
         'PSP'
       ],
       {
-        K: "aether:silver_dungeon_key",
+        K: "aether:zanite_block",
         R: '#forge:rods/electrum',
         W: "thermal:machine_frame",
         S: '#forge:storage_blocks/steel',
@@ -265,9 +265,22 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod: "ad_astra", id: "ad_astra:fuel_refinery"}, "minecraft:furnace", "thermal:machine_frame");
     event.replaceInput({mod: "ad_astra", id: "ad_astra:fuel_refinery"}, "minecraft:bucket", "enderio:octadic_capacitor");
 
-    // ad_astra rockets
-    event.remove({mod: "ad_astra", id: "ad_astra:desh_engine"});
-    event.shaped(Item.of("ad_astra:desh_engine", 1), [
+    // ad_astra rockets<
+    event.remove({id: "ad_astra:steel_engine"});
+    const custom_steel_engine = event.shaped(Item.of("ad_astra:steel_engine", 1), [
+      "PPP",
+      "PEP",
+      " F "
+    ], {
+      P: "#forge:plates/desh",
+      E: "ad_astra:engine_frame",
+      F: "ad_astra:fan",
+    });
+    custom_steel_engine.id("kubejs:kjs/ad_astra_steel_engine_manual_only"); // prevent shapeless crafting
+    custom_steel_engine.stage("tier_1_rocket"); // set crafting stage
+
+    event.remove({id: "ad_astra:desh_engine"});
+    const custom_desh_engine = event.shaped(Item.of("ad_astra:desh_engine", 1), [
       "PPP",
       "PEP",
       "WFW"
@@ -277,7 +290,9 @@ ServerEvents.recipes(event => {
       F: "ad_astra:fan",
       W: "#forge:wires/gold",
     });
-    event.remove({mod: "ad_astra", id: "ad_astra:desh_tank"});
+    custom_desh_engine.id("kubejs:kjs/ad_astra_desh_engine_manual_only"); // prevent shapeless crafting
+    custom_desh_engine.stage("tier_2_rocket"); // set crafting stage
+    event.remove({id: "ad_astra:desh_tank"});
     event.shaped(Item.of("ad_astra:desh_tank", 1), [
       "PPW",
       "PTR",
@@ -289,8 +304,8 @@ ServerEvents.recipes(event => {
       W: "#forge:wires/gold",
     });
 
-    event.remove({mod: "ad_astra", id: "ad_astra:ostrum_engine"});
-    event.shaped(Item.of("ad_astra:ostrum_engine", 1), [
+    event.remove({id: "ad_astra:ostrum_engine"});
+    const custom_ostrum_engine = event.shaped(Item.of("ad_astra:ostrum_engine", 1), [
       "PPP",
       "PEP",
       "WFW"
@@ -300,7 +315,9 @@ ServerEvents.recipes(event => {
       F: "ad_astra:fan",
       W: "bloodmagic:reinforcedslate",
     });
-    event.remove({mod: "ad_astra", id: "ad_astra:ostrum_tank"});
+    custom_ostrum_engine.id("kubejs:kjs/ad_astra_ostrum_engine_manual_only"); // prevent shapeless crafting
+    custom_ostrum_engine.stage("tier_3_rocket"); // set crafting stage
+    event.remove({id: "ad_astra:ostrum_tank"});
     event.shaped(Item.of("ad_astra:ostrum_tank", 1), [
       "PPW",
       "PTR",
@@ -312,8 +329,8 @@ ServerEvents.recipes(event => {
       W: "bloodmagic:reinforcedslate",
     });
 
-    event.remove({mod: "ad_astra", id: "ad_astra:calorite_engine"});
-    event.shaped(Item.of("ad_astra:calorite_engine", 1), [
+    event.remove({id: "ad_astra:calorite_engine"});
+    const custom_calorite_engine = event.shaped(Item.of("ad_astra:calorite_engine", 1), [
       "PPP",
       "PEP",
       "WFW"
@@ -323,7 +340,9 @@ ServerEvents.recipes(event => {
       F: "ad_astra:fan",
       W: "#forge:ingots/terrasteel",
     });
-    event.remove({mod: "ad_astra", id: "ad_astra:calorite_tank"});
+    custom_calorite_engine.id("kubejs:kjs/ad_astra_calorite_engine_manual_only"); // prevent shapeless crafting
+    custom_calorite_engine.stage("tier_4_rocket"); // set crafting stage
+    event.remove({id: "ad_astra:calorite_tank"});
     event.shaped(Item.of("ad_astra:calorite_tank", 1), [
       "PPW",
       "PTR",
@@ -466,3 +485,4 @@ ServerEvents.recipes(event => {
 
     
 });
+
