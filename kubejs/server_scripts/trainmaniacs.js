@@ -272,11 +272,11 @@ ServerEvents.recipes(event => {
       "PEP",
       " F "
     ], {
-      P: "#forge:plates/desh",
+      P: "#forge:plates/steel",
       E: "ad_astra:engine_frame",
       F: "ad_astra:fan",
     });
-    custom_steel_engine.id("kubejs:kjs/ad_astra_steel_engine_manual_only"); // prevent shapeless crafting
+    custom_steel_engine.id("kubejs:kjs/ad_astra_steel_engine"); // prevent shapeless crafting
     custom_steel_engine.stage("tier_1_rocket"); // set crafting stage
 
     event.remove({id: "ad_astra:desh_engine"});
@@ -290,7 +290,7 @@ ServerEvents.recipes(event => {
       F: "ad_astra:fan",
       W: "#forge:wires/gold",
     });
-    custom_desh_engine.id("kubejs:kjs/ad_astra_desh_engine_manual_only"); // prevent shapeless crafting
+    custom_desh_engine.id("kubejs:kjs/ad_astra_desh_engine"); // prevent shapeless crafting
     custom_desh_engine.stage("tier_2_rocket"); // set crafting stage
     event.remove({id: "ad_astra:desh_tank"});
     event.shaped(Item.of("ad_astra:desh_tank", 1), [
