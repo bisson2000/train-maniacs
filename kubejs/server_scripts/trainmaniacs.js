@@ -55,6 +55,32 @@ ServerEvents.recipes(event => {
     // flux_induced_iron
     event.smelting('1x kubejs:flux_induced_iron', 'kubejs:raw_flux_induced_iron', 0.25, 200); // 0.25xp and 10s (200 ticks)
     event.blasting('1x kubejs:flux_induced_iron', 'kubejs:raw_flux_induced_iron', 0.25, 100);
+
+    // knowledge
+    event.custom({
+      "type":"create:deploying",
+      "ingredients":[{"item":"minecraft:paper"},{"item":"kubejs:knowledge_of_the_sky"}],
+      "keepHeldItem":true,
+      "results":[{"item":"kubejs:fragment_of_knowledge_of_the_sky"}]
+    });
+    event.custom({
+      "type":"create:deploying",
+      "ingredients":[{"item":"minecraft:paper"},{"item":"kubejs:knowledge_of_hell"}],
+      "keepHeldItem":true,
+      "results":[{"item":"kubejs:fragment_of_knowledge_of_hell"}]
+    });
+    event.custom({
+      "type":"create:deploying",
+      "ingredients":[{"item":"minecraft:paper"},{"item":"kubejs:knowledge_of_the_mines"}],
+      "keepHeldItem":true,
+      "results":[{"item":"kubejs:fragment_of_knowledge_of_the_mines"}]
+    });
+    event.custom({
+      "type":"create:deploying",
+      "ingredients":[{"item":"minecraft:paper"},{"item":"kubejs:knowledge_of_the_galaxies"}],
+      "keepHeldItem":true,
+      "results":[{"item":"kubejs:fragment_of_knowledge_of_the_galaxies"}]
+    });
     
     // TODO:
     // capacitors
@@ -268,30 +294,32 @@ ServerEvents.recipes(event => {
     // ad_astra rockets<
     event.remove({id: "ad_astra:steel_engine"});
     const custom_steel_engine = event.shaped(Item.of("ad_astra:steel_engine", 1), [
-      "PPP",
+      "PKP",
       "PEP",
       " F "
     ], {
+      K: "kubejs:fragment_of_knowledge_of_the_sky",
       P: "#forge:plates/steel",
       E: "ad_astra:engine_frame",
       F: "ad_astra:fan",
     });
-    custom_steel_engine.id("kubejs:kjs/ad_astra_steel_engine"); // prevent shapeless crafting
-    custom_steel_engine.stage("tier_1_rocket"); // set crafting stage
+    //custom_steel_engine.id("kubejs:kjs/ad_astra_steel_engine"); // prevent shapeless crafting
+    //custom_steel_engine.stage("tier_1_rocket"); // set crafting stage
 
     event.remove({id: "ad_astra:desh_engine"});
     const custom_desh_engine = event.shaped(Item.of("ad_astra:desh_engine", 1), [
-      "PPP",
+      "PKP",
       "PEP",
       "WFW"
     ], {
+      K: "kubejs:fragment_of_knowledge_of_hell",
       P: "#forge:plates/desh",
       E: "ad_astra:steel_engine",
       F: "ad_astra:fan",
       W: "#forge:wires/gold",
     });
-    custom_desh_engine.id("kubejs:kjs/ad_astra_desh_engine"); // prevent shapeless crafting
-    custom_desh_engine.stage("tier_2_rocket"); // set crafting stage
+    //custom_desh_engine.id("kubejs:kjs/ad_astra_desh_engine"); // prevent shapeless crafting
+    //custom_desh_engine.stage("tier_2_rocket"); // set crafting stage
     event.remove({id: "ad_astra:desh_tank"});
     event.shaped(Item.of("ad_astra:desh_tank", 1), [
       "PPW",
@@ -306,17 +334,18 @@ ServerEvents.recipes(event => {
 
     event.remove({id: "ad_astra:ostrum_engine"});
     const custom_ostrum_engine = event.shaped(Item.of("ad_astra:ostrum_engine", 1), [
-      "PPP",
+      "PKP",
       "PEP",
       "WFW"
     ], {
+      K: "kubejs:fragment_of_knowledge_of_the_mines",
       P: "#forge:plates/ostrum",
       E: "ad_astra:desh_engine",
       F: "ad_astra:fan",
       W: "bloodmagic:reinforcedslate",
     });
-    custom_ostrum_engine.id("kubejs:kjs/ad_astra_ostrum_engine_manual_only"); // prevent shapeless crafting
-    custom_ostrum_engine.stage("tier_3_rocket"); // set crafting stage
+    //custom_ostrum_engine.id("kubejs:kjs/ad_astra_ostrum_engine_manual_only"); // prevent shapeless crafting
+    //custom_ostrum_engine.stage("tier_3_rocket"); // set crafting stage
     event.remove({id: "ad_astra:ostrum_tank"});
     event.shaped(Item.of("ad_astra:ostrum_tank", 1), [
       "PPW",
@@ -331,17 +360,18 @@ ServerEvents.recipes(event => {
 
     event.remove({id: "ad_astra:calorite_engine"});
     const custom_calorite_engine = event.shaped(Item.of("ad_astra:calorite_engine", 1), [
-      "PPP",
+      "PKP",
       "PEP",
       "WFW"
     ], {
+      K: "kubejs:fragment_of_knowledge_of_the_galaxies",
       P: "#forge:plates/calorite",
       E: "ad_astra:ostrum_engine",
       F: "ad_astra:fan",
       W: "#forge:ingots/terrasteel",
     });
-    custom_calorite_engine.id("kubejs:kjs/ad_astra_calorite_engine_manual_only"); // prevent shapeless crafting
-    custom_calorite_engine.stage("tier_4_rocket"); // set crafting stage
+    //custom_calorite_engine.id("kubejs:kjs/ad_astra_calorite_engine_manual_only"); // prevent shapeless crafting
+    //custom_calorite_engine.stage("tier_4_rocket"); // set crafting stage
     event.remove({id: "ad_astra:calorite_tank"});
     event.shaped(Item.of("ad_astra:calorite_tank", 1), [
       "PPW",

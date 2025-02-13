@@ -13,5 +13,15 @@ StartupEvents.registry('item', event => {
     event.create("microchip_tier_2", "basic").texture('trainmaniacs:item/chip_tier_2');
     event.create("microchip_tier_3", "basic").texture('trainmaniacs:item/chip_tier_3');
     event.create("unfinished_microchip_tier_3", "basic").texture('trainmaniacs:item/unfinished_chip_tier_3');
+
+    // knowledge
+    event.create('knowledge_of_the_sky', 'basic').texture('trainmaniacs:item/knowledge_of_the_sky');
+    event.create('knowledge_of_hell', 'basic').texture('trainmaniacs:item/knowledge_of_hell');
+    event.create('knowledge_of_the_mines', 'basic').texture('trainmaniacs:item/knowledge_of_the_mines');
+    event.create('knowledge_of_the_galaxies', 'basic').texture('trainmaniacs:item/knowledge_of_the_galaxies');
+    event.create('fragment_of_knowledge_of_the_sky', 'basic').texture('trainmaniacs:item/fragment_of_knowledge_of_the_sky');
+    event.create('fragment_of_knowledge_of_hell', 'basic').texture('trainmaniacs:item/fragment_of_knowledge_of_hell');
+    event.create('fragment_of_knowledge_of_the_mines', 'basic').texture('trainmaniacs:item/fragment_of_knowledge_of_the_mines');
+    event.create('fragment_of_knowledge_of_the_galaxies', 'basic').texture('trainmaniacs:item/fragment_of_knowledge_of_the_galaxies');
     
 });
