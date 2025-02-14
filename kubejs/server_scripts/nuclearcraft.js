@@ -132,5 +132,8 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // remove sand
+    event.remove({mod: "nuclearcraft", id: "nuclearcraft:manufactory/cobblestone"});
+
     //event.replaceOutput({mod: "nuclearcraft", id: "nuclearcraft:manufactory/ender_pearl"}, "thermal:enderium_dust", "#forge:dusts/ender_pearl");
 });

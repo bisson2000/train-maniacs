@@ -67,5 +67,12 @@ ServerEvents.recipes(event => {
         gasOutput:{amount:1, gas:"mekanism:oxygen"}
     });
 
+    // gravel
+
+
+    // sand and gravel
+    event.remove({mod: "mekanism", id: "mekanism:crushing/cobblestone_to_gravel"});
+    event.remove({mod: "mekanism", id: "mekanism:crushing/gravel_to_sand"});
+
     // TODO: Units for armor
 });

@@ -117,8 +117,11 @@ ServerEvents.recipes(event => {
     //    console.info(`recipe: ${recipe.json}`);
     //});
 
-    // cinder flour
-    //event.recipes.thermal.
+    // remove gravel and sand
+    event.remove({mod: "thermal", id: "thermal:machines/pulverizer/pulverizer_cobblestone"});
+    event.remove({mod: "thermal", id: "thermal:machines/pulverizer/pulverizer_gravel"});
+
+    // cinder flour, double output
 });
 
 ServerEvents.tags('item', event => {

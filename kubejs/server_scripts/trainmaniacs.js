@@ -404,7 +404,7 @@ ServerEvents.recipes(event => {
     event.remove({mod: "botania", id: "botania:mana_infusion/manasteel"});
     event.recipes.botania.mana_infusion("botania:manasteel_ingot", "enderio:redstone_alloy_ingot", 4000);
     event.remove({mod: "botania", id: "botania:terra_plate/terrasteel_ingot"});
-    event.recipes.botania.terra_plate("botania:terrasteel_ingot", ["#forge:ingots/manasteel", "botania:mana_pearl", "botania:mana_diamond", "#forge:ingots/ironwood"], 500000);
+    event.recipes.botania.terra_plate("botania:terrasteel_ingot", ["#forge:ingots/manasteel", "botania:mana_pearl", "botania:mana_diamond", "#forge:ingots/ironwood"], 50000);
 
     // mekanismgenerator
     event.replaceInput({mod: "mekanismgenerators", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
