@@ -23,5 +23,4 @@ StartupEvents.registry('item', event => {
     event.create('fragment_of_knowledge_of_hell', 'basic').texture('trainmaniacs:item/fragment_of_knowledge_of_hell');
     event.create('fragment_of_knowledge_of_the_mines', 'basic').texture('trainmaniacs:item/fragment_of_knowledge_of_the_mines');
     event.create('fragment_of_knowledge_of_the_galaxies', 'basic').texture('trainmaniacs:item/fragment_of_knowledge_of_the_galaxies');
-    
 });

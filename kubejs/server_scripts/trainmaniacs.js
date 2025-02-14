@@ -5,11 +5,11 @@ ServerEvents.recipes(event => {
     /**
      * TODOs: 
      * Portals to dimensions
-     * Add boss requirement for rockets
      * Modify botania
      * Make ores more sparse. Encourage trains
      * Add armor leveling system (armor plus)
      * Add ironwood logic with torchberries
+     * Add boss requirement for rockets - done
      * Add dawnstone logic. Unclock recipe when first dawnstone is created - done
      * Modify cobblefordays recipes - done
      * Change recipe for scanner - done
@@ -303,8 +303,6 @@ ServerEvents.recipes(event => {
       E: "ad_astra:engine_frame",
       F: "ad_astra:fan",
     });
-    //custom_steel_engine.id("kubejs:kjs/ad_astra_steel_engine"); // prevent shapeless crafting
-    //custom_steel_engine.stage("tier_1_rocket"); // set crafting stage
 
     event.remove({id: "ad_astra:desh_engine"});
     const custom_desh_engine = event.shaped(Item.of("ad_astra:desh_engine", 1), [
@@ -318,8 +316,6 @@ ServerEvents.recipes(event => {
       F: "ad_astra:fan",
       W: "#forge:wires/gold",
     });
-    //custom_desh_engine.id("kubejs:kjs/ad_astra_desh_engine"); // prevent shapeless crafting
-    //custom_desh_engine.stage("tier_2_rocket"); // set crafting stage
     event.remove({id: "ad_astra:desh_tank"});
     event.shaped(Item.of("ad_astra:desh_tank", 1), [
       "PPW",
@@ -344,8 +340,6 @@ ServerEvents.recipes(event => {
       F: "ad_astra:fan",
       W: "bloodmagic:reinforcedslate",
     });
-    //custom_ostrum_engine.id("kubejs:kjs/ad_astra_ostrum_engine_manual_only"); // prevent shapeless crafting
-    //custom_ostrum_engine.stage("tier_3_rocket"); // set crafting stage
     event.remove({id: "ad_astra:ostrum_tank"});
     event.shaped(Item.of("ad_astra:ostrum_tank", 1), [
       "PPW",
@@ -370,8 +364,6 @@ ServerEvents.recipes(event => {
       F: "ad_astra:fan",
       W: "#forge:ingots/terrasteel",
     });
-    //custom_calorite_engine.id("kubejs:kjs/ad_astra_calorite_engine_manual_only"); // prevent shapeless crafting
-    //custom_calorite_engine.stage("tier_4_rocket"); // set crafting stage
     event.remove({id: "ad_astra:calorite_tank"});
     event.shaped(Item.of("ad_astra:calorite_tank", 1), [
       "PPW",
@@ -411,6 +403,8 @@ ServerEvents.recipes(event => {
     event.recipes.botania.pure_daisy("botania:livingrock", "ad_astra:ostrum_block");
     event.remove({mod: "botania", id: "botania:mana_infusion/manasteel"});
     event.recipes.botania.mana_infusion("botania:manasteel_ingot", "enderio:redstone_alloy_ingot", 4000);
+    event.remove({mod: "botania", id: "botania:terra_plate/terrasteel_ingot"});
+    event.recipes.botania.terra_plate("botania:terrasteel_ingot", ["#forge:ingots/manasteel", "botania:mana_pearl", "botania:mana_diamond", "#forge:ingots/ironwood"], 500000);
 
     // mekanismgenerator
     event.replaceInput({mod: "mekanismgenerators", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
