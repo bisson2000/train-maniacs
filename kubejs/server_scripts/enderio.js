@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     event.remove({mod: "enderio", id: "enderio:alloy_smelting/ender_pearl"});
     event.recipes.enderio.alloy_smelting("minecraft:ender_pearl", ["1x #forge:dusts/ender_pearl"]);
     event.remove({mod: "enderio", id: "enderio:sag_milling/ender_pearl"});
-    event.recipes.enderio.sag_milling(["1x #forge:dusts/ender_pearl"], "minecraft:ender_pearl");
+    event.recipes.enderio.sag_milling(["1x ae2:ender_dust"], "minecraft:ender_pearl");
 
     // remove gravel and sand
     event.remove({mod: "enderio", id: "enderio:sag_milling/cobblestone"});

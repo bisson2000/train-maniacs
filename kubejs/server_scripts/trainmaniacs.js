@@ -208,7 +208,7 @@ ServerEvents.recipes(event => {
         'DGZ'
       ],
       {
-        Z: 'create:zinc_ingot',
+        Z: '#forge:ingots/brass',
         D: 'extendedcrafting:ender_ingot',
         G: 'mob_grinding_utils:tinted_glass',
         H: 'immersiveengineering:heavy_engineering',  //arg 3: the mapping object
@@ -291,7 +291,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod: "ad_astra", id: "ad_astra:fuel_refinery"}, "minecraft:furnace", "thermal:machine_frame");
     event.replaceInput({mod: "ad_astra", id: "ad_astra:fuel_refinery"}, "minecraft:bucket", "enderio:octadic_capacitor");
 
-    // ad_astra rockets<
+    // ad_astra rockets
     event.remove({id: "ad_astra:steel_engine"});
     const custom_steel_engine = event.shaped(Item.of("ad_astra:steel_engine", 1), [
       "PKP",
@@ -380,16 +380,45 @@ ServerEvents.recipes(event => {
     event.remove({mod: "pneumaticcraft", id: "pneumaticcraft:pressure_chamber/capacitor"});
     event.custom({
       type: "pneumaticcraft:pressure_chamber",
-      inputs: [{type:"pneumaticcraft:stacked_item", count: 2, tag:"pneumaticcraft:wiring"},{tag:"forge:slimeballs"},{item:"pneumaticcraft:plastic"},{item:"kubejs:decuplic_capacitor"}, {tag:"forge:ingots/compressed_iron"}],
+      inputs: [{type:"pneumaticcraft:stacked_item", count: 3, item: "immersiveengineering:wire_steel"},{tag:"forge:slimeballs"},{item:"pneumaticcraft:plastic_brick_blue"},{item:"kubejs:decuplic_capacitor"}, {tag:"forge:ingots/compressed_iron"}],
       pressure: 1.0,
       results:[{item:"pneumaticcraft:capacitor"}]
     });
     event.remove({mod: "pneumaticcraft", id: "pneumaticcraft:pressure_chamber/transistor"});
     event.custom({
       type: "pneumaticcraft:pressure_chamber",
-      inputs: [{type:"pneumaticcraft:stacked_item", count: 3, tag:"pneumaticcraft:wiring"},{item:"kubejs:flux_induced_iron"},{item:"pneumaticcraft:plastic"},{item:"kubejs:microchip_tier_1"}, {tag:"forge:ingots/compressed_iron"}],
+      inputs: [{type:"pneumaticcraft:stacked_item", count: 3, item: "immersiveengineering:wire_steel"},{item:"kubejs:flux_induced_iron"},{item:"pneumaticcraft:plastic_brick_gray"},{item:"kubejs:microchip_tier_1"}, {tag:"forge:ingots/compressed_iron"}],
       pressure: 1.0,
       results:[{item:"pneumaticcraft:transistor"}]
+    });
+    event.remove({mod: "pneumaticcraft", id: "pneumaticcraft:pressure_chamber/empty_pcb"});
+    event.custom({
+      type: "pneumaticcraft:pressure_chamber",
+      inputs: [{type:"pneumaticcraft:stacked_item", count: 3, item: "immersiveengineering:wire_electrum"},{item:"pneumaticcraft:plastic_brick_lime"},{item:"kubejs:microchip_tier_1"}, {tag:"forge:ingots/compressed_iron"}, {item:"mekanism:basic_control_circuit"}],
+      pressure:1.5,
+      results:[{count:1, item:"pneumaticcraft:empty_pcb"}]
+    });
+    event.remove({mod: "pneumaticcraft", id: "pneumaticcraft:air_compressor"});
+    event.shaped(Item.of("pneumaticcraft:air_compressor", 1), [
+      "RRR",
+      "RVP",
+      "RFR"
+    ], {
+      R: "pneumaticcraft:reinforced_bricks",
+      F: "ironfurnaces:obsidian_furnace",
+      P: "pneumaticcraft:pressure_tube",
+      V: "aether_redux:veridium_block",
+    });
+    event.remove({mod: "pneumaticcraft", id: "pneumaticcraft:thermopneumatic_processing_plant"});
+    event.shaped(Item.of("pneumaticcraft:thermopneumatic_processing_plant", 1), [
+      "RFR",
+      "SPS",
+      "RFR"
+    ], {
+      F: "thermal:machine_frame",
+      R: "pneumaticcraft:reinforced_stone_slab",
+      P: "pneumaticcraft:pressure_tube",
+      S: "pneumaticcraft:small_tank",
     });
 
     // bloodmagic
@@ -405,6 +434,21 @@ ServerEvents.recipes(event => {
     event.recipes.botania.mana_infusion("botania:manasteel_ingot", "enderio:redstone_alloy_ingot", 4000);
     event.remove({mod: "botania", id: "botania:terra_plate/terrasteel_ingot"});
     event.recipes.botania.terra_plate("botania:terrasteel_ingot", ["#forge:ingots/manasteel", "botania:mana_pearl", "botania:mana_diamond", "#forge:ingots/ironwood"], 50000);
+    event.remove({mod: "botania", id: "botania:terra_plate"});
+    event.shaped(Item.of("botania:terra_plate", 1), [
+      "SPS",
+      "1F5",
+      "234"
+    ], {
+      1: "botania:rune_water",
+      2: "botania:rune_earth",
+      3: "botania:rune_mana",
+      4: "botania:rune_air",
+      5: "botania:rune_fire",
+      S: "embers:dwarven_oil_bucket",
+      P: "botania:manasteel_block",
+      F: "embers:focal_lens",
+    });
 
     // mekanismgenerator
     event.replaceInput({mod: "mekanismgenerators", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
@@ -490,9 +534,10 @@ ServerEvents.recipes(event => {
       U: "#forge:ingots/uranium",
       C: "kubejs:microchip_tier_3",
     });
+    //event.replaceOutput({mod: "nuclearcraft", id: "nuclearcraft:plate_advanced"}, "nuclearcraft:plate_advanced", "1x nuclearcraft:plate_advanced");
 
     // draconic evolution
-    event.replaceInput({mod: "draconicevolution", input: "minecraft:redstone_block"}, "minecraft:redstone_block", "enderio:redstone_alloy_block");
+    event.replaceInput({mod: "draconicevolution", input: "minecraft:redstone_block"}, "minecraft:redstone_block", "nuclearcraft:plate_advanced");
     event.remove({mod: "draconicevolution", id: "draconicevolution:components/draconium_core"});
     event.recipes.botania.runic_altar("draconicevolution:draconium_core", [
       "botania:elementium_ingot",

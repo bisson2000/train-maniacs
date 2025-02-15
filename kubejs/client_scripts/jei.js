@@ -11,6 +11,9 @@ JEIEvents.hideItems(event => {
 
   // Thermal
   event.hide(Item.of("thermal:ender_pearl_dust"));
+
+  // enderio
+  event.hide(Item.of("enderio:powdered_ender_pearl"));
 });
 
 JEIEvents.hideFluids(event => {

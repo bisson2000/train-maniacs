@@ -27,6 +27,6 @@ ServerEvents.recipes(event => {
   });
 
   // ender ingot with dawnstone
-  event.replaceInput({mod: "extendedcrafting", id: "extendedcrafting:ender_ingot"}, "minecraft:iron_ingot", "embers:dawnstone_ingot")
+  event.replaceInput({mod: "extendedcrafting", id: "extendedcrafting:ender_ingot"}, "minecraft:iron_ingot", "embers:dawnstone_ingot");
 
 });
