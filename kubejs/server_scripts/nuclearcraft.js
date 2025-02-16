@@ -109,7 +109,15 @@ ServerEvents.recipes(event => {
     event.remove({mod: "nuclearcraft", id: "nuclearcraft:manufactory/ender_pearl"});
 
     // fluorite
-    event.replaceOutput({mod: "nuclearcraft", id: "nuclearcraft:rock_crusher/diorite"}, "mekanism:dust_fluorite", "");
+    event.remove({mod: "nuclearcraft", id: "nuclearcraft:rock_crusher/diorite"});
+    event.custom({
+        "type":"nuclearcraft:rock_crusher",
+        "input":[{"count":4,"item":"minecraft:diorite"}],
+        "output":[{"count":2,"tag":"forge:dusts/zirconium"},{"tag":"forge:dusts/carobbiite"}],
+        "powerModifier":1.0,
+        "radiation":1.0,
+        "timeModifier":1.0
+    });
 
     // Fuel reprocessor. Allow basic fuels to be reprocessed
     event.forEachRecipe({mod: "nuclearcraft", type: "nuclearcraft:fuel_reprocessor"}, recipe => {

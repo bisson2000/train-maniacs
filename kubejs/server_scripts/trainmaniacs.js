@@ -5,10 +5,15 @@ ServerEvents.recipes(event => {
     /**
      * TODOs: 
      * Portals to dimensions
-     * Modify botania
      * Make ores more sparse. Encourage trains
-     * Add armor leveling system (armor plus)
-     * Add ironwood logic with torchberries
+     * Compressed ores recipes
+     * Add armor leveling system (armor plus) - won't do
+     * Add chaos fragment duplication in mekanism - done
+     * Modify botania - done
+     * Remove tconstruct cheese - won't do
+     * Remove fluorite rock crusher - done
+     * Defeat all bosses in twilightforest to unlock the explorer's compass
+     * Add ironwood logic with torchberries - done
      * Add boss requirement for rockets - done
      * Add dawnstone logic. Unclock recipe when first dawnstone is created - done
      * Modify cobblefordays recipes - done
@@ -547,6 +552,16 @@ ServerEvents.recipes(event => {
       "mekanism:ultimate_control_circuit",
       "#forge:ingots/uranium",
     ], 20000);
+
+    event.forEachRecipe({mod: "mekanism", type: "mekanism:nucleosynthesizing"}, recipe => {
+        console.info(`recipe: ${recipe.json}`);
+    });
+    event.custom({
+      type:"mekanism:nucleosynthesizing",
+      duration:1500,
+      gasInput:{"amount":9,"gas":"mekanism:antimatter"},
+      itemInput:{"ingredient":{"item":"draconicevolution:small_chaos_frag"}},
+      output:{"item":"draconicevolution:medium_chaos_frag"}});
 
 
     // minecraft

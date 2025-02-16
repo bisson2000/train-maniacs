@@ -14,6 +14,11 @@ JEIEvents.hideItems(event => {
 
   // enderio
   event.hide(Item.of("enderio:powdered_ender_pearl"));
+
+  // extendedcrafting
+  event.hide(Item.of("extendedcrafting:redstone_nugget"));
+  event.hide(Item.of("extendedcrafting:redstone_ingot"));
+  event.hide(Item.of("extendedcrafting:redstone_ingot_block"));
 });
 
 JEIEvents.hideFluids(event => {
