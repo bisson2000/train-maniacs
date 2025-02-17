@@ -34,9 +34,6 @@ ServerEvents.recipes(event => {
 
   // black iron
   event.remove({mod: "extendedcrafting", id: "extendedcrafting:black_iron_ingot"});
-  event.forEachRecipe({mod: "extendedcrafting", id: "extendedcrafting:enhanced_ender_ingot"}, recipe => {
-      //console.info(`recipe: ${recipe.json}`);
-  });
   event.custom({"type":"extendedcrafting:shaped_ender_crafter",
     "pattern":
     [
@@ -66,4 +63,5 @@ ServerEvents.recipes(event => {
 
   // keep extendedcrafting for its compressor, encouraging more mining
 
+  // compression done in config
 });

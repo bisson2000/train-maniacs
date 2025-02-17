@@ -1,0 +1,11 @@
+{
+    "name": "Desh",
+    "colors": [
+      "e59719",
+      "cc902f"
+    ],
+    "materialCount": 1000,
+    "ingredient": {
+      "item": "ad_astra:desh_ingot"
+    }
+  }

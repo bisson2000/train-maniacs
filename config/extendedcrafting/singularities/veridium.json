@@ -1,0 +1,11 @@
+{
+  "name": "Veridium",
+  "colors": [
+    "7989d9",
+    "585c70"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "item": "aether_redux:veridium_ingot"
+  }
+}

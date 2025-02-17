@@ -1,0 +1,11 @@
+{
+  "name": "Uranium",
+  "colors": [
+    "75e16c",
+    "69a664"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/uranium"
+  }
+}

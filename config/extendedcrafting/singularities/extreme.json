@@ -1,0 +1,11 @@
+{
+  "name": "Extreme",
+  "colors": [
+    "86053f",
+    "4b0b28"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/extreme"
+  }
+}

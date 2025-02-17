@@ -1,0 +1,11 @@
+{
+    "name": "Ostrum",
+    "colors": [
+      "9b2c4e",
+      "7c2b44"
+    ],
+    "materialCount": 10000,
+    "ingredient": {
+      "item": "ad_astra:ostrum_ingot"
+    }
+  }

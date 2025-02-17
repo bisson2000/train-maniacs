@@ -1,0 +1,11 @@
+{
+  "name": "Pulsating Alloy",
+  "colors": [
+    "37f53b",
+    "5ba35c"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/pulsating_alloy"
+  }
+}

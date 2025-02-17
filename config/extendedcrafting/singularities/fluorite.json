@@ -1,0 +1,11 @@
+{
+  "name": "fluorite",
+  "colors": [
+    "bce3e2",
+    "9fbbba"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tiem": "mekanism:fluorite_gem"
+  }
+}

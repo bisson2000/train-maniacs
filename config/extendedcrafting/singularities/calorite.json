@@ -1,0 +1,11 @@
+{
+    "name": "Calorite",
+    "colors": [
+      "da2626",
+      "aa3535"
+    ],
+    "materialCount": 1000,
+    "ingredient": {
+      "item": "ad_astra:calorite_ingot"
+    }
+  }

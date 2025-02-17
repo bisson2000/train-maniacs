@@ -1,0 +1,11 @@
+{
+    "name": "Cheese",
+    "colors": [
+      "f8fb15",
+      "d9db23"
+    ],
+    "materialCount": 10000,
+    "ingredient": {
+      "item": "ad_astra:cheese_block"
+    }
+  }

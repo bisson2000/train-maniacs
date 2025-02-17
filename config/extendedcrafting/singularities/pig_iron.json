@@ -1,0 +1,11 @@
+{
+  "name": "Pig Iron",
+  "colors": [
+    "e67ebe",
+    "634557"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/pig_iron"
+  }
+}

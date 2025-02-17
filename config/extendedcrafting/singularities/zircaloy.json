@@ -1,0 +1,11 @@
+{
+  "name": "zircaloy",
+  "colors": [
+    "d5e1e1",
+    "aeb5b5"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/zircaloy"
+  }
+}

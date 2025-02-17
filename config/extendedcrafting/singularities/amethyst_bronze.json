@@ -1,0 +1,11 @@
+{
+  "name": "Amethyst Bronze",
+  "colors": [
+    "f391ea",
+    "c881c1"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/amethyst_bronze"
+  }
+}

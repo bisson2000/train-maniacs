@@ -1,0 +1,11 @@
+{
+    "name": "Chaos",
+    "colors": [
+      "1f1f1f",
+      "0a0a0a"
+    ],
+    "materialCount": 100,
+    "ingredient": {
+      "item": "draconicevolution:chaos_shard"
+    }
+  }

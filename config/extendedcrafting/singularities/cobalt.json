@@ -1,0 +1,11 @@
+{
+  "name": "Cobalt",
+  "colors": [
+    "3b63df",
+    "3452b0"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/cobalt"
+  }
+}

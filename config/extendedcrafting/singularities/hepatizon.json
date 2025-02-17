@@ -1,0 +1,11 @@
+{
+  "name": "Hepatizon",
+  "colors": [
+    "550773",
+    "30083f"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/hepatizon"
+  }
+}

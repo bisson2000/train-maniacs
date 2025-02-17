@@ -1,0 +1,11 @@
+{
+  "name": "Zanite",
+  "colors": [
+    "6911ae",
+    "380c5b"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "item": "aether:zanite_gemstone"
+  }
+}

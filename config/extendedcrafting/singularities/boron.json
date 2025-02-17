@@ -1,0 +1,11 @@
+{
+  "name": "Boron",
+  "colors": [
+    "aeaeae",
+    "555555"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/boron"
+  }
+}

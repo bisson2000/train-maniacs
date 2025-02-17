@@ -1,0 +1,11 @@
+{
+  "name": "Magnesium",
+  "colors": [
+    "f8b8ff",
+    "d5a1da"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/magnesium"
+  }
+}

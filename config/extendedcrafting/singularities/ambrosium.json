@@ -1,0 +1,11 @@
+{
+  "name": "Ambrosium",
+  "colors": [
+    "f9f642",
+    "a7a64d"
+  ],
+  "materialCount": 1000,
+  "ingredient": {
+    "item": "aether:ambrosium_shard"
+  }
+}

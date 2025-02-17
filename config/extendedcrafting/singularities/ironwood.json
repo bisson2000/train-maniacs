@@ -1,0 +1,11 @@
+{
+    "name": "Ironwood",
+    "colors": [
+      "946217",
+      "775118"
+    ],
+    "materialCount": 10000,
+    "ingredient": {
+      "tag": "forge:ingots/ironwood"
+    }
+  }

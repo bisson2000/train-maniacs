@@ -1,0 +1,11 @@
+{
+  "name": "Thorium",
+  "colors": [
+    "3c3c3c",
+    "3c3c3c"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/thorium"
+  }
+}

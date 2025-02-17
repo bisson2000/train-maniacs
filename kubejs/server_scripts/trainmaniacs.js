@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 
     /**
      * TODOs: 
-     * Portals to dimensions
+     * Portals to dimensions: planets, twilight forest, end (aether integrated with create already)
      * Make ores more sparse. Encourage trains
      * Compressed ores recipes
      * Add armor leveling system (armor plus) - won't do
@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
      * Lock rocket crafting behind progression
      * Tier 1: Silver key
      * Tier 3: Gold key (Infernal)
+     * Tier 2: Bronze key
      * Tier 4: Platinum key
      */
 
@@ -264,9 +265,9 @@ ServerEvents.recipes(event => {
       1.0
     );
 
-    event.recipes.enderio.alloy_smelting(Item.of("minecraft:end_stone"), // end stone
+    event.recipes.enderio.alloy_smelting(Item.of("minecraft:end_stone", 4), // end stone
       ["#forge:sand", "aether:ambrosium_shard"],
-      3200,
+      1600,
       1.0
     ); 
 

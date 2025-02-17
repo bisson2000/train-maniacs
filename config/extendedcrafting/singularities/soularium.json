@@ -1,0 +1,11 @@
+{
+  "name": "Soularium",
+  "colors": [
+    "6e3f17",
+    "402813"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/soularium"
+  }
+}

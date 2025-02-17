@@ -1,0 +1,11 @@
+{
+  "name": "End Steel",
+  "colors": [
+    "c9da15",
+    "9faa25"
+  ],
+  "materialCount": 1000,
+  "ingredient": {
+    "tag": "forge:ingots/end_steel"
+  }
+}
