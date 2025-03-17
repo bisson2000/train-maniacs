@@ -1,0 +1,172 @@
+/*
+ * Configuration file for portalbuildercreate
+ * You can leave this comment in the file
+ * 
+ * Parameters explained:
+ * @Required: frameBlock 			 The block used to create the portal frame. Must be in format modid:block_name. E.g.: minecraft:diamond_block
+ * @Required: igniter 				 The item/block/fluid used to ignite the Portal. Must be in format modid:block_name. E.g.: minecraft:fire
+ * @Required: fromDim 				 The dimension from which the portal starts. Must be in format modid:dim_name. E.g.: minecraft:overworld
+ * @Required: toDim 				 The dimension from which the portal ends. Must be in format modid:dim_name. E.g.: minecraft:the_nether
+ * @Required: rgb 					 The color of the portal. Red, Green and Blue values must be between 0 and 255
+ * @Optional: onlyIgniteInFromDim 	 True by default. True if a portal can only be ignited in one of its targeted dim. For example, if the value is set to false, then a portal that links minecraft:the_end and minecraft:the_nether can be activated in minecraft:overworld
+ * @Optional: isFlatPortal 			 False by default. False means the portal is vertical, like the nether portal. True means the portal is horizontal, like the end portal
+ * @Optional: forceSize 			 False by default. If the portal is required to have a specific size and match the width and height specified
+ * @Optional: showCredits 			 False by default. If the player will view credits when traversing the portal
+ * 
+ * The portals are specified as objects, in a list
+ * Example how the json should look like
+ * [
+ *     { 
+ *         "frameBlock": "minecraft:diamond_block", 
+ *         "igniter": "minecraft:lava", 
+ *         "fromDim": "minecraft:overworld", 
+ *         "toDim": "minecraft:the_nether", 
+ *         "r": 255, 
+ *         "g": 0, 
+ *         "b": 0, 
+ *         "onlyIgniteInDims": true, 
+ *         "isFlatPortal": false, 
+ *         "forceSize": false, 
+ *         "forcedSizeWidth": 0, 
+ *         "forcedSizeHeight": 0, 
+ *         "showCredits": true 
+ *     }, 
+ *     { 
+ *         "frameBlock": "minecraft:diamond_ore", 
+ *         "igniter": "minecraft:ender_eye", 
+ *         "fromDim": "minecraft:the_nether", 
+ *         "toDim": "minecraft:the_end", 
+ *         "r": 0, 
+ *         "g": 0, 
+ *         "b": 255, 
+ *         "onlyIgniteInDims": true, 
+ *         "isFlatPortal": false, 
+ *         "forceSize": true, 
+ *         "forcedSizeWidth": 4, 
+ *         "forcedSizeHeight": 5, 
+ *         "showCredits": false 
+ *     } 
+ * ] 
+ */
+[
+	{ 
+		"frameBlock": "create:zinc_block", 
+		"igniter": "minecraft:fire", 
+		"fromDim": "minecraft:overworld", 
+		"toDim": "twilightforest:twilight_forest", 
+		"r": 0, 
+		"g": 128, 
+		"b": 0, 
+		"onlyIgniteInDims": true, 
+		"isFlatPortal": false, 
+		"forceSize": false, 
+		"forcedSizeWidth": 0, 
+		"forcedSizeHeight": 0, 
+		"showCredits": false 
+	},
+	{ 
+		"frameBlock": "ad_astra:cheese_block", 
+		"igniter": "mekanism:ingot_osmium", 
+		"fromDim": "minecraft:overworld", 
+		"toDim": "ad_astra:moon", 
+		"r": 255, 
+		"g": 255, 
+		"b": 0, 
+		"onlyIgniteInDims": true, 
+		"isFlatPortal": false, 
+		"forceSize": false, 
+		"forcedSizeWidth": 0, 
+		"forcedSizeHeight": 0, 
+		"showCredits": false 
+	},
+	{ 
+		"frameBlock": "ad_astra:ostrum_block", 
+		"igniter": "minecraft:fire", 
+		"fromDim": "minecraft:overworld", 
+		"toDim": "ad_astra:mars", 
+		"r": 255, 
+		"g": 180, 
+		"b": 0, 
+		"onlyIgniteInDims": true, 
+		"isFlatPortal": false, 
+		"forceSize": false, 
+		"forcedSizeWidth": 0, 
+		"forcedSizeHeight": 0, 
+		"showCredits": false 
+	},
+	{ 
+		"frameBlock": "mekanism:block_uranium", 
+		"igniter": "minecraft:fire", 
+		"fromDim": "minecraft:overworld", 
+		"toDim": "ad_astra:mercury", 
+		"r": 160, 
+		"g": 0, 
+		"b": 0, 
+		"onlyIgniteInDims": true, 
+		"isFlatPortal": false, 
+		"forceSize": false, 
+		"forcedSizeWidth": 0, 
+		"forcedSizeHeight": 0, 
+		"showCredits": false 
+	},
+	{ 
+		"frameBlock": "ad_astra:calorite_block", 
+		"igniter": "minecraft:fire", 
+		"fromDim": "minecraft:overworld", 
+		"toDim": "ad_astra:venus", 
+		"r": 130, 
+		"g": 0, 
+		"b": 100, 
+		"onlyIgniteInDims": true, 
+		"isFlatPortal": false, 
+		"forceSize": false, 
+		"forcedSizeWidth": 0, 
+		"forcedSizeHeight": 0, 
+		"showCredits": false 
+	},
+	{ 
+		"frameBlock": "mekanism:block_fluorite", 
+		"igniter": "minecraft:fire", 
+		"fromDim": "minecraft:overworld", 
+		"toDim": "ad_astra:glacio", 
+		"r": 165, 
+		"g": 245, 
+		"b": 255, 
+		"onlyIgniteInDims": true, 
+		"isFlatPortal": false, 
+		"forceSize": false, 
+		"forcedSizeWidth": 0, 
+		"forcedSizeHeight": 0, 
+		"showCredits": false 
+	},
+	{ 
+		"frameBlock": "minecraft:end_stone_bricks", 
+		"igniter": "draconicevolution:dragon_heart", 
+		"fromDim": "minecraft:the_nether", 
+		"toDim": "minecraft:the_end", 
+		"r": 50, 
+		"g": 30, 
+		"b": 60, 
+		"onlyIgniteInDims": true, 
+		"isFlatPortal": false, 
+		"forceSize": false, 
+		"forcedSizeWidth": 0, 
+		"forcedSizeHeight": 0, 
+		"showCredits": false 
+	},
+	{ 
+		"frameBlock": "draconicevolution:awakened_draconium_block", 
+		"igniter": "extendedcrafting:ultimate_singularity", 
+		"fromDim": "minecraft:overworld", 
+		"toDim": "minecraft:overworld", 
+		"r": 160, 
+		"g": 255, 
+		"b": 150, 
+		"onlyIgniteInDims": true, 
+		"isFlatPortal": false, 
+		"forceSize": false, 
+		"forcedSizeWidth": 0, 
+		"forcedSizeHeight": 0, 
+		"showCredits": true 
+	} 
+]

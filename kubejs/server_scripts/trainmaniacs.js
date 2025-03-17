@@ -4,9 +4,11 @@ ServerEvents.recipes(event => {
 
     /**
      * TODOs: 
-     * Portals to dimensions: planets, twilight forest, end (aether integrated with create already)
-     * Make ores more sparse. Encourage trains
-     * Compressed ores recipes
+     * Portals to dimensions: planets, twilight forest, end (aether integrated with create already) - done
+     * Change ore generation on planets
+     * Make ores more sparse. Encourage trains - done
+     * Disable mekanism miner and immersiveengineering excavator
+     * Compressed ores recipes - done
      * Add armor leveling system (armor plus) - won't do
      * Add chaos fragment duplication in mekanism - done
      * Modify botania - done
@@ -562,7 +564,21 @@ ServerEvents.recipes(event => {
       duration:1500,
       gasInput:{"amount":9,"gas":"mekanism:antimatter"},
       itemInput:{"ingredient":{"item":"draconicevolution:small_chaos_frag"}},
-      output:{"item":"draconicevolution:medium_chaos_frag"}});
+      output:{"item":"draconicevolution:medium_chaos_frag"}
+    });
+
+    // end remastered
+    event.remove({mod: "endrem", id: "endrem:witch_eye"});
+    event.shaped(Item.of("endrem:witch_eye", 1), [
+      "EWA",
+      "B  ",
+      "   "
+    ], {
+      E: "minecraft:ender_eye",
+      W: "endrem:witch_pupil",
+      A: "twilightforest:snow_queen_trophy",
+      B: "twilightforest:ur_ghast_trophy",
+    });
 
 
     // minecraft

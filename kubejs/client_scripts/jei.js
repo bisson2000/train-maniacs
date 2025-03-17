@@ -14,6 +14,7 @@ JEIEvents.hideItems(event => {
 
   // enderio
   event.hide(Item.of("enderio:powdered_ender_pearl"));
+  event.hide(Item.of("enderio:crafter"));
 
   // extendedcrafting
   event.hide(Item.of("extendedcrafting:redstone_nugget"));

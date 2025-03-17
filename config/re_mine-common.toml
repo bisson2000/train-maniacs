@@ -1,0 +1,14 @@
+
+["Configs for Re-mine"]
+	#Can blocks be harvested infinitely
+	"Block charges is infinite" = true
+	#How many times a block can be harvested before having it break
+	#Range: > 0
+	Charges = 2
+	#Search automatically for ores
+	"Auto ore search" = true
+	#Which blocks are allowed to be mined more than once. Write the block with modid:block_name
+	"Allowed blocks" = ["minecraft:iron_ore", "minecraft:deepslate_iron_ore"]
+	#Which blocks are NOT allowed to be mined more than once. Write the block with modid:block_name
+	"Denied blocks" = ["minecraft:oak_log", "minecraft:acacia_log", "aether:gravitite_ore"]
+
