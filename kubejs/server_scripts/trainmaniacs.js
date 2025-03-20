@@ -4,10 +4,11 @@ ServerEvents.recipes(event => {
 
     /**
      * TODOs: 
+     * Make redstone spawn only in the twilightforest
+     * Disable mekanism miner and immersiveengineering excavator - done
      * Portals to dimensions: planets, twilight forest, end (aether integrated with create already) - done
-     * Change ore generation on planets
+     * Change ore generation on planets - done
      * Make ores more sparse. Encourage trains - done
-     * Disable mekanism miner and immersiveengineering excavator
      * Compressed ores recipes - done
      * Add armor leveling system (armor plus) - won't do
      * Add chaos fragment duplication in mekanism - done

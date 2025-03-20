@@ -164,6 +164,42 @@ ServerEvents.recipes(event => {
         "result":"embers:dawnstone_aspectus"
     });
 
+    event.custom({
+        "type":"tconstruct:casting_table",
+        "cast":{"item": "embers:ember_shard"},
+        "cast_consumed":true,
+        "cooling_time":60,
+        "fluid":{"amount":90,"fluid":"tconstruct:molten_silver"},
+        "result":"embers:silver_aspectus"
+    });
+
+    event.custom({
+        "type":"tconstruct:casting_table",
+        "cast":{"item": "embers:ember_shard"},
+        "cast_consumed":true,
+        "cooling_time":60,
+        "fluid":{"amount":90,"fluid":"tconstruct:molten_lead"},
+        "result":"embers:lead_aspectus"
+    });
+
+    event.custom({
+        "type":"tconstruct:casting_table",
+        "cast":{"item": "embers:ember_shard"},
+        "cast_consumed":true,
+        "cooling_time":60,
+        "fluid":{"amount":90,"fluid":"tconstruct:molten_copper"},
+        "result":"embers:copper_aspectus"
+    });
+
+    event.custom({
+        "type":"tconstruct:casting_table",
+        "cast":{"item": "embers:ember_shard"},
+        "cast_consumed":true,
+        "cooling_time":60,
+        "fluid":{"amount":90,"fluid":"tconstruct:molten_iron"},
+        "result":"embers:iron_aspectus"
+    });
+
     //event.forEachRecipe({mod: "kubejs", type: "tconstruct:alloy"}, recipe => {
     //    console.info(`recipe: ${recipe.json}`);
     //});

@@ -2,10 +2,10 @@
 
 ServerEvents.recipes(event => {
 
-    event.forEachRecipe({mod: "rftoolsutility"}, recipe => {
-        console.info(`recipe: ${recipe.json}`);
-        console.info(`recipe: ${recipe.getId()}`);
-    });
+    //event.forEachRecipe({mod: "rftoolsutility"}, recipe => {
+    //    console.info(`recipe: ${recipe.json}`);
+    //    console.info(`recipe: ${recipe.getId()}`);
+    //});
 
     event.remove({mod: "rftoolsbase", id: "rftoolsbase:machine_frame"});
     event.shaped(Item.of("rftoolsbase:machine_frame", 1), [

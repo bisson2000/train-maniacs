@@ -1,4 +1,10 @@
 LootJS.modifiers((event) => {
+
+    // everlasting abilities, remove totem from natural spawning. Done in datapack
+    //event.addLootTableModifier("minecraft:chests/buried_treasure").removeLoot(Item.of("everlastingabilities:ability_totem"));
+    // abilities given with /give @s everlastingabilities:ability_totem{"everlastingabilities:abilityStoreStack":[{ "name": "everlastingabilities:effect/jump_boost", "level": 5 }, { "name": "everlastingabilities:effect/speed"}]}
+
+    // Aether bosses
     event.addEntityLootModifier("aether:valkyrie_queen").addLoot("kubejs:knowledge_of_the_sky");
     event.addEntityLootModifier("aether:sun_spirit").addLoot("kubejs:knowledge_of_hell");
     event.addEntityLootModifier("aether:slider").addLoot("kubejs:knowledge_of_the_mines");
@@ -24,7 +30,7 @@ LootJS.modifiers((event) => {
     //event.addEntityLootModifier("minecraft:witch").removeLoot("endrem:witch_pupil"); // kept
     //event.addEntityLootModifier("minecraft:wither").removeLoot("endrem:wither_eye"); // kept
 
-    // new nosses have the eyes
+    // new bosses have the eyes
     event.addEntityLootModifier("cataclysm:ancient_remnant").addLoot("endrem:old_eye");
     event.addEntityLootModifier("cataclysm:netherite_monstrosity").addLoot("endrem:corrupted_eye");
     event.addEntityLootModifier("cataclysm:the_harbinger").addLoot("endrem:lost_eye");

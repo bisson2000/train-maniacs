@@ -1,0 +1,11 @@
+{
+    "type": "everlastingabilities:inject_ability_totem",
+    "conditions": [
+      {
+        "condition": "random_chance",
+        "chance": 0.0
+      }
+    ],
+    "loot_tables": [
+    ]
+}

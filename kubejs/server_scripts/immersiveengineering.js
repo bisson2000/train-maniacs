@@ -93,4 +93,6 @@ ServerEvents.recipes(event => {
       S: "immersiveengineering:capacitor_mv"
     });
 
+    // Remove excavator - won't do
+
 });
