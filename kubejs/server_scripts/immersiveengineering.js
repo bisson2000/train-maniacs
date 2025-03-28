@@ -30,11 +30,33 @@ ServerEvents.recipes(event => {
 
     // mechanical components
     [
+      ["immersiveengineering:crafting/component_iron"],
         ["immersiveengineering:crafting/component_steel"],
-        ["immersiveengineering:crafting/component_iron"],
     ].forEach((replacementInfo) => {
         const [recipeID] = replacementInfo;
         event.remove({mod: "immersiveengineering", id: recipeID});
+    });
+    event.shaped(Item.of("immersiveengineering:component_iron", 1),
+    [
+      'IRI',
+      'RCR',
+      'IRI'
+    ],
+    {
+      I: '#forge:plates/iron',
+      R: 'kubejs:flux_induced_iron',
+      C: '#forge:ingots/copper',
+    });
+    event.shaped(Item.of("immersiveengineering:component_steel", 1),
+    [
+      'IRI',
+      'RCR',
+      'IRI'
+    ],
+    {
+      I: '#forge:plates/steel',
+      R: '#forge:ingots/redstone_alloy',
+      C: '#forge:ingots/copper',
     });
 
     // coal coke
@@ -94,5 +116,15 @@ ServerEvents.recipes(event => {
     });
 
     // Remove excavator - won't do
+
+    // Oil refining¸
+    event.custom({
+      "type":"immersiveengineering:refinery",
+      "catalyst":{"tag":"forge:ingots/compressed_iron"},
+      "energy":80,
+      "input0":{"amount":8,"tag":"forge:plantoil"},
+      "input1":{"amount":8,"tag":"forge:ethanol"},
+      "result":{"amount":16,"fluid":"pneumaticcraft:oil"}
+    });
 
 });

@@ -4,8 +4,9 @@ ServerEvents.recipes(event => {
 
     /**
      * TODOs: 
-     * Make redstone spawn only in the twilightforest
      * Hostile networks: prediction quests make easier
+     * Nerf and fix simply jetpacks
+     * Make redstone spawn only in the twilightforest - done
      * How to source emeralds? - With mob farm
      * Make drawers upgrades incremental - done
      * Nerf ae2 spacial storage to prevent abuse - no need

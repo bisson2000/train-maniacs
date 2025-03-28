@@ -3,13 +3,7 @@
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 1
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "type": "sparseoreclusters:center_chunk_placement"
+      "count": 0
     },
     {
       "type": "sparseoreclusters:spread_filter"
