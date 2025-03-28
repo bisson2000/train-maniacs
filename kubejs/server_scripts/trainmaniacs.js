@@ -5,7 +5,11 @@ ServerEvents.recipes(event => {
     /**
      * TODOs: 
      * Make redstone spawn only in the twilightforest
-     * Disable mekanism miner and immersiveengineering excavator - done
+     * Hostile networks: prediction quests make easier
+     * How to source emeralds? - With mob farm
+     * Make drawers upgrades incremental - done
+     * Nerf ae2 spacial storage to prevent abuse - no need
+     * Disable mekanism miner and immersiveengineering excavator - done. Won't remove mekanism miner
      * Portals to dimensions: planets, twilight forest, end (aether integrated with create already) - done
      * Change ore generation on planets - done
      * Make ores more sparse. Encourage trains - done
@@ -571,14 +575,15 @@ ServerEvents.recipes(event => {
     // end remastered
     event.remove({mod: "endrem", id: "endrem:witch_eye"});
     event.shaped(Item.of("endrem:witch_eye", 1), [
-      "EWA",
-      "B  ",
-      "   "
+      "EW ",
+      "AB ",
+      "  X"
     ], {
       E: "minecraft:ender_eye",
       W: "endrem:witch_pupil",
       A: "twilightforest:snow_queen_trophy",
       B: "twilightforest:ur_ghast_trophy",
+      X: "mekanism:pellet_antimatter"
     });
 
 

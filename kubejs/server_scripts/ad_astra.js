@@ -17,6 +17,8 @@ ServerEvents.recipes(event => {
     event.remove({mod: "ad_astra", type: "ad_astra:compressing"});
     event.remove({id: "ad_astra:compressor"});
 
+    event.replaceInput({mod: "ad_astra", id: "ad_astra:etrionic_blast_furnace"}, "minecraft:redstone", "#forge:plates/steel");
+
     // alloying in the etrionic blast furnace
     event.remove({mod: "ad_astra", id: "ad_astra:alloying/steel_ingot_from_alloying_iron_ingot_and_coals"});
     event.custom({

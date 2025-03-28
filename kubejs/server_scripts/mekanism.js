@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
     event.remove({mod: "mekanism", id: "mekanism:crushing/gravel_to_sand"});
 
     // Remove digital miner
-    event.remove({mod: "mekanism", id: "mekanism:digital_miner"});
+    // event.remove({mod: "mekanism", id: "mekanism:digital_miner"});
 
 
     // TODO: Units for armor

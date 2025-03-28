@@ -72,4 +72,7 @@ JEIEvents.hideFluids(event => {
 
   // tconstruct
   event.hide(Fluid.of("tconstruct:molten_ender"));
+
+  // ad_astra
+  event.hide(Fluid.of("ad_astra:oil"));
 });
