@@ -11,19 +11,19 @@ ServerEvents.recipes(event => {
     });
 
     // AE2WTLib quantum bridge card
-    event.remove({mod: "ae2wtlib", id: "ae2wtlib:quantum_bridge_card"});
-    event.shaped(
-        Item.of('ae2wtlib:quantum_bridge_card', 1),
-        [
-          '   ',
-          'FNF',
-          ' W '
-        ],
-        {
-          F: "ae2:fluix_pearl",
-          N: '#forge:nether_stars',
-          W: 'ae2:wireless_receiver',
-        }
-    );
+    //event.remove({mod: "ae2wtlib", id: "ae2wtlib:quantum_bridge_card"});
+    //event.shaped(
+    //    Item.of('ae2wtlib:quantum_bridge_card', 1),
+    //    [
+    //      '   ',
+    //      'FNF',
+    //      ' W '
+    //    ],
+    //    {
+    //      F: "ae2:fluix_pearl",
+    //      N: '#forge:nether_stars',
+    //      W: 'ae2:wireless_receiver',
+    //    }
+    //);
 
 });

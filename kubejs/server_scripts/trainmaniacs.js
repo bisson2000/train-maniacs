@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
      * TODOs: 
      * Hostile networks: prediction quests make easier
      * Nerf and fix simply jetpacks
+     * Nerf pneumaticcraft with osmium or desh
      * Make redstone spawn only in the twilightforest - done
      * How to source emeralds? - With mob farm
      * Make drawers upgrades incremental - done
@@ -418,7 +419,7 @@ ServerEvents.recipes(event => {
       "RVP",
       "RFR"
     ], {
-      R: "pneumaticcraft:reinforced_bricks",
+      R: "ad_astra:desh_block",
       F: "ironfurnaces:obsidian_furnace",
       P: "pneumaticcraft:pressure_tube",
       V: "aether_redux:veridium_block",

@@ -25,6 +25,13 @@ JEIEvents.hideItems(event => {
   event.hide(Item.of("mekanism:digital_miner"));
 
   // immersiveengineering
+
+  // ae2
+  event.hide(Item.of("ae2:quantum_link"));
+  event.hide(Item.of("ae2:quantum_ring"));
+
+  // ad_astra
+  event.hide(Item.of("ad_astra:compressor"));
 });
 
 JEIEvents.hideFluids(event => {
