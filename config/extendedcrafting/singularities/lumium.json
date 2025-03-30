@@ -1,0 +1,11 @@
+{
+  "name": "Lumium",
+  "colors": [
+    "d3b51d",
+    "b09a2c"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/lumium"
+  }
+}

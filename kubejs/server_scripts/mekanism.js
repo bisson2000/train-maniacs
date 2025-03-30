@@ -2,6 +2,10 @@
 
 ServerEvents.recipes(event => {
 
+    event.forEachRecipe({mod: "mekanism"}, recipe => {
+        console.info(`recipe: ${recipe.json}`);
+    });
+
     // combining
     [
         ["minecraft:iron_ore"],
@@ -54,10 +58,6 @@ ServerEvents.recipes(event => {
     // glowstone
     event.remove({mod: "mekanism", id: "mekanism:nucleosynthesizing/glowstone_block"});
 
-    //event.forEachRecipe({mod: "mekanism"}, recipe => {
-    //    console.info(`recipe: ${recipe.json}`);
-    //});
-
     // spent nuclear waste
     event.custom({
         type:"mekanism:rotary",
@@ -71,8 +71,14 @@ ServerEvents.recipes(event => {
     event.remove({mod: "mekanism", id: "mekanism:crushing/cobblestone_to_gravel"});
     event.remove({mod: "mekanism", id: "mekanism:crushing/gravel_to_sand"});
 
-    // Remove digital miner
-    // event.remove({mod: "mekanism", id: "mekanism:digital_miner"});
+    // Lithium
+    event.remove({mod: "mekanism", id: "mekanism:crystallizing/lithium"});
+    event.custom({
+        "type":"mekanism:crystallizing",
+        "chemicalType":"gas",
+        "input":{"amount":100,"gas":"mekanism:lithium"},
+        "output":{"item":"nuclearcraft:lithium_dust"}
+    });
 
 
     // TODO: Units for armor

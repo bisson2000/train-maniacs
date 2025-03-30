@@ -1,0 +1,11 @@
+{
+  "name": "Antimatter",
+  "colors": [
+    "9237ad",
+    "5e296e"
+  ],
+  "materialCount": 10,
+  "ingredient": {
+    "item": "mekanism:pellet_antimatter"
+  }
+}

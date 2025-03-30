@@ -1,0 +1,11 @@
+{
+  "name": "Dawnstone",
+  "colors": [
+    "eea401",
+    "c9992e"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/dawnstone"
+  }
+}

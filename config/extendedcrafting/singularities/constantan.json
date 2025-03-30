@@ -1,0 +1,11 @@
+{
+  "name": "Constantan",
+  "colors": [
+    "d08215",
+    "ab711f"
+  ],
+  "materialCount": 10000,
+  "ingredient": {
+    "tag": "forge:ingots/constantan"
+  }
+}

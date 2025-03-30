@@ -6,7 +6,10 @@ ServerEvents.recipes(event => {
      * TODOs: 
      * Hostile networks: prediction quests make easier
      * Nerf and fix simply jetpacks
-     * Nerf pneumaticcraft with osmium or desh
+     * Nerf wood
+     * Recipe for rabbit foot - done
+     * Recipe for chunk loader - done
+     * Nerf pneumaticcraft with osmium or desh - done
      * Make redstone spawn only in the twilightforest - done
      * How to source emeralds? - With mob farm
      * Make drawers upgrades incremental - done
@@ -388,7 +391,7 @@ ServerEvents.recipes(event => {
       P: "#forge:plates/calorite",
       T: "ad_astra:ostrum_tank",
       R: "#forge:rods/steel",
-      W: "nuclearcraft:fuel_californium_hecf_251",
+      W: "nuclearcraft:fuel_californium_hecf_251_ox",
     });
 
     // pneumaticcraft
@@ -424,6 +427,8 @@ ServerEvents.recipes(event => {
       P: "pneumaticcraft:pressure_tube",
       V: "aether_redux:veridium_block",
     });
+    event.replaceInput({mod: "pneumaticcraft", id: "pneumaticcraft:manual_compressor"}, "minecraft:red_dye", "#forge:ingots/desh");
+
     event.remove({mod: "pneumaticcraft", id: "pneumaticcraft:thermopneumatic_processing_plant"});
     event.shaped(Item.of("pneumaticcraft:thermopneumatic_processing_plant", 1), [
       "RFR",
@@ -435,6 +440,8 @@ ServerEvents.recipes(event => {
       P: "pneumaticcraft:pressure_tube",
       S: "pneumaticcraft:small_tank",
     });
+
+    event.recipes.thermal.chiller(Item.of("pneumaticcraft:plastic", 1), Fluid.of("pneumaticcraft:plastic", 1000), 0, 2000);
 
     // bloodmagic
     // blood magic depends on desh. Replace all gold with it
@@ -470,6 +477,7 @@ ServerEvents.recipes(event => {
 
     // mekanism
     event.replaceInput({mod: "mekanism", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
+    event.replaceInput({mod: "mekanism", input: "#forge:dusts/redstone"}, "#forge:dusts/redstone", "enderio:redstone_alloy_ingot");
     event.replaceInput({mod: "mekanism", input: "minecraft:furnace"}, "minecraft:furnace", "ironfurnaces:obsidian_furnace");
     event.replaceInput({mod: "mekanism", id: "mekanism:metallurgic_infuser"}, "#forge:ingots/osmium", "mekanism:steel_casing") ;
 
@@ -534,6 +542,14 @@ ServerEvents.recipes(event => {
       O: "#forge:ingots/osmium",
       F: "thermal:machine_frame"
     });
+    // Rabbit's foot
+    event.custom({
+      "type":"mekanism:nucleosynthesizing",
+      "duration":200,
+      "gasInput":{"amount":1,"gas":"mekanism:antimatter"},
+      "itemInput":{"ingredient":{"item":"minecraft:beef"}},
+      "output":{"item":"minecraft:rabbit_foot"}
+    });
 
     // nuclearcraft
     event.replaceInput({mod: "nuclearcraft", input: "minecraft:redstone"}, "minecraft:redstone", "enderio:redstone_alloy_ingot");
@@ -563,9 +579,6 @@ ServerEvents.recipes(event => {
       "#forge:ingots/uranium",
     ], 20000);
 
-    event.forEachRecipe({mod: "mekanism", type: "mekanism:nucleosynthesizing"}, recipe => {
-        console.info(`recipe: ${recipe.json}`);
-    });
     event.custom({
       type:"mekanism:nucleosynthesizing",
       duration:1500,
@@ -579,13 +592,14 @@ ServerEvents.recipes(event => {
     event.shaped(Item.of("endrem:witch_eye", 1), [
       "EW ",
       "AB ",
-      "  X"
+      "XD "
     ], {
       E: "minecraft:ender_eye",
       W: "endrem:witch_pupil",
       A: "twilightforest:snow_queen_trophy",
       B: "twilightforest:ur_ghast_trophy",
-      X: "mekanism:pellet_antimatter"
+      X: "mekanism:pellet_antimatter",
+      D: "draconicevolution:wyvern_core",
     });
 
 

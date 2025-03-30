@@ -22,7 +22,8 @@ JEIEvents.hideItems(event => {
   event.hide(Item.of("extendedcrafting:redstone_ingot_block"));
 
   // mekanism
-  event.hide(Item.of("mekanism:digital_miner"));
+  //event.hide(Item.of("mekanism:digital_miner"));
+  event.hide(Item.of("mekanism:quantum_entangloporter"));
 
   // immersiveengineering
 
@@ -32,6 +33,9 @@ JEIEvents.hideItems(event => {
 
   // ad_astra
   event.hide(Item.of("ad_astra:compressor"));
+
+  // nuclearcraft
+  event.hide(Item.of("nuclearcraft:leacher"));
 });
 
 JEIEvents.hideFluids(event => {

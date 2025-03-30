@@ -29,6 +29,7 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("minecraft:skeleton_horse").removeLoot("endrem:undead_soul");
     //event.addEntityLootModifier("minecraft:witch").removeLoot("endrem:witch_pupil"); // kept
     //event.addEntityLootModifier("minecraft:wither").removeLoot("endrem:wither_eye"); // kept
+    // witch eye kept
 
     // new bosses have the eyes
     event.addEntityLootModifier("cataclysm:ancient_remnant").addLoot("endrem:old_eye");
