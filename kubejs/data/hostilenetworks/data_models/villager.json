@@ -1,0 +1,24 @@
+{
+    "entity": "minecraft:villager",
+    "variants": [],
+    "name": "entity.minecraft.villager",
+    "name_color": "#872f03",
+    "gui_scale": 0.8,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:emerald",
+            "count": 32
+        }
+    ]
+}

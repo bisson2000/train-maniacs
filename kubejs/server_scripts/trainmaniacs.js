@@ -4,9 +4,11 @@ ServerEvents.recipes(event => {
 
     /**
      * TODOs: 
-     * Hostile networks: prediction quests make easier
-     * Nerf and fix simply jetpacks
-     * Nerf wood
+     * Add portal quests
+     * Add flux network quests
+     * Hostile networks: prediction quests make easier. Add villager prediction - done
+     * Nerf wood - done
+     * Nerf and fix simply jetpacks - done
      * Recipe for rabbit foot - done
      * Recipe for chunk loader - done
      * Nerf pneumaticcraft with osmium or desh - done
