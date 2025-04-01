@@ -8,8 +8,7 @@ Ponder.tags((event) => {
      * "This is a description"  -> the description
      * [...items]               -> default items
      */
-    event.createTag("kubejs:getting_started", "kubejs:fragment_of_knowledge_of_the_sky", "Glossary", "Glossary", [ // "kubejs:fragment_of_knowledge_of_the_sky"
-        // some default items
+    event.createTag("kubejs:getting_started", "kubejs:fragment_of_knowledge_of_the_sky", "Glossary", "Glossary", [
         "create:zinc_block",
         "ad_astra:cheese_block",
         "ad_astra:ostrum_block",
@@ -27,17 +26,17 @@ Ponder.tags((event) => {
 Ponder.registry((event) => {
 
     [
-        ["twilight_portal_scene", "create:zinc_block", "Twilight Forest", "flint_and_steel", "flint and steel"],
-        ["moon_portal_scene", "ad_astra:cheese_block", "Moon", "mekanism:ingot_osmium", "osmium ingot"],
+        ["twilight_portal_scene", "create:zinc_block", "the Twilight Forest", "flint_and_steel", "flint and steel"],
+        ["moon_portal_scene", "ad_astra:cheese_block", "the Moon", "mekanism:ingot_osmium", "osmium ingot"],
         ["mars_portal_scene", "ad_astra:ostrum_block", "Mars", "flint_and_steel", "flint and steel"],
         ["mercury_portal_scene", "mekanism:block_uranium", "Mercury", "flint_and_steel", "flint and steel"],
         ["venus_portal_scene", "ad_astra:calorite_block", "Venus", "flint_and_steel", "flint and steel"],
         ["glacio_portal_scene", "mekanism:block_fluorite", "Glacio", "flint_and_steel", "flint and steel"],
-        ["end_portal_scene", "minecraft:end_stone_bricks", "End", "draconicevolution:dragon_heart", "dragon heart"],
+        ["end_portal_scene", "minecraft:end_stone_bricks", "the End", "draconicevolution:dragon_heart", "dragon heart"],
         ["departure_portal_scene", "draconicevolution:awakened_draconium_block", "your original world", "extendedcrafting:ultimate_singularity", "singularity"],
     ].forEach(values => {
         const [sceneName, targetBlock, targetDimension, withItem, withItemName] = values;
-        event.create(targetBlock).scene(sceneName, "A portal to the " + targetDimension, (scene, util) => {
+        event.create(targetBlock).scene(sceneName, "A portal to " + targetDimension, (scene, util) => {
             scene.showStructure();
             
             scene.idle(10);
@@ -49,7 +48,7 @@ Ponder.registry((event) => {
             scene.world.setBlocks([3, 1, 3, 2, 3, 3], "minecraft:nether_portal", false); // middle
     
             scene
-                .text(60, `You can create a portal to go to the ${targetDimension}. You can activate it with a ${withItemName}`, [2.0, 2.5, 2.5])
+                .text(60, `You can create a portal to go to ${targetDimension}. You can activate it with a ${withItemName}`, [2.0, 2.5, 2.5])
                 .colored(PonderPalette.RED)
                 .placeNearTarget()
                 .attachKeyFrame();

@@ -59,4 +59,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.milling(["2x ae2:ender_dust"], ["minecraft:ender_pearl"]);
     //event.replaceOutput({mod: "create", id: "create:milling/compat/ae2/ender_pearl"}, "ae2:ender_dust", "2x ae2:ender_dust");
 
+    // nugget of experience
+    event.recipes.thermal.crystallizer([Item.of("create_sa:heap_of_experience", 10)], [Fluid.of("mob_grinding_utils:fluid_xp", 120), Item.of("minecraft:gravel", 1)], 0, 400);
+    event.recipes.thermal.crystallizer([Item.of("create_sa:heap_of_experience", 10)], [Fluid.of("enderio:xp_juice", 120), Item.of("minecraft:gravel", 1)], 0, 400);
+
 });

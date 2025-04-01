@@ -6,6 +6,6 @@
   ],
   "materialCount": 10000,
   "ingredient": {
-    "tiem": "mekanism:fluorite_gem"
+    "item": "mekanism:fluorite_gem"
   }
 }

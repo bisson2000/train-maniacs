@@ -1,0 +1,11 @@
+{
+  "name": "Gaia",
+  "colors": [
+    "f8cafa",
+    "c6b5c7"
+  ],
+  "materialCount": 2,
+  "ingredient": {
+    "item": "botania:gaia_ingot"
+  }
+}

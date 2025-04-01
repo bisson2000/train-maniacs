@@ -4,8 +4,10 @@ ServerEvents.recipes(event => {
 
     /**
      * TODOs: 
-     * Add portal quests
-     * Add flux network quests
+     * Add descriptions for quests
+     * Add Gaia singularity - done
+     * Add flux network quests - done
+     * Add portal quests - done 
      * Hostile networks: prediction quests make easier. Add villager prediction - done
      * Nerf wood - done
      * Nerf and fix simply jetpacks - done
