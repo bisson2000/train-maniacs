@@ -63,4 +63,10 @@ ServerEvents.recipes(event => {
     event.recipes.thermal.crystallizer([Item.of("create_sa:heap_of_experience", 10)], [Fluid.of("mob_grinding_utils:fluid_xp", 120), Item.of("minecraft:gravel", 1)], 0, 400);
     event.recipes.thermal.crystallizer([Item.of("create_sa:heap_of_experience", 10)], [Fluid.of("enderio:xp_juice", 120), Item.of("minecraft:gravel", 1)], 0, 400);
 
+    // andesite alloy limitation. Remove iron
+    event.remove({id: "tconstruct:compat/create/andesite_alloy_iron"});
+    event.remove({id: "create:mixing/andesite_alloy"});
+    event.remove({id: "thermal:compat/create/smelter_create_alloy_andesite_alloy"});
+    event.recipes.thermal.smelter([Item.of("create:andesite_alloy")], ["#forge:andesite", "#forge:nuggets/zinc"], 0, 3200);
+
 });

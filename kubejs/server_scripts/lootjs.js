@@ -1,9 +1,5 @@
 LootJS.modifiers((event) => {
-
-    // everlasting abilities, remove totem from natural spawning. Done in datapack
-    //event.addLootTableModifier("minecraft:chests/buried_treasure").removeLoot(Item.of("everlastingabilities:ability_totem"));
-    // abilities given with /give @s everlastingabilities:ability_totem{"everlastingabilities:abilityStoreStack":[{ "name": "everlastingabilities:effect/jump_boost", "level": 5 }, { "name": "everlastingabilities:effect/speed"}]}
-
+    
     // Aether bosses
     event.addEntityLootModifier("aether:valkyrie_queen").addLoot("kubejs:knowledge_of_the_sky");
     event.addEntityLootModifier("aether:sun_spirit").addLoot("kubejs:knowledge_of_hell");
