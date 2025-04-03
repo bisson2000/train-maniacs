@@ -1,0 +1,19 @@
+
+["Configs for Everdrill"]
+	#True if only naturally generated blocks are valid
+	"Natural only" = true
+	#True if the mined blocks should be stored within the everdrill's internal buffer. The items can be extracted with hoppers or other pipes. Good to use if you expect to have multiple drills used and you want to avoid lag.
+	"Use internal buffer" = true
+	#True if you want to target all blocks
+	"Target all" = false
+	#Which block tags are allowed to be mined more than once. Write the tag with modid:tag_name
+	"Allowed tags" = ["forge:ores"]
+	#Which block tags are NOT allowed to be mined more than once. Write the tag with modid:tag_name
+	"Denied tags" = []
+	#Which blocks are allowed to be mined more than once. Write the block with modid:block_name
+	"Allowed blocks" = ["minecraft:iron_ore", "minecraft:deepslate_iron_ore"]
+	#Which blocks are NOT allowed to be mined more than once. Write the block with modid:block_name
+	"Denied blocks" = ["minecraft:oak_log", "minecraft:acacia_log"]
+	#True if you want the enchanted blocks to have a glint effect
+	"Enable glint" = true
+

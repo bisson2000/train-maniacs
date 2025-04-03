@@ -121,7 +121,9 @@ ServerEvents.recipes(event => {
     event.remove({mod: "thermal", id: "thermal:machines/pulverizer/pulverizer_cobblestone"});
     event.remove({mod: "thermal", id: "thermal:machines/pulverizer/pulverizer_gravel"});
 
-    // cinder flour, double output
+    // cinder flour, quadruple output
+    event.remove({mod: "thermal", id: "thermal:compat/create/pulverizer_create_netherrack"});
+    event.recipes.thermal.pulverizer([Item.of("create:cinder_flour", 4)], [Item.of("minecraft:netherrack")], 0, 1000);
 });
 
 ServerEvents.tags('item', event => {
