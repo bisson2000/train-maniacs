@@ -94,6 +94,7 @@ Thumbs.db
 
 # Exclude exported CurseForge zip files
 *.zip
+!/resourcepacks/*.zip
 
 # Exclude exported Modrinth modpacks
 *.mrpack
