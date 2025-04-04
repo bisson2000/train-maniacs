@@ -1,0 +1,626 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flowers"
+	group: ""
+	icon: "botania:pure_daisy"
+	id: "5E2C15139243DBBA"
+	order_index: 16
+	quest_links: [{
+		id: "505102A9B26AE862"
+		linked_quest: "3F49DE35A1A3FEEE"
+		x: -2.0d
+		y: -5.5d
+	}]
+	quests: [
+		{
+			dependencies: ["3F49DE35A1A3FEEE"]
+			description: ["The apothecary is the crafting table of flowers"]
+			icon: "botania:apothecary_default"
+			id: "44FCCB6381E78C9A"
+			rewards: [{
+				count: 5
+				id: "4E654C8090A4D020"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "22A3AD536CA1F84D"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "6317A524DC1B048C"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					id: "12B6BCF1D0100D4B"
+					item: "botania:lexicon"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44FCCB6381E78C9A"]
+			id: "353B1C3FCCA9C730"
+			rewards: [{
+				count: 5
+				id: "044643928BF481F2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "254B10A2E0C9937A"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44FCCB6381E78C9A"]
+			description: [
+				"Livingwood can be obtained by placing logs near a pure daisy."
+				"Livingrock can be obtained by placing ostrum blocks near a pure daisy"
+			]
+			id: "589817A44569A251"
+			rewards: [{
+				count: 5
+				id: "69F1FDAEA005B5A6"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C72C405D2679DE1"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "4E00BE98603DA1D2"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["589817A44569A251"]
+			description: ["Spreading is caring"]
+			id: "7CFA44B243A9BF84"
+			rewards: [{
+				count: 5
+				id: "4ECAC1A26AC30CCE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CE30348FCA92532"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "1A51567D920A7584"
+					item: {
+						Count: 1
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CFA44B243A9BF84"]
+			id: "020AF0E3F8F269DA"
+			rewards: [{
+				count: 5
+				id: "573540ED08E3DB35"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F48832D60631615"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44FCCB6381E78C9A"]
+			description: ["From bone to flower"]
+			id: "2979C7840BB69F23"
+			rewards: [{
+				count: 5
+				id: "2ED8B4C5AEC9B919"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6165F558F34229F9"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44FCCB6381E78C9A"]
+			description: ["Too much experience? Plant this flower down!"]
+			id: "03435D16BC5DCA60"
+			rewards: [{
+				count: 5
+				id: "057B3264B626B9A9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E7B20423D09B5CF"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["44FCCB6381E78C9A"]
+			description: ["The easiest and simplest method of mana generation. Just throw some coal at it!"]
+			id: "17A68C1B74AA0A35"
+			rewards: [{
+				count: 5
+				id: "44D2884ACD418AC8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A4DED98C883A552"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44FCCB6381E78C9A"]
+			description: ["From flower to flower"]
+			id: "4546CDA0430638B7"
+			rewards: [{
+				count: 5
+				id: "73299BBBDA11A990"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "205239AE7636EA7C"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["44FCCB6381E78C9A"]
+			description: ["Cannibalism amongst plants"]
+			id: "75126201BD7099C6"
+			rewards: [{
+				count: 5
+				id: "27074B3720B54A6F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63966943D19B02C3"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["589817A44569A251"]
+			description: ["Runes and advanced crafting occurs here"]
+			id: "6B2DA167AF411061"
+			rewards: [{
+				count: 5
+				id: "5D620A1B674E4D08"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29B9B2BD541D311F"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B2DA167AF411061"]
+			description: ["Overpowered potions"]
+			id: "057B89A84998D402"
+			rewards: [{
+				count: 5
+				id: "5F91A1D6ECE694A5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C011B7F4426B128"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["589817A44569A251"]
+			description: ["This block transforms mana infusion"]
+			id: "047690B1FC82CBE4"
+			rewards: [{
+				count: 5
+				id: "3DDB1A7C871734E4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ED036B291E5F043"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["353B1C3FCCA9C730"]
+			id: "0FE64319624BEDE4"
+			rewards: [{
+				count: 5
+				id: "1D3D474CD3A0155F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "3AB8B3B521927BC5"
+				item: { Count: 9, id: "botania:manasteel_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FE64319624BEDE4"]
+			description: ["The plate must be placed on a livingrock and lapis pattern. The book will have more information about this."]
+			id: "7BD76EB2C7A24C05"
+			rewards: [{
+				count: 5
+				id: "2F71680A8629186E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "203DFF721A443CF0"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BD76EB2C7A24C05"]
+			id: "5AEC5A29A69B99C4"
+			rewards: [{
+				count: 5
+				id: "49D2E70A8AA9828A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "620464698EBCA145"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0B267DE88755DD49"
+					item: { Count: 3, id: "botania:glimmering_livingwood" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "130B49783C8CF760"
+					item: { Count: 8, id: "botania:livingwood" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5FE40E4631BFA7A6"
+					item: { Count: 2, id: "botania:natura_pylon" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "633B13C04627860D"
+					item: { Count: 2, id: "botania:mana_pool" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BD76EB2C7A24C05"]
+			description: ["Transferring mana with spreaders is too slow. A spark will speed up the process!"]
+			id: "72ADF3ECE3A6381E"
+			rewards: [{
+				count: 5
+				id: "3E1E0FD94738AC9B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "1D07B06F3957385B"
+					item: "botania:spark"
+					type: "item"
+				}
+				{
+					id: "3A69536977F8B909"
+					item: "botania:spark_upgrade_recessive"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["736316872E635444"]
+			description: ["ctrl + c, ctrl + v"]
+			id: "2980F82774C04D42"
+			rewards: [{
+				count: 5
+				id: "004F1E80D9ADA082"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B56D71B3F43281A"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5AEC5A29A69B99C4"]
+			description: ["Throwing things in the portal seems to yield their elven equivalent"]
+			id: "736316872E635444"
+			rewards: [{
+				count: 5
+				id: "5C82F52EBAF374F7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2ECB1CF63D1BF76E"
+					item: "botania:quartz_elven"
+					type: "item"
+				}
+				{
+					id: "6C84E447C25EB359"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "18893BFFD2C0CCAC"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					id: "5E6C4719770B1F9D"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BD76EB2C7A24C05"]
+			description: ["The most overpowered ingot"]
+			id: "6C8055884072B8DF"
+			rewards: [{
+				count: 5
+				id: "0B8C76D3FB0143A0"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E74CCC63AC88B44"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C8055884072B8DF"]
+			description: ["Automatic trading"]
+			id: "6E1A0626CBFBC92C"
+			rewards: [{
+				count: 5
+				id: "37261D3B70DD455B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56B5AAD993A31719"
+				item: "botanicalmachinery:alfheim_market"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6C8055884072B8DF"]
+			description: ["Automatic runing"]
+			id: "45610A7937270573"
+			rewards: [{
+				count: 5
+				id: "0D3D6B8C525BEBC1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "198AD730E81CCCC1"
+				item: "botanicalmachinery:mechanical_runic_altar"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C8055884072B8DF"]
+			description: ["Automatic pooling"]
+			id: "490C0467E2176030"
+			rewards: [{
+				count: 5
+				id: "200B3C1AB93FE9A6"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "116EE8A2E66146EE"
+				item: "botanicalmachinery:mechanical_mana_pool"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6C8055884072B8DF"]
+			description: ["modern mana storage"]
+			id: "687678A2B954B331"
+			rewards: [{
+				count: 5
+				id: "4299F6C08C1ADA70"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E66A0FCBC1EE72B"
+				item: "botanicalmachinery:mana_battery"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C8055884072B8DF"]
+			description: ["Automatic agglomeration"]
+			id: "2C5797A9A73EBE47"
+			rewards: [{
+				count: 5
+				id: "0CDEE6DB57C31B50"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E660E8FAB568F12"
+				item: "botanicalmachinery:industrial_agglomeration_factory"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["353B1C3FCCA9C730"]
+			id: "04CA9E7A0EACB45F"
+			rewards: [{
+				count: 5
+				id: "0681DE14C6D5AE88"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FC80874F3C6FE58"
+				item: "appbot:fluix_mana_pool"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["736316872E635444"]
+			description: ["The gaia pylons are used to summon an unkown entity into this world. The book should have more information about this."]
+			id: "6D5FAE4FD40DC7D4"
+			rewards: [{
+				count: 5
+				id: "1E5EEF7096216E2D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6722D32C191CE0C0"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D5FAE4FD40DC7D4"]
+			description: ["The essence of the entity"]
+			id: "77F3235EC34F832C"
+			rewards: [{
+				count: 5
+				id: "44C142E3ACEEE5AA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C57319466749ACF"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17A68C1B74AA0A35"]
+			description: ["Place flowers anywhere"]
+			id: "7DE878C91C60901E"
+			rewards: [{
+				count: 5
+				id: "7E447935A77AC747"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "300AFB9672DA9B2B"
+				item: "botania:floating_endoflame"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+	]
+	title: "Flowers"
+}

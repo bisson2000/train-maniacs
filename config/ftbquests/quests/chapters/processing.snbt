@@ -1,0 +1,1542 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "processing"
+	group: ""
+	icon: "thermal:machine_frame"
+	id: "2269156C0C040662"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Getting to machines"]
+			id: "2EE8D29401D93254"
+			rewards: [{
+				count: 5
+				id: "5B55304009AB1181"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "28040490C4824F7E"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: ["Lit a bedrock block on fire to gather its grains of infinity. Then, reap the rewards by putting it in a phytogenic insolator"]
+			id: "03DE595B220F58E6"
+			rewards: [{
+				count: 5
+				id: "41BC3408DBC22862"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "3557335D057AF413"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Smelting without fuel"]
+			id: "5E48EF3FFCA8C610"
+			rewards: [{
+				count: 5
+				id: "2FBC129A25621734"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61907B33DCC275AA"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Making more wood out of logs"]
+			id: "040C4C403645E272"
+			rewards: [{
+				count: 5
+				id: "16EA332B1AD3764F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45B03E2BF0F62571"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["From dust to atoms"]
+			id: "72BF45E10AB6155F"
+			rewards: [{
+				count: 5
+				id: "1FA9B4AECAE474D6"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54885E05717D0335"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Alloys made easy"]
+			id: "2058D89D412B0D5A"
+			rewards: [{
+				count: 5
+				id: "426170E91AA56575"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33A5CA9C550207B6"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Let it grow"]
+			id: "3619157F6B86A5E9"
+			rewards: [{
+				count: 5
+				id: "046553CA331CF9E6"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C0366CFDD9E0F7E"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "1C704BEA08CEB8C5"
+			rewards: [{
+				count: 5
+				id: "6E5E4436045A757C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B74F805781D3253"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "43CA7D09E857BDDF"
+			rewards: [{
+				count: 5
+				id: "1C5D0D9194D0A84B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "462DC676ECE9C1C9"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Liquify everything!"]
+			id: "7360F1762AFF20B3"
+			rewards: [{
+				count: 5
+				id: "63360E5364CDE211"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63D7FB3597F72E2D"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["From hot to cold"]
+			id: "6972A32FFC4AA61C"
+			rewards: [{
+				count: 5
+				id: "2A2D26574B7EDDE0"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E28C7784D5DE45B"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Refining oil"]
+			id: "3D3B50A14BF9E9A2"
+			rewards: [{
+				count: 5
+				id: "1F0EB28A6E322D71"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1100177078AB7DCC"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "0848BCA804C11C79"
+			rewards: [{
+				count: 5
+				id: "4AC9446D8F0E65D8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11F26D09141F1B22"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Contained fluids"]
+			id: "144CB97C8AB2BC70"
+			rewards: [{
+				count: 5
+				id: "7C386FDE6B4FF811"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32809CD30A4FA18F"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Potions"]
+			id: "7CA4092972A12C94"
+			rewards: [{
+				count: 5
+				id: "43EA820BFC2B7B6C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7751FFAD6C11E59C"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Solidify"]
+			id: "06B7E82C805A9CC5"
+			rewards: [{
+				count: 5
+				id: "37ED560A265673B1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43CCCC88CD53DCBA"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "42B623FDD5EC713F"
+			rewards: [{
+				count: 5
+				id: "0D29C721328A1C8E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CD6BF091AC807EC"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "570C062F796B9F58"
+			rewards: [{
+				count: 5
+				id: "67FF302C6677EF54"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EF6BC0037616A6B"
+				item: "thermal:fluid_duct"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "3CAC1A8193E4C41B"
+			rewards: [{
+				count: 5
+				id: "78052134BCCC7E1E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10EFBE3039C16DDF"
+				item: "thermal:energy_duct"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Allows pipes to pull items/fluids"]
+			id: "60E45FED6DA6A157"
+			rewards: [{
+				count: 5
+				id: "517C2D06ACA77F9F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45100645905F49B1"
+				item: "thermal:servo_attachment"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["60E45FED6DA6A157"]
+			id: "11C9C5FF460CB8B9"
+			rewards: [{
+				count: 5
+				id: "32B3270E909975B3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "087203FC1B070B96"
+				item: "thermal:turbo_servo_attachment"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "32BC47E252DBB4E6"
+			rewards: [{
+				count: 5
+				id: "235C6FB37F15BFD2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DBDC31249F7C494"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "05AF61EECADBBFC2"
+			rewards: [{
+				count: 5
+				id: "31D29D262B7BA9F0"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E70F53D465010D1"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B482C05E38DFB59"]
+			description: ["Speeds up the machine it is in"]
+			id: "19B98A63DEA92F78"
+			rewards: [{
+				count: 5
+				id: "624F0FD7ABA27582"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C2D3DE5E785384D"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D35CAC183BCF1D5"]
+			description: ["Speeds up the machine it is in"]
+			id: "7B482C05E38DFB59"
+			rewards: [{
+				count: 5
+				id: "5BB5B54770EED62D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A350CDFA19B3F3F"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Speeds up the machine it is in"]
+			id: "2D35CAC183BCF1D5"
+			rewards: [{
+				count: 5
+				id: "7DBF2BE6A44F405C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3616C50892C6AD78"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "7CC2BE6C87C66D46"
+			rewards: [{
+				count: 5
+				id: "4AD68986AD231C62"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34A6036B58DEBBFA"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "27C1BA326B25A7A2"
+			rewards: [{
+				count: 5
+				id: "34DF1F5ED14C0E6F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20CE61474D6A4A7F"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "2162548E5591414C"
+			rewards: [{
+				count: 5
+				id: "266B2F3016CD6041"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60FD997E49AF6EF6"
+				item: "thermal:rose_gold_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "4D7B9A48E0DE9F80"
+			rewards: [{
+				count: 5
+				id: "23F6697E26AE80AA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61DE68D8531FA83E"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3619157F6B86A5E9"]
+			id: "59C0861269863FC2"
+			rewards: [{
+				count: 5
+				id: "328586524C56D63F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D22A06743ADDEE0"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3619157F6B86A5E9"]
+			id: "45663D709ACCD0E5"
+			rewards: [{
+				count: 5
+				id: "0B6B1F68E21D46BC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72009408B13B84FD"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "247FEE31E9238A03"
+			rewards: [{
+				count: 5
+				id: "6C13EFEF125D6A95"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10BA908C0C594226"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "4A037768F1EE5803"
+			rewards: [{
+				count: 5
+				id: "57AE571284567A62"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AEE1F120D5304A0"
+				item: "thermal:machine_efficiency_augment"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			description: ["Every machine needs it"]
+			id: "41AC12AA9D7006F3"
+			rewards: [{
+				count: 5
+				id: "1C457EF8476124E8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36DC325F6EAB303C"
+				item: "kubejs:grainy_capacitor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			id: "388DB6F59640C667"
+			rewards: [{
+				count: 5
+				id: "6E657172D13531D4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "106D1F8A688C7F38"
+				item: "kubejs:flux_induced_iron"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["388DB6F59640C667"]
+			id: "0B8E31BCAC033598"
+			rewards: [{
+				count: 5
+				id: "1B7F1D0917084B64"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7235B7FDB59D7EAD"
+				item: "enderio:redstone_alloy_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			id: "73B0A9C39AB6D3C9"
+			rewards: [{
+				count: 5
+				id: "4686A36818C9B633"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B37D3E29F895A80"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["73B0A9C39AB6D3C9"]
+			id: "302E7E79A8E617EF"
+			rewards: [{
+				count: 5
+				id: "54392A463286103E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "268A39B828B70456"
+				item: "enderio:end_steel_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["41AC12AA9D7006F3"]
+			id: "65E97B1E1DC2994B"
+			rewards: [{
+				count: 5
+				id: "3BF7272FF3198799"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08AE62EA15219363"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["65E97B1E1DC2994B"]
+			id: "5C34EE11C9347D07"
+			rewards: [{
+				count: 5
+				id: "6ED1AB85908354B5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C71C23C8BCAC5D7"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "3872C059958FDDB8"
+			rewards: [{
+				count: 5
+				id: "50D6621F8ABBB1B7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BCEF4B67189088D"
+				item: "mekanism:ingot_bronze"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			id: "123E290D5B087D84"
+			rewards: [{
+				count: 5
+				id: "016DD199070688EF"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "144A10B4876EE9AC"
+				item: "enderio:copper_alloy_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["123E290D5B087D84"]
+			id: "418D530095D34ECD"
+			rewards: [{
+				count: 5
+				id: "7A90F3E58A739325"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CC0C30851A60E71"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			id: "398A5C4446D459F5"
+			rewards: [{
+				count: 5
+				id: "0F1A787321B20A52"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45C151F3BD91D489"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["398A5C4446D459F5"]
+			id: "50AFB4582722361F"
+			rewards: [{
+				count: 5
+				id: "1359866A39058B93"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F4447063B1AB3CA"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			id: "23C6C96BC9BE3EA6"
+			rewards: [{
+				count: 5
+				id: "23CDD1DD2AF53BBE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BF0C7583BA44A46"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			id: "6FC672D7E2C95932"
+			rewards: [{
+				count: 5
+				id: "75B311AEBC9D9060"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B8F9A81B84E6016"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C34EE11C9347D07"]
+			id: "64BF2275D01E6532"
+			rewards: [{
+				count: 5
+				id: "247A723121C7386A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05B1034C05957AB4"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["64BF2275D01E6532"]
+			id: "23B82A324FE3A532"
+			rewards: [{
+				count: 5
+				id: "433E09B64F8AEC37"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FF409699689DD66"
+				item: "kubejs:decuplic_capacitor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			id: "4C6B8F1B52C045FE"
+			rewards: [{
+				count: 5
+				id: "682253FCC5852EA5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A61D6486999B53B"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			id: "77518EDAF5277EBC"
+			rewards: [{
+				count: 5
+				id: "6F30F0052CD330BD"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EF6B6319DB6913D"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			description: ["Starting out on complex alloys"]
+			id: "5077175D69E91CEE"
+			rewards: [{
+				count: 5
+				id: "0D8F5D489E705FFB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41613003D622EA18"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5077175D69E91CEE"
+				"4C6B8F1B52C045FE"
+			]
+			id: "03EEB04750568003"
+			rewards: [{
+				count: 5
+				id: "0BA5A56E53065665"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A1FBC20F4918450"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4C6B8F1B52C045FE"]
+			description: ["Shred"]
+			id: "7D2C145291826EC9"
+			rewards: [{
+				count: 5
+				id: "447DE40126A6E9EA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60CD60A2956DE001"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77518EDAF5277EBC"]
+			id: "3A1FE0C1E2AE2CC8"
+			rewards: [{
+				count: 5
+				id: "0DA98680CF3ED3EC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41D12303DF2F8C02"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77518EDAF5277EBC"]
+			id: "099CDF5B12D179A4"
+			rewards: [{
+				count: 5
+				id: "3051FCCB3837959C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "132B4218390982EA"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77518EDAF5277EBC"]
+			id: "1283907EF9B28B9C"
+			rewards: [{
+				count: 5
+				id: "27CFB0D615EC9137"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D9570A1010E26E"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["77518EDAF5277EBC"]
+			id: "4BAE8E6AF75ACBE5"
+			rewards: [{
+				count: 5
+				id: "3976DA33CD883FAF"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07D2F383F86476B8"
+				item: "enderio:aversion_obelisk"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77518EDAF5277EBC"]
+			id: "4AE718D023E36B9F"
+			rewards: [{
+				count: 5
+				id: "43C664869D3CC050"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35E932D99C5B1226"
+				item: "enderio:xp_obelisk"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65E97B1E1DC2994B"]
+			id: "357C0DECCD71CFC6"
+			rewards: [{
+				count: 5
+				id: "04545ACD32684367"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E0EB1F7497624C7"
+				item: "enderio:basic_capacitor_bank"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["357C0DECCD71CFC6"]
+			id: "60E688AB7EE400DE"
+			rewards: [{
+				count: 5
+				id: "4B22B207B96E779E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48AF9A080004CF96"
+				item: "enderio:advanced_capacitor_bank"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["60E688AB7EE400DE"]
+			id: "53C8817C46A6C6AF"
+			rewards: [{
+				count: 5
+				id: "6B325673130786BC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B1029EA336B6F74"
+				item: "enderio:vibrant_capacitor_bank"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4C6B8F1B52C045FE"]
+			id: "2594110097CB92F4"
+			rewards: [{
+				count: 5
+				id: "26AEAECF534D67B5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35DD15ABDD38A419"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Solid fuel dynamo"]
+			id: "5C640B6EDE93EE0B"
+			rewards: [{
+				count: 5
+				id: "00A135B8E4BF3F87"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04AD9529C104E07E"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C640B6EDE93EE0B"]
+			description: ["Liquid fuel dynamo. Works great with lava, especially if there is an infinite source of it!"]
+			id: "6CD91316F34E8FBC"
+			rewards: [{
+				count: 5
+				id: "6610863199432D2F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57AD21A8BBC17A04"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "32A0BEA725D16A91"
+			rewards: [{
+				count: 5
+				id: "012E564C8E1C69D1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "6AF06AD3FB6E5CE3"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32A0BEA725D16A91"]
+			description: ["Useful for building large structures, or clearing large areas"]
+			id: "44F82D32C5F13C0C"
+			rewards: [{
+				count: 5
+				id: "1B40287BC49B27EA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6560E7FFB45438A3"
+				item: "rftoolsbuilder:builder"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333FD17AA7FDCA7B"]
+			id: "0E06BE95639685C2"
+			rewards: [{
+				count: 5
+				id: "0BD4828355F5AAA3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55A00B01A04016C7"
+				item: "rftoolsbuilder:shape_card_quarry_clear"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44F82D32C5F13C0C"]
+			id: "4463683697720712"
+			rewards: [{
+				count: 5
+				id: "2C73F953F97B539F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "769685268903A94E"
+				item: "rftoolsbuilder:shape_card_def"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4463683697720712"]
+			id: "333FD17AA7FDCA7B"
+			rewards: [{
+				count: 5
+				id: "0DCC67AA4F579FD3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E11BF53977DD052"
+				item: "rftoolsbuilder:shape_card_quarry"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32A0BEA725D16A91"]
+			description: ["A must for autocrafting those strange recipes"]
+			id: "5F35326443433685"
+			rewards: [{
+				count: 5
+				id: "6F62622483BD7F9F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "544A073D4EDABCD5"
+				item: "rftoolsutility:crafter1"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F35326443433685"]
+			id: "2DA2B940C731F106"
+			rewards: [{
+				count: 5
+				id: "3B8F6C61B904E38F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A3AA542935DEF2B"
+				item: "rftoolsutility:crafter2"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2DA2B940C731F106"]
+			id: "326557EC768AB2EB"
+			rewards: [{
+				count: 5
+				id: "6509A701B7B71DF8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67CF105813EC67C0"
+				item: "rftoolsutility:crafter3"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "2C49295B1EBC48C0"
+			rewards: [{
+				count: 5
+				id: "604F268F3FB91A93"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "099141E18002AD72"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64BF2275D01E6532"]
+			id: "2DE76405B32C1B15"
+			rewards: [{
+				count: 5
+				id: "1D4BD8A37B3015E4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AAAC305C5C4086C"
+				item: "kubejs:microchip_tier_1"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Charge equipment fast"]
+			id: "18F00E2BD72BA7B9"
+			rewards: [{
+				count: 5
+				id: "78A94AD023E188CC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "554AC2F1553A611C"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Cobblestone, Obsidian and other rocks created easily!"]
+			id: "3A949D8E592C0247"
+			rewards: [{
+				count: 5
+				id: "462006A59D176E12"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20D42FDF3419CA22"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EE8D29401D93254"]
+			id: "3D72AD4D483C86B3"
+			rewards: [{
+				count: 5
+				id: "1AC7F9F4CA8758C6"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3171093E1EA167B3"
+				item: {
+					Count: 1
+					id: "simplyjetpacks:jetpack_te1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D72AD4D483C86B3"]
+			id: "5F558BF8109C64D6"
+			rewards: [{
+				count: 5
+				id: "5CFD75E2A9AAD897"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F9F1597B5A181D4"
+				item: {
+					Count: 1
+					id: "simplyjetpacks:jetpack_te2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F558BF8109C64D6"]
+			id: "3197A9435624C487"
+			rewards: [{
+				count: 5
+				id: "77A2F4B1FBCB799F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "544EE9F1248F69E9"
+				item: {
+					Count: 1
+					id: "simplyjetpacks:jetpack_te3"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3197A9435624C487"]
+			id: "3B597EDF031D1777"
+			rewards: [{
+				count: 5
+				id: "70D664C087C2B2A1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F3E22F0EF7D243"
+				item: {
+					Count: 1
+					id: "simplyjetpacks:jetpack_te4"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3B597EDF031D1777"]
+			id: "643FA2EB846B3C19"
+			rewards: [{
+				count: 5
+				id: "1CA8AAB970FBFAE3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3084A44EE98006DD"
+				item: {
+					Count: 1
+					id: "simplyjetpacks:jetpack_te5"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["643FA2EB846B3C19"]
+			description: ["The last jetpack you'll ever need"]
+			id: "674264E104FB2EB7"
+			rewards: [{
+				count: 5
+				id: "5055E1C29DD062AB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05894310DCF0E0BD"
+				item: {
+					Count: 1
+					id: "simplyjetpacks:jetpack_te5_enderium"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["03DE595B220F58E6"]
+			id: "026E55C3A76CE3E8"
+			rewards: [{
+				count: 5
+				id: "0EB5BECA3C69F530"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0769955A2581C07E"
+					item: "enderio:item_conduit"
+					type: "item"
+				}
+				{
+					id: "418E79546BABFE57"
+					item: "enderio:ender_fluid_conduit"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7CA4092972A12C94"]
+			description: ["Combining a night vision potion with some pulverized netherrack makes glowstone!"]
+			id: "1434962789FF101A"
+			rewards: [{
+				count: 5
+				id: "6BBDFC5217B9CD25"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67D27B23E5BADC45"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+	]
+	title: "Processing"
+}

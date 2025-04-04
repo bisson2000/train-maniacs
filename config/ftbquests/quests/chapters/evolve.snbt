@@ -1,0 +1,788 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "evolve"
+	group: ""
+	icon: "draconicevolution:reactor_core"
+	id: "230DF4660C623CB5"
+	order_index: 17
+	quest_links: [{
+		id: "2E9D4A3C1E4189A8"
+		linked_quest: "0706E39E181384DA"
+		x: -1.0d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			dependencies: ["0706E39E181384DA"]
+			id: "0ACAF609E9B2BA0E"
+			rewards: [{
+				count: 5
+				id: "222E8ED05A13FF63"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FE0B15E60BB08FF"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0ACAF609E9B2BA0E"]
+			id: "5855E791ACB519BE"
+			rewards: [{
+				count: 5
+				id: "5C234EEA168FA55E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BF9183479AD6586"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5855E791ACB519BE"]
+			id: "04F827A87D3413FF"
+			rewards: [{
+				count: 5
+				id: "6938A77DA7D1FB64"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "597D38E524D34CB3"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04F827A87D3413FF"]
+			id: "27C0B6558C32D1C3"
+			rewards: [{
+				count: 5
+				id: "49A70A100A98C4ED"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04A2C4E4338A44B7"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0ACAF609E9B2BA0E"]
+			description: ["The basis of crafting in Draconic Evolution"]
+			id: "1DC5ADE2A3AD57B7"
+			rewards: [{
+				count: 5
+				id: "496B3222AB34D96B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "13FDD8C1A93B92B5"
+					item: "draconicevolution:basic_crafting_injector"
+					type: "item"
+				}
+				{
+					id: "4FC6F4E7DAEF6B5A"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1DC5ADE2A3AD57B7"]
+			id: "2623A35A6627B88C"
+			rewards: [{
+				count: 5
+				id: "6333D8B2F0A79111"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47B0ADAA44B595B8"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2623A35A6627B88C"]
+			id: "3D03BF97CE37F8D1"
+			rewards: [{
+				count: 5
+				id: "0E1434A954771993"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D9058E6957908DC"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D03BF97CE37F8D1"]
+			id: "4642F2C15308F035"
+			rewards: [{
+				count: 5
+				id: "75AFC6E93B0C836C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E8D1F2F4B70177E"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0ACAF609E9B2BA0E"]
+			id: "2DA272634E47408B"
+			rewards: [{
+				count: 5
+				id: "3C4BE456F5675171"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09E9D059853CEA11"
+				item: {
+					Count: 1
+					id: "draconicevolution:advanced_dislocator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64A00B8E4B0E6629"]
+			id: "1C5C6F623D253E82"
+			rewards: [{
+				count: 5
+				id: "77368ED9BC932268"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36163AB1F7047FC7"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5855E791ACB519BE"]
+			description: ["Big battery bank"]
+			id: "5F2037E708AF4287"
+			rewards: [{
+				count: 5
+				id: "04D6CCB23D475770"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66C914A8B4B292EE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									390405798
+									1869431367
+									-1760762677
+									-1919536940
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_capacitor"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5F2037E708AF4287"
+				"04F827A87D3413FF"
+			]
+			description: ["Bigger battery bank"]
+			id: "368CF5859CB358F6"
+			rewards: [{
+				count: 5
+				id: "32A4A19B7DA88F9C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55E62B0F55CE977B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									-1580957043
+									987055180
+									-2018877105
+									-2076764465
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_capacitor"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"368CF5859CB358F6"
+				"27C0B6558C32D1C3"
+			]
+			description: ["Extreme battery bank"]
+			id: "539BC8589A2FE24C"
+			rewards: [{
+				count: 5
+				id: "6B3320D6EDE1522B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AA49567B341DC6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									-737605063
+									-2058531321
+									-2048009910
+									-714347597
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_capacitor"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0ACAF609E9B2BA0E"]
+			id: "64A00B8E4B0E6629"
+			rewards: [{
+				count: 5
+				id: "42AE57D2CCFDDE73"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F7E2ECDB24E5C7B"
+				item: "draconicevolution:draconium_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0ACAF609E9B2BA0E"]
+			description: ["Most of the information can be obtained by placing the energy core and right clicking on it. As for the energy pylons, glass must be put on top to set them up. Right clicking them changes their mode from input to output."]
+			id: "4EA7AC65B1E67F86"
+			rewards: [{
+				count: 5
+				id: "5D645E4B2F6AE242"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "46B8F879DC02DA46"
+					item: "draconicevolution:energy_core"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3C27089C82BF05F8"
+					item: "draconicevolution:energy_pylon"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "01D7D25F6F4806CE"
+					item: { Count: 5, id: "draconicevolution:energy_core_stabilizer" }
+					type: "item"
+				}
+				{
+					count: 210L
+					id: "5D7DF759F2B40496"
+					item: { Count: 210, id: "draconicevolution:draconium_block" }
+					type: "item"
+				}
+				{
+					count: 328L
+					id: "6E4E2413D1851E6F"
+					item: { Count: 328, id: "minecraft:redstone_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4B7377C327B0B824"
+					item: { Count: 2, id: "minecraft:glass" }
+					type: "item"
+				}
+			]
+			title: "Overpowered Battery"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5855E791ACB519BE"
+				"2DB456D5C4D6285A"
+			]
+			id: "4385C2B3DB7F8B68"
+			rewards: [{
+				count: 5
+				id: "6A8C8293E7AF24A2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "43903175300517A6"
+					item: "draconicevolution:wyvern_io_crystal"
+					type: "item"
+				}
+				{
+					id: "5D4790A28A6C852F"
+					item: "draconicevolution:wyvern_relay_crystal"
+					type: "item"
+				}
+				{
+					id: "10F315B749F0FF1F"
+					item: "draconicevolution:wyvern_wireless_crystal"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F2037E708AF4287"]
+			description: ["Big personal shield"]
+			id: "404D821D71D40474"
+			rewards: [{
+				count: 5
+				id: "70077A092164E201"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4833AE6AC3D49CCE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1312924987
+									-2086318628
+									-1939925306
+									1234955724
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_chestpiece"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4385C2B3DB7F8B68"
+				"04F827A87D3413FF"
+			]
+			id: "402F84BC31E15317"
+			rewards: [{
+				count: 5
+				id: "55757165BBFCB5E9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "16BE11E422D45DA8"
+					item: "draconicevolution:draconic_io_crystal"
+					type: "item"
+				}
+				{
+					id: "23FDE74E8E46BDCC"
+					item: "draconicevolution:draconic_relay_crystal"
+					type: "item"
+				}
+				{
+					id: "03DB6C85BD286EA6"
+					item: "draconicevolution:draconic_wireless_crystal"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["404D821D71D40474"]
+			description: ["Bigger personnal shield"]
+			id: "0FC80CA13385D669"
+			rewards: [{
+				count: 5
+				id: "23108181CA0879ED"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "630A6A476BEC0E29"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									985659632
+									1086736889
+									-1733508366
+									-937534002
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_chestpiece"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0FC80CA13385D669"]
+			description: ["Extreme personal shield"]
+			id: "2DA0F1E8B584011E"
+			rewards: [{
+				count: 5
+				id: "1D9371FA64390A58"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "607DEEFB90D74048"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-1966114230
+									-171094916
+									-1230143932
+									-1831311587
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_chestpiece"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0ACAF609E9B2BA0E"]
+			description: ["Use with a crystal binder. Easy wireless energy for all machines!"]
+			id: "2DB456D5C4D6285A"
+			rewards: [{
+				count: 5
+				id: "3AD06780FCA97284"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "25A15DC3679CB3B1"
+					item: "draconicevolution:basic_io_crystal"
+					type: "item"
+				}
+				{
+					id: "788E1525192DA7E6"
+					item: "draconicevolution:basic_relay_crystal"
+					type: "item"
+				}
+				{
+					id: "6DE9B0C8452E5914"
+					item: "draconicevolution:basic_wireless_crystal"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0ACAF609E9B2BA0E"]
+			description: ["Seemingly endless energy, but very unsafe. I would no build this near anything. Maybe I can create a station in space and place it there?"]
+			id: "23F1E031D7A8E54F"
+			rewards: [{
+				count: 5
+				id: "0872EE73EA9070AC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6BBDD802265D32CB"
+					item: "draconicevolution:reactor_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "197FED6E0D936A7B"
+					item: { Count: 4, id: "draconicevolution:reactor_stabilizer" }
+					type: "item"
+				}
+				{
+					id: "4CC8476D346680D8"
+					item: "draconicevolution:reactor_injector"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "028A6BDA9C76E2D4"
+					item: { Count: 2, id: "draconicevolution:flux_gate" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "04D15D6791926E4D"
+					item: { Count: 2, id: "draconicevolution:potentiometer" }
+					type: "item"
+				}
+			]
+			title: "Endless energy"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0ACAF609E9B2BA0E"]
+			id: "65701BB2B08F74E6"
+			rewards: [{
+				count: 5
+				id: "62B5A2AF83F1EE63"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D62E2CD3FE78135"
+				item: "draconicevolution:crystal_binder"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65701BB2B08F74E6"]
+			description: ["Overpowered all-in-one tool"]
+			id: "61C9049291723839"
+			rewards: [{
+				count: 5
+				id: "6CA5C9689852049D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07D73057DA07B474"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-1567392307
+									-2012330464
+									-1803824646
+									-916599698
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_staff"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["23F1E031D7A8E54F"]
+			description: [
+				"Draconic Evolution has been modified to provide even more power than usual."
+				"To start the generator, set the input flux gate to 50MRF/t, and the output flux gate to 0RF/t."
+				"The input field gate controls the containment field strenght (higher is better), while the output field gate influences the heat and lowers the containment field strenght"
+			]
+			id: "24B7D15CDF4CFBF5"
+			tasks: [{
+				id: "6644FC5DD4DC8C96"
+				title: "Starting the reactor"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["24B7D15CDF4CFBF5"]
+			description: ["Now that the reactor has started, the output flux gate can be set to 200MRF/t safely. This will make the reactor go to a stable 50% containment field strenght."]
+			id: "154336C57092F507"
+			tasks: [{
+				id: "48A52D2D2D71635A"
+				title: "Initial reactor tuning"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["154336C57092F507"]
+			description: ["With the reactor fully set up and stable, we can extract even more energy from it by tuning it. I like to tune the reactor by incrementing the input flux duct by 10MRF/t and progressively increasing the output flux duct by 10MRF/t, every time the reactor heat and containment field become stable. Only increase when the temperature and containment field strenght is stable! I do this until the containment field strenght reaches 50% again. Keep track of the temperature, slow and steady wins the race!"]
+			id: "232829B3F73329FF"
+			tasks: [{
+				id: "7C75B00889ED7FE8"
+				title: "Reactor Tuning"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+	]
+	title: "Evolve"
+}

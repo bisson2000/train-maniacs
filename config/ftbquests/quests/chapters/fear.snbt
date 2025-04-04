@@ -1,0 +1,490 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fear"
+	group: ""
+	icon: "minecraft:dragon_head"
+	id: "10EB9367B17F831E"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4225B42156CB37EF"
+				"4A2AAC05D5F63F28"
+				"7D950C68804D41B2"
+				"69770F5CCD87209F"
+				"5D91DDC63D218B41"
+				"7DA834DEE0D6DFB9"
+				"1C97D9B961C73CC3"
+				"2BFD4AC20DB43001"
+				"056A6A475FC0EDD6"
+				"64E1B619F26238A6"
+				"60C18FD389429C1C"
+				"3316A01BD9786E4A"
+			]
+			id: "7C54CA52573570E0"
+			rewards: [{
+				count: 5
+				id: "57BCE68BF8CDDC44"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the dragon"
+			tasks: [{
+				id: "351272B6E62D904D"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C54CA52573570E0"]
+			id: "317EAE2C9CD2CE3B"
+			rewards: [{
+				count: 5
+				id: "5758440D79B98B4F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FDE1ACF938C1AFC"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			title: "Slay the chaos dragon"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "58E0F36548184A30"
+			rewards: [{
+				count: 5
+				id: "552A6C28FCF94349"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02352B24837393A1"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["79346C69254A3F27"]
+			description: ["In the cursed pyramid"]
+			id: "1C97D9B961C73CC3"
+			rewards: [{
+				count: 5
+				id: "5B3C6FB56587DD2C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the ancient remnant"
+			tasks: [{
+				id: "1EE04ACE8413F6F6"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "600B00D4F0089C17"
+			rewards: [{
+				count: 5
+				id: "63DB6E50E563B3A4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "618867CB36163DA0"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "296B347D98BB0108"
+			rewards: [{
+				count: 5
+				id: "74B2F1E6A94AB68C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6817D14B131B22B6"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			id: "7A3D74AC5C8104B7"
+			rewards: [{
+				count: 5
+				id: "4946BB8E4B34BDB1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43EF82C564AC4BE6"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			id: "79346C69254A3F27"
+			rewards: [{
+				count: 5
+				id: "176C45E199E4618E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31576E5C4EB855EF"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			id: "64D9559315780ABA"
+			rewards: [{
+				count: 5
+				id: "56F1FDD09B04DA72"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "383D0485FE88CD3F"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["64D9559315780ABA"]
+			description: ["In the frost prison"]
+			id: "4225B42156CB37EF"
+			rewards: [{
+				count: 5
+				id: "6001CB05276AC5BB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay maledictus"
+			tasks: [{
+				id: "54DC86ED653C6800"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["600B00D4F0089C17"]
+			description: ["In the burning arena"]
+			id: "3316A01BD9786E4A"
+			rewards: [{
+				count: 5
+				id: "422FA017501DB757"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay ignis"
+			tasks: [{
+				id: "5BE67C0A515A47F0"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A3D74AC5C8104B7"]
+			description: ["In the sunken city"]
+			id: "056A6A475FC0EDD6"
+			rewards: [{
+				count: 5
+				id: "2EA539BEEB7AAA1B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the leviathan"
+			tasks: [{
+				id: "34777543A8263EE4"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["296B347D98BB0108"]
+			description: ["In the forge of souls"]
+			id: "2BFD4AC20DB43001"
+			rewards: [{
+				count: 5
+				id: "659465387E4E4B3D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the netherite monstrosity"
+			tasks: [{
+				id: "1C4BFF141D546F83"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58E0F36548184A30"]
+			description: ["In the ancient factory"]
+			id: "7D950C68804D41B2"
+			rewards: [{
+				count: 5
+				id: "40E54EE4F00E8067"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the harbinger"
+			tasks: [{
+				id: "5BD5F51A8CACABD7"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "64E1B619F26238A6"
+			rewards: [{
+				count: 5
+				id: "4C2458B0A1EAE143"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the wither"
+			tasks: [{
+				id: "5E2D3BD32359EF13"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			description: ["Found in Bastions treasure chest "]
+			id: "5D91DDC63D218B41"
+			rewards: [{
+				count: 5
+				id: "0B76A6635F92762F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6432100E603D7624"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "60C18FD389429C1C"
+			rewards: [{
+				count: 5
+				id: "3375653A52F6F219"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the elder guardian"
+			tasks: [{
+				id: "151E0AD1298E7D52"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "69770F5CCD87209F"
+			rewards: [{
+				count: 5
+				id: "1109829381583E95"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay evokers"
+			tasks: [{
+				id: "498516DAD8606B56"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["63C35600B7652754"]
+			id: "7DA834DEE0D6DFB9"
+			rewards: [{
+				count: 5
+				id: "3781324736384541"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6644144CD518F689"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			description: ["Slay a witch to obtain its eye"]
+			id: "63C35600B7652754"
+			rewards: [{
+				count: 5
+				id: "6EC1F2631F974BB0"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EAE032E5C8CD72A"
+				item: "endrem:witch_pupil"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			description: ["Trade with a cleric to obtain this eye"]
+			id: "4A2AAC05D5F63F28"
+			rewards: [{
+				count: 5
+				id: "0FCA6AE3ECCD949B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "134832152DB76680"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C54CA52573570E0"]
+			description: ["I can build a end stone brick portal to travel to the end. With it, the trains can travel freely between the overworld and that dimension, allowing for resources to be transported between both of them."]
+			id: "121C1DAAA361261F"
+			rewards: [{
+				count: 5
+				id: "242CDFA45B21CA50"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "4FC551A9A1A56A65"
+					item: { Count: 8, id: "minecraft:end_stone_bricks" }
+					type: "item"
+				}
+				{
+					id: "2ED7D9FC59C59B7B"
+					item: "draconicevolution:dragon_heart"
+					type: "item"
+				}
+			]
+			title: "Train to the end"
+			x: 4.0d
+			y: 0.5d
+		}
+	]
+	title: "Fear"
+}

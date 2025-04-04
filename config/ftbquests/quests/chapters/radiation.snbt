@@ -1,0 +1,742 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "radiation"
+	group: ""
+	icon: "nuclearcraft:fuel_californium_hecf_251"
+	id: "447917BBF4F602BF"
+	order_index: 15
+	quest_links: [
+		{
+			id: "59478451051A9F1A"
+			linked_quest: "68B2D6DEBEBCB746"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "575D36563A96A018"
+			linked_quest: "5BF4E3C79436D6BD"
+			x: -3.0d
+			y: -0.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"5BF4E3C79436D6BD"
+				"68B2D6DEBEBCB746"
+			]
+			description: ["Nuclear machinery is built different"]
+			id: "5B621B9F4AC1D58E"
+			rewards: [{
+				count: 5
+				id: "0C3D4F451CA5CC40"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "11F9266E487082BE"
+				item: "nuclearcraft:chassis"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C06AA22053EAD9F"]
+			id: "79E8F6A08B13E1BD"
+			rewards: [{
+				count: 5
+				id: "4A1B3848035902C6"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D822F4944997F55"
+					item: "nuclearcraft:upgrade_speed"
+					type: "item"
+				}
+				{
+					id: "7AF9EBFAEAF30172"
+					item: "nuclearcraft:upgrade_energy"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5B621B9F4AC1D58E"]
+			id: "1B0F809CF36641D7"
+			rewards: [{
+				count: 5
+				id: "185B5EF632073DA9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ABB7CF50529465E"
+				item: "nuclearcraft:manufactory"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5B621B9F4AC1D58E"]
+			description: [
+				"Nuclearcraft is a hard mod. I suggest you look at this website https://leu-235.com/ if you need help generating fission reactors."
+				"This modpack uses the same configuration as Project Ozone 3 (PO3)"
+			]
+			id: "3C06AA22053EAD9F"
+			size: 2.0d
+			tasks: [{
+				id: "3451013148B52B92"
+				title: "Getting the ratios"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"12E730050B1FD22D"
+				"7E0C0C116BC26A7C"
+				"5BD5325B032A279C"
+				"450C22172A0A82E8"
+				"747FC5041E2C86ED"
+				"168D41328C48B4BC"
+				"0B2DB2E1552176AB"
+			]
+			id: "2E3A95EAB0FD4EBC"
+			rewards: [{
+				count: 5
+				id: "00F3ABB469EF4946"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39FEA1C30093466E"
+				item: "nuclearcraft:ingot_former"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B621B9F4AC1D58E"]
+			description: ["From solid to liquid"]
+			id: "7B7C3B6A0E8A0426"
+			rewards: [{
+				count: 5
+				id: "2E7776016D0E10F9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "635FD291F54A23EF"
+				item: "nuclearcraft:melter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B621B9F4AC1D58E"]
+			id: "68AA32E10C9D9BE4"
+			rewards: [{
+				count: 5
+				id: "3B85E0113CFDBCA0"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36A1BCEF891AA822"
+				item: "nuclearcraft:alloy_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B7C3B6A0E8A0426"]
+			id: "0B2DB2E1552176AB"
+			rewards: [{
+				count: 5
+				id: "17363ABE7AF2D184"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EB10A2EFDDDE1BD"
+				item: "nuclearcraft:crystallizer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B621B9F4AC1D58E"]
+			id: "4C080173F3E53B9E"
+			rewards: [{
+				count: 5
+				id: "571AA19662F30625"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42F74E2154FF2739"
+				item: "nuclearcraft:rock_crusher"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E3A95EAB0FD4EBC"]
+			id: "3C9DDA7170FF9BE7"
+			rewards: [{
+				count: 5
+				id: "1A43C8270E08F5E1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "309530E37213F6D5"
+				item: "nuclearcraft:decay_hastener"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B7C3B6A0E8A0426"]
+			id: "747FC5041E2C86ED"
+			rewards: [{
+				count: 5
+				id: "75F2AD8420F6FD79"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F6245BAC13710B6"
+				item: "nuclearcraft:irradiator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B621B9F4AC1D58E"]
+			id: "13BDF1DBB64539D2"
+			rewards: [{
+				count: 5
+				id: "63A74A469D99527A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1481AB24857C8EC0"
+				item: "nuclearcraft:nuclear_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B7C3B6A0E8A0426"]
+			id: "168D41328C48B4BC"
+			rewards: [{
+				count: 5
+				id: "5B08C9002DE68BE4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DF39569A3700F37"
+				item: "nuclearcraft:electrolyzer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B621B9F4AC1D58E"]
+			id: "21CC943EA829B429"
+			rewards: [{
+				count: 5
+				id: "107CD26DBBA8751D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18A40457FE7D9C6B"
+				item: "nuclearcraft:pressurizer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64033D87E66093EE"]
+			id: "36B13A4A08E36BD7"
+			rewards: [{
+				count: 5
+				id: "27C06691CD00ABF5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C221DCF6A2508FD"
+				item: "nuclearcraft:fuel_reprocessor"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E3A95EAB0FD4EBC"]
+			id: "64033D87E66093EE"
+			rewards: [{
+				count: 5
+				id: "4F2CB75DD9B0BA21"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7786EA9293E697B6"
+				item: "nuclearcraft:assembler"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B7C3B6A0E8A0426"]
+			id: "7E0C0C116BC26A7C"
+			rewards: [{
+				count: 5
+				id: "34F6FADB79EFF3A6"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C583C6118AB57B3"
+				item: "nuclearcraft:centrifuge"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B7C3B6A0E8A0426"]
+			id: "450C22172A0A82E8"
+			rewards: [{
+				count: 5
+				id: "7F8A99B84598AC22"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6336ABBD4EA245C7"
+				item: "nuclearcraft:chemical_reactor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7B7C3B6A0E8A0426"]
+			id: "5BD5325B032A279C"
+			rewards: [{
+				count: 5
+				id: "122889EEA9461330"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C1398687A83400F"
+				item: "nuclearcraft:fluid_infuser"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2E3A95EAB0FD4EBC"]
+			id: "29C7F7FDE00CD0CA"
+			rewards: [{
+				count: 5
+				id: "60CD5A8F59739B9F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70C10BEE80FFB78F"
+				item: "nuclearcraft:isotope_separator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7B7C3B6A0E8A0426"]
+			id: "12E730050B1FD22D"
+			rewards: [{
+				count: 5
+				id: "78F8BECFFB510BFF"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E38DE325A7FB4BB"
+				item: "nuclearcraft:fluid_enricher"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["68AA32E10C9D9BE4"]
+			id: "6970EEB14F87C947"
+			rewards: [{
+				count: 5
+				id: "0DEB042E691BBADE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B70D850BB0C8E88"
+				item: "nuclearcraft:tough_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6970EEB14F87C947"
+				"2E15E0B87C946008"
+			]
+			id: "034F0B01555E8BC6"
+			rewards: [{
+				count: 5
+				id: "379980727F54E89B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4231C6B66BCBCB4B"
+				item: "nuclearcraft:extreme_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["68AA32E10C9D9BE4"]
+			id: "25C58C47B0083BAF"
+			rewards: [{
+				count: 5
+				id: "6CB7BC9CB0CED606"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A1C3F18B05E86E6"
+				item: "nuclearcraft:ferroboron_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["69030DEC573B3713"]
+			description: ["The power of the sun in the palm of your hands"]
+			id: "0ACE9A41BBC6A8A4"
+			rewards: [{
+				count: 5
+				id: "7E67AA0417947C20"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01D48176BD5031CE"
+				item: "nuclearcraft:fuel_californium_hecf_251_ox"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["68AA32E10C9D9BE4"]
+			id: "2E15E0B87C946008"
+			rewards: [{
+				count: 5
+				id: "1CE7E26EE5ABF539"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A8D97CCE344467F"
+				item: "nuclearcraft:hard_carbon_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68AA32E10C9D9BE4"]
+			id: "6EF82D1554EE6430"
+			rewards: [{
+				count: 5
+				id: "1C3DE2CBB5BE1717"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37BDE5796E3A092B"
+				item: "nuclearcraft:zirconium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24B5455B3D30E582"]
+			id: "50D86453FB867638"
+			rewards: [{
+				count: 5
+				id: "4020E6ECA7D2336A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F7C9E16189F8EE1"
+				item: "nuclearcraft:cryotheum_heat_sink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B621B9F4AC1D58E"]
+			description: ["The basis of every nuclear reactor"]
+			id: "24B5455B3D30E582"
+			rewards: [{
+				count: 5
+				id: "4212B222E2B95930"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "760FB05633F43227"
+				item: "nuclearcraft:empty_heat_sink"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["034F0B01555E8BC6"]
+			id: "7A93A33576035142"
+			rewards: [{
+				count: 5
+				id: "7021EEB54398824E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FCDFB6ABC5833AC"
+				item: "nuclearcraft:thermoconducting_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24B5455B3D30E582"]
+			id: "300B2E293D925B5B"
+			rewards: [{
+				count: 5
+				id: "02EC0070991A94BF"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B00B7A9C8F53CBE"
+				item: "nuclearcraft:gold_heat_sink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24B5455B3D30E582"]
+			id: "47A87A78875884E0"
+			rewards: [{
+				count: 5
+				id: "2332F08ED246571B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2145E9128B4A4BF3"
+				item: "nuclearcraft:redstone_heat_sink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24B5455B3D30E582"]
+			id: "14BB76D5EB83D27A"
+			rewards: [{
+				count: 5
+				id: "22E12E2B40A8B562"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DB469E8EAD7141B"
+				item: "nuclearcraft:enderium_heat_sink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["24B5455B3D30E582"]
+			id: "362A41BDDF3B9EC5"
+			rewards: [{
+				count: 5
+				id: "7F4EBE1981662CBE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CBFE6C4A2B89852"
+				item: "nuclearcraft:liquid_helium_heat_sink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["38E0B8DE90C13BF1"]
+			id: "339A25FD70F0E444"
+			rewards: [{
+				count: 5
+				id: "44188E7E0CE26749"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10509142D56D2914"
+				item: "nuclearcraft:helium_collector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B621B9F4AC1D58E"]
+			id: "38E0B8DE90C13BF1"
+			rewards: [{
+				count: 5
+				id: "39E9FC9C9EAD4C1D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "014BDD660C31439D"
+				item: "nuclearcraft:pump"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["41656AB53D278146"]
+			id: "7C5D967C61FF3205"
+			rewards: [{
+				count: 5
+				id: "308F8E1AA166E99F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B7EECEEBFC86AAD"
+				item: "nuclearcraft:hsla_steel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["68AA32E10C9D9BE4"]
+			id: "41656AB53D278146"
+			rewards: [{
+				count: 5
+				id: "48E73BE7F6F11255"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F57215EDCE88E30"
+				item: "nuclearcraft:carbon_manganese_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C06AA22053EAD9F"]
+			description: ["Producing energy from nuclear material"]
+			id: "69030DEC573B3713"
+			rewards: [{
+				count: 5
+				id: "2D776924C7C9CCF7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "714C8C3A1615A691"
+					item: "nuclearcraft:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "0CC43186182C8C31"
+					item: "nuclearcraft:fission_reactor_solid_fuel_cell"
+					type: "item"
+				}
+				{
+					id: "50DFD1170B559AAB"
+					item: "nuclearcraft:fission_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "03A2D822539CFE53"
+					item: "nuclearcraft:fission_reactor_glass"
+					type: "item"
+				}
+				{
+					id: "13291E70AF72CE69"
+					item: "nuclearcraft:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "188B6A69EEF80995"
+					item: "nuclearcraft:graphite_block"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	title: "Radiation"
+}

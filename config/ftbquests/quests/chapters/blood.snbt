@@ -1,0 +1,721 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood"
+	group: ""
+	icon: "bloodmagic:blankslate"
+	id: "428BF38A7B8FBA80"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This book contains all of the information needed to start tempering with blood magic"]
+			id: "64BB87B8CC217514"
+			rewards: [{
+				count: 5
+				id: "64E45C025294C449"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7D1F6612BB5CC6B6"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64BB87B8CC217514"]
+			description: ["Throw the snare at a monster, kill it, and collect its demonic will"]
+			id: "6DD10882C547B221"
+			rewards: [{
+				count: 5
+				id: "1B47273A65CD99ED"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6D0AC836CEC8C811"
+					item: {
+						Count: 1
+						id: "bloodmagic:basemonstersoul"
+						tag: {
+							souls: 5.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4840E45D4DD35F57"
+					item: "bloodmagic:soulsnare"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64BB87B8CC217514"]
+			description: ["Making slates from blood"]
+			id: "3CD83683249EB998"
+			rewards: [{
+				count: 5
+				id: "75D63920DD08507C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69CCDD4A62D8942C"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CD83683249EB998"]
+			description: ["Prickly! By using it on myself near an altar, I can fill it up with blood. Got to be careful not to overdo it...."]
+			id: "25A7E28A234398E9"
+			rewards: [{
+				count: 5
+				id: "4A3F51AA5E6A7F59"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15EB74B08C02F276"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3CD83683249EB998"]
+			id: "253A4DF17667738A"
+			rewards: [{
+				count: 5
+				id: "6076586901D8BB13"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14A4A774A087E227"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["253A4DF17667738A"]
+			id: "035325566EA83661"
+			rewards: [{
+				count: 5
+				id: "039532119559B22C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48CB07DE2BCDDEB8"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44EA6D13A4856D60"]
+			id: "22890BDFCA0A62FC"
+			rewards: [{
+				count: 5
+				id: "6F82ECC1ED0C5C93"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D9F01338FCEFD9E"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["035325566EA83661"]
+			id: "44EA6D13A4856D60"
+			rewards: [{
+				count: 5
+				id: "30C020C309D0FBAB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "501F5155C5CD6979"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22890BDFCA0A62FC"]
+			id: "060AA9BFB58F4038"
+			rewards: [{
+				count: 5
+				id: "5D9399248183D689"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40C22BF15C3D2438"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CD83683249EB998"]
+			id: "47F230E6DFAACBB0"
+			rewards: [{
+				count: 5
+				id: "18BE94A931C6A8A7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06F49DE2BE57116D"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47F230E6DFAACBB0"]
+			id: "6210AB18B4BC56A4"
+			rewards: [{
+				count: 5
+				id: "5818380FC473713B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B28C1774DE2344A"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6210AB18B4BC56A4"]
+			id: "210CD69F1D34B88D"
+			rewards: [{
+				count: 5
+				id: "6409EA04B2691DEF"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AC4AE9E613DCB7C"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["210CD69F1D34B88D"]
+			id: "3835FF92C588F658"
+			rewards: [{
+				count: 5
+				id: "054EA7706E684EAC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "120669BD19F73421"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3835FF92C588F658"]
+			id: "667113075E908F5B"
+			rewards: [{
+				count: 5
+				id: "72E6CD38D5C3D888"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34B953DBAD453F8B"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64BB87B8CC217514"]
+			description: ["Crafting with LP from the soul network"]
+			id: "3F2B0D247D8660EC"
+			rewards: [{
+				count: 5
+				id: "53A0797AF456B00E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DEB8F464CBB7D93"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DD10882C547B221"]
+			description: ["Crafting with demon will"]
+			id: "6B475CCF9194D770"
+			rewards: [{
+				count: 5
+				id: "64DB9D753CBDDC6E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "089ACB533B766A16"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B475CCF9194D770"]
+			description: ["Makes your sentient sword stronger"]
+			id: "58FD23308DDFC7C6"
+			rewards: [{
+				count: 5
+				id: "1BAF2BD10DA63DF5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D38DE5F168F2B92"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						souls: 64.0d
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58FD23308DDFC7C6"]
+			id: "7F21EE334701C26B"
+			rewards: [{
+				count: 5
+				id: "32FFF6F3E095DB0E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F43346650451271"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 4096.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B475CCF9194D770"]
+			description: ["A better way to collect will"]
+			id: "48511628E5E82BF5"
+			rewards: [{
+				count: 5
+				id: "0CC3357966820071"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D3C670506927AE4"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25A7E28A234398E9"]
+			description: ["Why use my blood when I can user other's?"]
+			id: "6DC22A7B9655261A"
+			rewards: [{
+				count: 5
+				id: "2E28DA833C8855A8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7815E2B45A067BDE"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3CD83683249EB998"]
+			description: ["The basic blocks used for the altar"]
+			id: "6F049D19EA4227B2"
+			rewards: [{
+				count: 5
+				id: "5D995F571D816FD7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2764B5F7F8D730BE"
+					item: "bloodmagic:blankrune"
+					type: "item"
+				}
+				{
+					id: "30D7FD4CEEBE75D6"
+					item: "bloodmagic:selfsacrificerune"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F2B0D247D8660EC"]
+			description: ["Essential for completing rituals. Shift right click in the air to select the desired ritual. Then, right click on the master ritual stone to assemble the ritual with ritual stones."]
+			id: "2279E87FC51C35E8"
+			rewards: [{
+				count: 5
+				id: "478AC1DD2A8A6AE7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43B0F16570AB26AB"
+				item: "bloodmagic:ritualdiviner"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B475CCF9194D770"]
+			description: ["Activates rituals. right click on a master ritual stone to activate the ritual."]
+			id: "5D32D1DDA82B0C9B"
+			rewards: [{
+				count: 5
+				id: "540BE3C51ECEAAEB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F813C24F5BBCCE"
+				item: "bloodmagic:activationcrystalweak"
+				type: "item"
+			}]
+			title: "Activation"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CD83683249EB998"]
+			description: ["The book sufficiently explains it"]
+			id: "1DFDF44A2C330DE4"
+			rewards: [{
+				count: 5
+				id: "6337CA6C74F9B2BD"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CE71C1CF78F8A9F"
+				item: "bloodmagic:incensealtar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["253A4DF17667738A"]
+			description: ["Helps understand the sould network as well as the altar tier."]
+			id: "7B77A27F43A5C371"
+			rewards: [{
+				count: 5
+				id: "4254139F813B2EE2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AAC1C02818B99AF"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2279E87FC51C35E8"
+				"332D13CED96DB71B"
+			]
+			description: ["Essential for completing rituals. Shift right click in the air to select the desired ritual. Then, right click on the master ritual stone to assemble the ritual with ritual stones."]
+			id: "46B5617E4915B4A2"
+			rewards: [{
+				count: 5
+				id: "6C2DF90425D37EBC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51F58E6ED397DA0A"
+				item: "bloodmagic:ritualdivinerdusk"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61C2802DF65B815D"]
+			description: [
+				"Fully automating blood magic is no straightforward task. There are however many ways this can be achieved. Here is a common example:"
+				"1. Place a well of suffering under your fully upgraded altar"
+				"2. Under the well of suffering, spawn mobs. This can be achieved with a mob spawner"
+				"3. LP should be generating in the well of suffering"
+			]
+			id: "24AE56625BC9E9AD"
+			tasks: [{
+				id: "48C7B1115FA470B0"
+				title: "Automating Blood Magic"
+				type: "checkmark"
+			}]
+			title: "Automating Blood Magic Part 1"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24AE56625BC9E9AD"]
+			description: [
+				"Although LP gets generated in the altar, some amount gets consumed in the network. Over time, the soul network will deplete! 2 Solutions are possible:"
+				"1. Ignore the problem and place a blood orb from time to time"
+				"2. Create a second altar dedicated to fill the network or to craft items. This will require some displacement runes to move LP around..."
+			]
+			id: "61D2847535D18D89"
+			tasks: [{
+				id: "18D92DADDF718F7A"
+				title: "Automating Blood Magic Part 2"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61D2847535D18D89"]
+			id: "79299366A99B95D6"
+			rewards: [{
+				count: 5
+				id: "6E28AA1FDEB97FC1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52BE62B48B157732"
+				item: "bloodmagic:dislocationrune"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2279E87FC51C35E8"
+				"5D32D1DDA82B0C9B"
+			]
+			description: ["In this dimension, we can find Saturated Tau and craft them into weak blood shards, which in turn allows us to craft bloodstone bricks and improve the altar further!"]
+			id: "25A949BCF9A612A1"
+			rewards: [{
+				count: 5
+				id: "008D2EBE891DA60C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36F8CD6632FB225A"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "78F7C2CB8E0EEBAD"
+					item: { Count: 36, id: "bloodmagic:ritualstone" }
+					type: "item"
+				}
+			]
+			title: "Edge of the Hidden Realm"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25A949BCF9A612A1"]
+			description: ["Needed to reach an altar tier 4"]
+			id: "332D13CED96DB71B"
+			rewards: [{
+				count: 5
+				id: "08119E24207C99A3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "6111CF7E36B8BF25"
+					item: { Count: 4, id: "bloodmagic:bloodstonebrick" }
+					type: "item"
+				}
+				{
+					id: "4218BDABF0A04405"
+					item: "bloodmagic:strong_tau"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7441F85C810B525C"]
+			description: ["Needed to reach an altar tier 5"]
+			id: "5BF3EE526887B72A"
+			rewards: [{
+				count: 5
+				id: "53B0C40B3229AE2A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "273DAA8D939BD43B"
+				item: "bloodmagic:dungeon_metal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["46B5617E4915B4A2"]
+			description: ["Placing this ritual under the altar will allow the altar to collect the LP generated from it. 50k LP will be needed in the soul network."]
+			id: "61C2802DF65B815D"
+			rewards: [{
+				count: 5
+				id: "6A67B83FB578EE21"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "27BFE83436FB1DBA"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "0C5DFDD7A48D7DD8"
+					item: { Count: 36, id: "bloodmagic:ritualstone" }
+					type: "item"
+				}
+			]
+			title: "Well of Suffering"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["46B5617E4915B4A2"]
+			description: ["Demonite must be present in this dimension. To get access to the mine, the foreman's key must be found. Then, with some demonite, the miner's key can be crafter to reach deeper into the mine."]
+			id: "7441F85C810B525C"
+			rewards: [{
+				count: 5
+				id: "13F9D4B6A4278C60"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "12EB1E6125E8630F"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 69L
+					id: "62AF628FC1D28C7E"
+					item: { Count: 69, id: "bloodmagic:ritualstone" }
+					type: "item"
+				}
+			]
+			title: "Endless Realm"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3835FF92C588F658"]
+			description: ["beep boop"]
+			id: "68B2D6DEBEBCB746"
+			rewards: [{
+				count: 5
+				id: "504D9C8F97D86EE5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BDD3AF7E55436D2"
+				item: "kubejs:microchip_tier_3"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+	]
+	title: "Blood"
+}

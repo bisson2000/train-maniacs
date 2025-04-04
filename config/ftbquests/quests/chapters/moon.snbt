@@ -1,0 +1,748 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moon"
+	group: ""
+	icon: "ad_astra:cheese"
+	id: "1C3CD4960695A5DB"
+	order_index: 11
+	quest_links: [{
+		id: "7DCB9DADE32C0C73"
+		linked_quest: "2EE8D29401D93254"
+		x: -2.5d
+		y: -0.5d
+	}]
+	quests: [
+		{
+			dependencies: ["2EE8D29401D93254"]
+			description: ["Although there are plenty of ores on this planet, not all of them are. Nowhere to go but up."]
+			id: "68CC8AEAD8207291"
+			rewards: [{
+				count: 5
+				id: "34DF33BFE97AE768"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "2AD7D6BE1D3A6CD0"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0237447C698FDABC"]
+			description: [
+				"Checklist:"
+				"- Extra fuel to come back"
+				"- Space suit"
+				"- Oxygen in suit"
+				"- Escape plan"
+			]
+			id: "6A63146770870E31"
+			rewards: [{
+				count: 5
+				id: "6EE4C560DFF7F34C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3245C4D6A95ADF86"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CE32CBD72574A9C"]
+			id: "0088292B2E74683B"
+			rewards: [{
+				count: 5
+				id: "39655DF56152581D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29D9AE95AC9228AF"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D07F71CD631E03C"]
+			id: "4BD4BCDF102275C6"
+			rewards: [{
+				count: 5
+				id: "60BD70EB4B5B12C3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6255C38C3EBE94EE"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3EF3D2102E1C30F8"
+				"7E2B378F38DAE2B1"
+			]
+			id: "14EC4B3CACF3BCA0"
+			rewards: [{
+				count: 5
+				id: "39CA2010215D3FDE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DA6A1F2B6E9836B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6A63146770870E31"]
+			description: ["The moon is made of cheese after all!"]
+			id: "56A6A0D033942B2F"
+			rewards: [{
+				count: 5
+				id: "32DDAF286A6E7315"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EFF3A5AC72B1937"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A63146770870E31"]
+			description: ["Now we can get to making real machines"]
+			id: "4BF6713663B4DE4A"
+			rewards: [{
+				count: 5
+				id: "168BFBD8921989D8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B5263F1943350DC"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A63146770870E31"]
+			id: "6C098813A58E4BD7"
+			rewards: [{
+				count: 5
+				id: "4FCAA7EFC60870C9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "293343A3A1BE0076"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68CC8AEAD8207291"]
+			id: "4F0E7BA6D72A0E58"
+			rewards: [{
+				count: 5
+				id: "1E06DA1FE979F379"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67966E8BE36C713C"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68CC8AEAD8207291"]
+			id: "13C47FE64DA372D7"
+			rewards: [{
+				count: 5
+				id: "1E7868966E39F60D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "017CF84182F67109"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13C47FE64DA372D7"]
+			id: "754D247ACF8C8DA5"
+			rewards: [{
+				count: 5
+				id: "67650F13C39878F3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0253A28808F9FBDA"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68CC8AEAD8207291"]
+			id: "2F34859ECAEA46E8"
+			rewards: [{
+				count: 5
+				id: "0842966D0023C130"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38E3CFA030202E8E"
+				item: "ad_astra:gravity_normalizer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68CC8AEAD8207291"]
+			description: ["The solar panel is the powerhouse of the interplanetary base"]
+			id: "688A2D40B2380381"
+			rewards: [{
+				count: 5
+				id: "784237DCBC46403B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61FA218BA1EC7796"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["68CC8AEAD8207291"]
+			id: "77423AFF85D03A98"
+			rewards: [{
+				count: 5
+				id: "1F0C775BFCA573FE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BA3FD58EDF3C64F"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0088292B2E74683B"]
+			id: "3F49DE35A1A3FEEE"
+			rewards: [{
+				count: 5
+				id: "73569689CFB02549"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "650E772F56E9D422"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BD4BCDF102275C6"]
+			id: "5A7568DF5FD445DE"
+			rewards: [{
+				count: 5
+				id: "3FB6E8BE0CD668A7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F7C7CC3173A5BF4"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4BD4BCDF102275C6"]
+			id: "5BF4E3C79436D6BD"
+			rewards: [{
+				count: 5
+				id: "3707264F9EECD3BD"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EDA869652560FD0"
+				item: "mekanism:ingot_uranium"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["14EC4B3CACF3BCA0"]
+			id: "62B30380B1C1CA34"
+			rewards: [{
+				count: 5
+				id: "1B48BD60750885AB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48D3E6DBA3800D27"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["68CC8AEAD8207291"]
+			id: "0237447C698FDABC"
+			rewards: [{
+				count: 5
+				id: "1C52BCB622F34F6F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CB46FEE83B3EF0B"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A63146770870E31"]
+			description: ["Found on the moon, inside a dungeon"]
+			id: "37E272F1E04FA3CF"
+			rewards: [{
+				count: 5
+				id: "5C12F1068DE704A9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17676F9B0BABA909"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68CC8AEAD8207291"]
+			description: ["The atmosphere on distant planets is not the same as on this world. A suit is in order if I do not want to perish immediately upon landing."]
+			id: "4E9A84DA7FAAF2F7"
+			rewards: [{
+				count: 5
+				id: "430B514C429ADF49"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7A4A16C50E297F71"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A63F3B7B59087C5"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 1000L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5626CC8DFA681A9E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "555EFC4DE02C4CC9"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E9A84DA7FAAF2F7"]
+			id: "45C3ADDC23420019"
+			rewards: [{
+				count: 5
+				id: "76B5474CF0B74617"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "78686D31C09AD878"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ECBCF49BC50089D"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F2AB386D3B51C1A"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EE39C2FCE737334"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["45C3ADDC23420019"]
+			id: "37F0964E8368D5A2"
+			rewards: [{
+				count: 5
+				id: "07C61FF9707DA0BC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "413C96DCC046DE48"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47DE8F852E98624D"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A4C6165FC497CBD"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33B881CF2B8CC97C"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4F0E7BA6D72A0E58"]
+			description: ["Better bring some with me when I leave, so I can come back"]
+			id: "1E7F30A2E81117DA"
+			rewards: [{
+				count: 5
+				id: "71094EA6973C4578"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "119F9D451505ED16"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A63146770870E31"]
+			description: ["I can build a cheese portal to travel to the Moon. With it, the trains can travel freely between the overworld and that dimension, allowing for resources to be transported between both of them."]
+			id: "3CE32CBD72574A9C"
+			rewards: [{
+				count: 5
+				id: "2AEE5978318C6447"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "261B7BF5CBE9653B"
+					item: { Count: 8, id: "ad_astra:cheese_block" }
+					type: "item"
+				}
+				{
+					id: "6F87E395CDB84A38"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			title: "Train to the Moon"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0088292B2E74683B"]
+			description: ["I can build an ostrum portal to travel to Mars. With it, the trains can travel freely between the overworld and that dimension, allowing for resources to be transported between both of them."]
+			id: "5D07F71CD631E03C"
+			rewards: [{
+				count: 5
+				id: "3C2941DD4711439C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "0B34D0184B3FA9C9"
+					item: { Count: 8, id: "ad_astra:ostrum_block" }
+					type: "item"
+				}
+				{
+					id: "6B8F43CC26F0982D"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Train to Mars"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4BD4BCDF102275C6"]
+			description: ["I can build an uranium portal to travel to Mercury. With it, the trains can travel freely between the overworld and that dimension, allowing for resources to be transported between both of them."]
+			id: "3EF3D2102E1C30F8"
+			rewards: [{
+				count: 5
+				id: "2FFEAB9153BBAC5E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "0C4DC2A4CB22E9A1"
+					item: { Count: 8, id: "mekanism:block_uranium" }
+					type: "item"
+				}
+				{
+					id: "7FB667B896AF249A"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Train to Mercury"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4BD4BCDF102275C6"]
+			description: ["I can build a calorite portal to travel to Venus. With it, the trains can travel freely between the overworld and that dimension, allowing for resources to be transported between both of them."]
+			id: "7E2B378F38DAE2B1"
+			rewards: [{
+				count: 5
+				id: "351AC05BEBC9FDE4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "1ECA506004B3CCD0"
+					item: { Count: 8, id: "ad_astra:calorite_block" }
+					type: "item"
+				}
+				{
+					id: "75F041C2FB4C085A"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Train to Venus"
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14EC4B3CACF3BCA0"]
+			description: ["I can build a fluorite portal to travel to Galcio. With it, the trains can travel freely between the overworld and that dimension, allowing for resources to be transported between both of them."]
+			id: "308E09AA829AD412"
+			rewards: [{
+				count: 5
+				id: "13FEB2715CB67080"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "0D6ED42139582E69"
+					item: { Count: 8, id: "mekanism:block_fluorite" }
+					type: "item"
+				}
+				{
+					id: "09141031522CBE40"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Train to Glacio"
+			x: 0.0d
+			y: 13.5d
+		}
+	]
+	title: "Space"
+}

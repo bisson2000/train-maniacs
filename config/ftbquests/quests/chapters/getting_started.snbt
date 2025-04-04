@@ -1,0 +1,637 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: "minecraft:oak_log"
+	id: "7FD905BE37B0F065"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["38056FEB0E5CF804"]
+			id: "2C6F8E84165D3657"
+			rewards: [{
+				count: 5
+				id: "29830CAFEF3F85FB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BB9D9740D7FF33E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Every story starts with..."
+			x: -13.5d
+			y: -11.0d
+		}
+		{
+			description: ["What is this place? This is not my homeworld! That will teach me to tamper with portals, I better get out of here! Well, maybe I can create a portal to come back the same way I got here..."]
+			id: "38056FEB0E5CF804"
+			tasks: [{
+				id: "567860768CD6D3A5"
+				title: "Where am I?"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2C6F8E84165D3657"]
+			description: ["Ores seem to be scattered across this world. Yet every deposit is extremely rich and seemingly endless. However, picking up such a deposit seem to deplete its contents. Better only harvest what I need and leave some for later..."]
+			id: "60F7092B32A46B62"
+			tasks: [{
+				id: "10DBB977C22339FD"
+				title: "Where are the ores?"
+				type: "checkmark"
+			}]
+			title: "Rich and sparse"
+			x: -12.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["60F7092B32A46B62"]
+			description: ["This scanner allows me to find ores easily, without needing to dig everywhere."]
+			id: "72C1C45848DDB325"
+			rewards: [{
+				count: 5
+				id: "38878C8158064A7F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E59C0E079FEDBEC"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["72C1C45848DDB325"]
+			id: "1ECF10DC787F3DD5"
+			rewards: [{
+				count: 5
+				id: "3A7ADA96D050379D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AAA8F8604A754B2"
+				item: "scannable:range_module"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["72C1C45848DDB325"]
+			id: "5EB5A5B3F54429FA"
+			rewards: [{
+				count: 5
+				id: "51A5836C5473DC1F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38794A577A0FF138"
+				item: "scannable:common_ores_module"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["72C1C45848DDB325"]
+			id: "6E63BAD0A5099E7A"
+			rewards: [{
+				count: 5
+				id: "26CBCC4D46366204"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "738003D1DF776E55"
+				item: "scannable:rare_ores_module"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2C6F8E84165D3657"]
+			id: "046AF4F0238DB1D6"
+			rewards: [{
+				count: 5
+				id: "737959D3721E435D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "41F2CF8F66B530E5"
+					item: "tconstruct:crafting_station"
+					type: "item"
+				}
+				{
+					id: "4B4560AAAEBA373F"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "2586C23E977C5336"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					id: "2511DCF351802491"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+			]
+			title: "Better tools"
+			x: -13.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["60F7092B32A46B62"]
+			id: "361C54A09A0341D5"
+			rewards: [{
+				count: 5
+				id: "466693785A78FB22"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "14C7DF666AAAC93C"
+					item: { Count: 8, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					id: "01736AEE0D07A044"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["38056FEB0E5CF804"]
+			description: ["It's important to treat yourself when you reach a milestone. Every step I take makes me feel stronger. Those rewards can be used for some shopping"]
+			id: "0B635E957472934F"
+			tasks: [{
+				id: "58F27AF9E8760120"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Pushing forward"
+			x: -16.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["361C54A09A0341D5"]
+			id: "0394C9E91414E4DF"
+			rewards: [{
+				count: 5
+				id: "682F82BAE1FFF897"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10A7960EDE685845"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0394C9E91414E4DF"]
+			id: "0D7BB353C4756001"
+			rewards: [{
+				count: 5
+				id: "687C646B756A76D5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57EE43CE30CD6225"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0D7BB353C4756001"]
+			id: "76675D3F268C850B"
+			rewards: [{
+				count: 5
+				id: "26DEDE25C63A33D2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D73627CD348E27C"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["76675D3F268C850B"]
+			id: "185A339ACEDBC511"
+			rewards: [{
+				count: 5
+				id: "2A3E7CB0BE8AE180"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28EC250F422F3B47"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["185A339ACEDBC511"]
+			id: "4EB3CB670EE02FC2"
+			rewards: [{
+				count: 5
+				id: "15374E3A64295C6B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5283B9ED908533A5"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0394C9E91414E4DF"]
+			id: "33E51C47D4E1BC5D"
+			rewards: [{
+				count: 5
+				id: "4455E1D418D55B17"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7747BDEBE9608D8C"
+					item: "ironfurnaces:augment_blasting"
+					type: "item"
+				}
+				{
+					id: "6944719FCCA1CE0F"
+					item: "ironfurnaces:augment_smoking"
+					type: "item"
+				}
+				{
+					id: "74DA7290E5504C7D"
+					item: "ironfurnaces:augment_factory"
+					type: "item"
+				}
+				{
+					id: "54CB26AD28164A54"
+					item: "ironfurnaces:augment_speed"
+					type: "item"
+				}
+				{
+					id: "67164450E400A373"
+					item: "ironfurnaces:augment_fuel"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0394C9E91414E4DF"]
+			id: "7BE9CFE6DD338C95"
+			rewards: [{
+				count: 5
+				id: "66967F08371D0248"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DC3FC5FB5CC05C2"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			title: "Electric"
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["046AF4F0238DB1D6"]
+			id: "077231599191F4C9"
+			rewards: [{
+				count: 5
+				id: "2795F9B9DCE89161"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1536901929FA964C"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"077231599191F4C9"
+				"7E87BC0C936A596E"
+			]
+			icon: "tconstruct:smeltery_controller"
+			id: "25A82617A27FBD32"
+			rewards: [{
+				count: 5
+				id: "6979655695695958"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "17778C53275CA8D3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+					title: "Any #tconstruct:seared_tanks"
+					type: "item"
+				}
+				{
+					id: "2CE173497E8704F7"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "4526843C01C200B2"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "4A9046E22E84E351"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_bricks"
+						}
+					}
+					title: "Any #tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					id: "186F37F884EFC10B"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "5ABFABF8BA5FF22B"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+				{
+					id: "7F9B92ED59C37355"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+			]
+			title: "Getting an upgrade"
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2C6F8E84165D3657"]
+			id: "1E079AEA0CFC6975"
+			rewards: [{
+				count: 5
+				id: "4FB4D8072A01CCD9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0602138182177D9C"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1E079AEA0CFC6975"]
+			id: "7039C8C1A7818E6A"
+			rewards: [{
+				count: 5
+				id: "26824F26FD1C6B3E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CF3AA0447EF2536"
+				item: "cobblefordays:tier_2"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7039C8C1A7818E6A"]
+			id: "1D56A68EC87E49AE"
+			rewards: [{
+				count: 5
+				id: "6C0A73D529379B2B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "577AE6403451F248"
+				item: "cobblefordays:tier_3"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1D56A68EC87E49AE"]
+			id: "3952F9AD9E5E1EA1"
+			rewards: [{
+				count: 5
+				id: "1B68920138C73CEA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "475018A2F24F971D"
+				item: "cobblefordays:tier_4"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["3952F9AD9E5E1EA1"]
+			id: "014B56B2A0B626EE"
+			rewards: [{
+				count: 5
+				id: "20273654A74F5056"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "092692CFF9A59D5F"
+				item: "cobblefordays:tier_5"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["2C6F8E84165D3657"]
+			description: ["When mining trees gets too tiring"]
+			id: "0969E1FCF5793AF6"
+			rewards: [{
+				count: 5
+				id: "6C3976533E241286"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4641D928E3976FBC"
+				item: "bonsaitrees3:bonsaipot"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1E079AEA0CFC6975"]
+			id: "28F7406934FEA3FB"
+			rewards: [{
+				count: 5
+				id: "5D5557B0BEBE7628"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3036B7753A8ADE59"
+				type: "dimension"
+			}]
+			title: "The nether"
+			x: -15.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["28F7406934FEA3FB"]
+			id: "40FCEE1E352E22A0"
+			rewards: [{
+				count: 5
+				id: "475A15DE51587D94"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16B4CF5780B730DB"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["40FCEE1E352E22A0"]
+			id: "5D96AE3B24DEF714"
+			rewards: [{
+				count: 5
+				id: "2252490FC07FF670"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C1D729BE1C7D29C"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2C6F8E84165D3657"]
+			description: ["Accumulates water nearby"]
+			id: "4B9DFA4BD740F269"
+			rewards: [{
+				count: 5
+				id: "1932A02642FF7D3A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "400CE43D95F01165"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			title: "Infinite water"
+			x: -12.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["28F7406934FEA3FB"]
+			description: ["Putting a dislocator on a pedestal allows me to teleport from on place to another, an infinite amount of times. The dislocator can be configured with shift + right click in the air."]
+			id: "48EA72F70D9E2A43"
+			rewards: [{
+				count: 5
+				id: "7089DC8C727D90AC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7237C06E4ED1CAB7"
+					item: {
+						Count: 1
+						id: "draconicevolution:dislocator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "222FDCA4721ECFBB"
+					item: "draconicevolution:dislocator_pedestal"
+					type: "item"
+				}
+			]
+			title: "Getting around"
+			x: -16.5d
+			y: -12.5d
+		}
+	]
+	title: "Arrival"
+}

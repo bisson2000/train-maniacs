@@ -1,0 +1,1039 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "torque"
+	group: ""
+	icon: "railways:semaphore"
+	id: "70931849E497B1A5"
+	order_index: 6
+	quest_links: [{
+		id: "176BB518CC33F6C9"
+		linked_quest: "0E75D999DA90DDA6"
+		x: -3.0d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			dependencies: ["0E75D999DA90DDA6"]
+			id: "3654E1FC18C8E32C"
+			rewards: [{
+				count: 5
+				id: "09F43F590C51D3FD"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 4.0d
+			subtitle: "The catalyst"
+			tasks: [{
+				id: "1C44115153BB6D0A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3654E1FC18C8E32C"]
+			id: "54A155FB4F45C4AD"
+			rewards: [{
+				count: 5
+				id: "1782A7F2AAEDEF3C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4821FA3D24D70C1B"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54A155FB4F45C4AD"]
+			description: ["The basis of creating mechanical advantage"]
+			id: "60A8350075862C9B"
+			rewards: [{
+				count: 5
+				id: "29B89F82D712471D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2A4F7C990D95A72E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "761BB00AB41BEDCA"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3654E1FC18C8E32C"]
+			description: ["The conductor. By placing it on a train and giving it a schedule, this little guy will take care of deliveries for me!"]
+			id: "7238C3E12D9A33EF"
+			rewards: [{
+				count: 5
+				id: "495F36B1AF34FFA5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23CC47DA6B7C3D90"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"35344ED36B8A4E49"
+				"100FFDFB17000813"
+				"3DE436839DA78149"
+				"7238C3E12D9A33EF"
+				"1553F9BB88EF84EB"
+				"1E2B415C5740DCF8"
+			]
+			description: ["To be used on a blaze burner that's attached to a train"]
+			id: "32FD52A489480ED8"
+			rewards: [{
+				count: 5
+				id: "0B328E580BBC073C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "The essence of it all"
+			tasks: [{
+				id: "24D0AC8BE093314B"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"34D695D693C72517"
+				"50CA5490867557A1"
+			]
+			description: ["Trains can't just roll on dirt"]
+			id: "3DE436839DA78149"
+			rewards: [{
+				count: 5
+				id: "26AF90E6CA8B54B1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C0770288F807B11"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:tracks"
+					}
+				}
+				title: "Any #create:tracks"
+				type: "item"
+			}]
+			title: "Train tracks"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ABA8F33781AD43A"]
+			id: "50CA5490867557A1"
+			rewards: [{
+				count: 5
+				id: "0054E5C3F75C73E4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "539F4CC21D0D4972"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ABA8F33781AD43A"]
+			description: ["Stomp"]
+			id: "34D695D693C72517"
+			rewards: [{
+				count: 5
+				id: "6CC4EF3C708019CE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40498205DC2CE4F8"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ABA8F33781AD43A"]
+			id: "5075C443EA97C242"
+			rewards: [{
+				count: 5
+				id: "02A1C49D4431A5E2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CFD59D2FF6AB4FD"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3654E1FC18C8E32C"]
+			id: "4ABA8F33781AD43A"
+			rewards: [{
+				count: 5
+				id: "5DA475BB2E1079B7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "71911BB0D043DB86"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4ABA8F33781AD43A"]
+			id: "245FC1638A0D1531"
+			rewards: [{
+				count: 5
+				id: "7AA5555B20103FE9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A706650CA75131"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4ABA8F33781AD43A"]
+			description: ["Old but gold"]
+			id: "31D7DECA825CE6D0"
+			rewards: [{
+				count: 5
+				id: "618B8909E3A69B07"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "221219B675A911DE"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31D7DECA825CE6D0"]
+			description: ["This drill mines naturally generated ores infinitely. I can use this with those large patches of ores to effectively gather an infinite amount of resources. Thankfully, this machine can be enchanted, giving me the option to only place a few of them for big results"]
+			id: "74BC27BBB4D26852"
+			rewards: [{
+				count: 5
+				id: "0C4D1ACDCD639C3A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "6A957246D1DF0A52"
+				item: "everdrill:everdrill"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4ABA8F33781AD43A"]
+			description: ["Attached to a train, this can help with the item transfer process!"]
+			id: "1553F9BB88EF84EB"
+			rewards: [{
+				count: 5
+				id: "51E28B3B1401BA32"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "676707452FF59DDF"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E2B415C5740DCF8"]
+			description: ["Used to assemble trains, and set destinations for them"]
+			id: "100FFDFB17000813"
+			rewards: [{
+				count: 5
+				id: "2C0470D9945A4F24"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "551854CECBF0874B"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["100FFDFB17000813"]
+			description: ["Detect and split train presences"]
+			id: "15BB2EEC246BF58D"
+			rewards: [{
+				count: 5
+				id: "4EFB9CD9DE941E7A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ED7EF2D7AD2D0DB"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["15BB2EEC246BF58D"]
+			description: ["Stops trains from ramming into one another"]
+			id: "613E23177088DDA4"
+			rewards: [{
+				count: 5
+				id: "001E8FEC2B5564D8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02913BD81A2C8A76"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["70465FE3C550A570"]
+			id: "35344ED36B8A4E49"
+			rewards: [{
+				count: 5
+				id: "0B900BD4D5AC3AEE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "128FC165E2FD8D9A"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["70465FE3C550A570"]
+			description: ["The base of every train"]
+			id: "1E2B415C5740DCF8"
+			rewards: [{
+				count: 5
+				id: "5041753F4EC51841"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B88758EEFB27135"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3654E1FC18C8E32C"]
+			id: "70465FE3C550A570"
+			rewards: [{
+				count: 5
+				id: "593254ECF3480D11"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "6E4ED6775D0A9705"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3654E1FC18C8E32C"]
+			id: "546464EA03021946"
+			rewards: [{
+				count: 5
+				id: "6E355C82B7B5262B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "69B1334517DBCD52"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["70465FE3C550A570"]
+			id: "1327BA74590CF3C1"
+			rewards: [{
+				count: 5
+				id: "0CC096593EF61BA6"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F68DDC2DF43D964"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["546464EA03021946"]
+			id: "3D6E1DCAE3501678"
+			rewards: [{
+				count: 5
+				id: "28552FDD62366D73"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B4EE65053CEAD62"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["546464EA03021946"]
+			description: ["I'll need a lot of lava. Thankfully, the nether has plenty! By placing a hose pulley over a chunk with plenty of lava, I can pump an infinite amount of lava! This will go great with power generators that need lava."]
+			id: "7BBA99CF2339A24D"
+			rewards: [{
+				count: 5
+				id: "4DB597BA157B6150"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C3E72E1F9B8B03F"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4ABA8F33781AD43A"]
+			description: ["The only way to make rods"]
+			id: "4251220A1916B624"
+			rewards: [{
+				count: 5
+				id: "0F9990A659F43302"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "078511A4E862AE59"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4251220A1916B624"]
+			id: "504B3C70A2823FAD"
+			rewards: [{
+				count: 5
+				id: "6E2DA9A7DC1C9617"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C164AFC1A95B8F5"
+				item: "immersiveengineering:stick_iron"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4251220A1916B624"]
+			id: "77F1B07091FB3A31"
+			rewards: [{
+				count: 5
+				id: "4C68BA665798C9C1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "480E40160EE14E17"
+				item: "immersiveengineering:stick_steel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4251220A1916B624"]
+			id: "2FD159913B7B1127"
+			rewards: [{
+				count: 5
+				id: "43D129ADB50DD320"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "178A1AC931A6D699"
+				item: "immersiveengineering:stick_aluminum"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4251220A1916B624"]
+			id: "1040A2C7AB062825"
+			rewards: [{
+				count: 5
+				id: "6C921A9DF0FD40F9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D220A653C69AF08"
+				item: "createaddition:copper_rod"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4251220A1916B624"]
+			id: "7251813ED8E93D8F"
+			rewards: [{
+				count: 5
+				id: "4A186E45BB5A49C5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59B1E4015A6D9497"
+				item: "createaddition:gold_rod"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4251220A1916B624"]
+			id: "0D3A12FBFC50557C"
+			rewards: [{
+				count: 5
+				id: "2F556246BB7E6F8C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D258DC8C61A4722"
+				item: "createaddition:electrum_rod"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4251220A1916B624"]
+			id: "679503867407D6E3"
+			rewards: [{
+				count: 5
+				id: "3CAF5AAE95F2BE7B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BBB821A83BF7DB9"
+				item: "createaddition:brass_rod"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4ABA8F33781AD43A"]
+			description: ["Just need a couple sails attached to it and we got mechanical force!"]
+			id: "7FC2726265CA030B"
+			rewards: [{
+				count: 5
+				id: "1B889070B829EF8A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A0D4B6853028B70"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BBA99CF2339A24D"]
+			description: ["Pump and dump"]
+			id: "510E78F4D641E268"
+			rewards: [{
+				count: 5
+				id: "2AD5C620583C8680"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70945803AB665AE9"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "083160B404CEE4B4"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["60A8350075862C9B"]
+			id: "34D8CE8667A9DF38"
+			rewards: [{
+				count: 5
+				id: "49A9F0643BCFA82A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F841A4F496775AB"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FC2726265CA030B"]
+			id: "7B5B7B82BF2BE352"
+			rewards: [{
+				count: 5
+				id: "65FDC1754FA35922"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F94C6A9CA85B99C"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54A155FB4F45C4AD"]
+			description: ["Simple and easy. Water makes the wheel go round."]
+			id: "703FFB530216F5D3"
+			rewards: [{
+				count: 5
+				id: "4C7909DE585542E0"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D41667E00CE7990"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4ABA8F33781AD43A"]
+			id: "4F00CB4673691A85"
+			rewards: [{
+				count: 5
+				id: "1CD62F098722DD67"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "165F9663399B8548"
+				item: "create_power_loader:andesite_chunk_loader"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70465FE3C550A570"]
+			id: "0E73978471ACA1E9"
+			rewards: [{
+				count: 5
+				id: "7B8A67510EE7B9D2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73B04DF23B7BC535"
+				item: "create_power_loader:brass_chunk_loader"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["546464EA03021946"]
+			description: ["More enchanted books!"]
+			id: "650E340A92D5B2B2"
+			rewards: [{
+				count: 5
+				id: "7EF7A8F45E0F1608"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FE5B6706A80E4FF"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			title: "Printing enchantable machines"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4ABA8F33781AD43A"]
+			id: "1BFE06002423DA79"
+			rewards: [{
+				count: 5
+				id: "4859EB9C1D6F50E0"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CB325C71DC55D17"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3654E1FC18C8E32C"]
+			description: ["Disassembling, rotating and placing machines were never easier!"]
+			id: "2657F9FF5DDBDE66"
+			rewards: [{
+				count: 5
+				id: "0E83646948B535B8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36EDF01B258CD100"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3654E1FC18C8E32C"]
+			description: ["I can see how machines are doing!"]
+			id: "3A9C3FF8B3E285E6"
+			rewards: [{
+				count: 5
+				id: "7FED6AA833FE2E6F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35CFBADF21ECA73D"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["703FFB530216F5D3"]
+			id: "6935AD4A9DE45732"
+			rewards: [{
+				count: 5
+				id: "27AB2B9BB9E10A88"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20503D63E0A50A73"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["70465FE3C550A570"]
+			id: "32C93DB4722DDCBC"
+			rewards: [{
+				count: 5
+				id: "4308A0C69B76D629"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FDC54C0D90B7318"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["32C93DB4722DDCBC"]
+			id: "4350A88D744D3743"
+			rewards: [{
+				count: 5
+				id: "4F3089CCC3FA151E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "389E51A61567F8C7"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["32C93DB4722DDCBC"]
+			description: ["The electric motor transforms RF into mechanical energy. The alternator does the opposite. Those are great to transport mechanical energy over long distances!"]
+			id: "5AFEE218C423A033"
+			rewards: [{
+				count: 5
+				id: "4D12F4155DC91329"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2A64512C0517F726"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+				{
+					id: "0E23B84B52BF0ED8"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["32FD52A489480ED8"]
+			description: ["Gathering resources is a time-consuming process. Thankfully, there are ways to make machines do the work! All I need is 2 train station, a train that carries items, and a schedule! The train can gather resources from one station and transport them to another station. A chunkloaded array of Everdrills will take care of the mining for me..."]
+			id: "5F273C59B40D34F0"
+			tasks: [{
+				id: "3A679921B9D9A1D9"
+				title: "Your first train system"
+				type: "checkmark"
+			}]
+			title: "Your first train system"
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"74BC27BBB4D26852"
+				"5F273C59B40D34F0"
+			]
+			description: [
+				"2 Things are needed to keep the drill active:"
+				"1. The chunk must be loaded"
+				"2. Mechanical power must be transmitted across unloaded chunks. This can be achieved by combining a wireless flux network and an electric motor"
+			]
+			id: "0B5D1863A34C6664"
+			tasks: [{
+				id: "60A94A1079ABCF46"
+				type: "checkmark"
+			}]
+			title: "Keeping the drills active"
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B5D1863A34C6664"]
+			description: ["Overflows can be a major cause of issues and should be prevented. This can be avoided by making sure the drills get deactivated if the storage become full, by using a clutch for example."]
+			id: "677927E19834C6D1"
+			tasks: [{
+				id: "4FAFCB250DDDCB02"
+				type: "checkmark"
+			}]
+			title: "Preventing overflows"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D90EE1750FD22EB"]
+			description: ["Not any kind of experience can be supplied to a printer or a blaze burner to enchant items. The experience must first be converted to heaps of experience, then put into a Disenchanter to create liquid experience."]
+			id: "3136BD6EA24BB8CA"
+			rewards: [{
+				count: 5
+				id: "312D2557F0ECB23B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "543CD7F03527D379"
+				item: "create_sa:heap_of_experience"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3654E1FC18C8E32C"]
+			description: ["Makes things stick together"]
+			id: "3F8CF30A85A58B80"
+			tasks: [{
+				id: "21406697A10AEF7A"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["546464EA03021946"]
+			description: ["I need a lot of drills, and a lot of them need to be enchanted. This can automate the process..."]
+			id: "3D90EE1750FD22EB"
+			rewards: [{
+				count: 5
+				id: "6404CDE346988B70"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "326EB7209166628D"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			title: "Enchanting automatically"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3136BD6EA24BB8CA"]
+			id: "410A945C56FC4A19"
+			rewards: [{
+				count: 5
+				id: "31F0D37F8FA2B405"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1685F1F8309A0E4E"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4350A88D744D3743"]
+			description: ["Crushing and reassembling ender pearls seem to provide a net surplus of pearls..."]
+			id: "7CD7E78E2D2B51CC"
+			tasks: [
+				{
+					id: "2ACCCDEFE2FBBA82"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "5703392425EBFD81"
+					item: "ae2:ender_dust"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7BBA99CF2339A24D"]
+			id: "2C351D1DC13FA9C4"
+			rewards: [{
+				count: 5
+				id: "70B65BBC99BD6537"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5293A8D5BBE499C3"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+	]
+	title: "Trains"
+}

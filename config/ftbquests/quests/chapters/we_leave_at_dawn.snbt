@@ -1,0 +1,641 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "we_leave_at_dawn"
+	group: ""
+	icon: "embers:dawnstone_ingot"
+	id: "34DFE1489FFFDDFB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0738D46AC542CB90"
+				"63F97F4D8F9C9FF0"
+			]
+			id: "7E87BC0C936A596E"
+			rewards: [{
+				count: 5
+				id: "4E56E1F30A5EA969"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E601D51AEA1160C"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52653889AFB92B64"]
+			description: ["This codex contains all of the information needed"]
+			id: "251B1C3192184524"
+			rewards: [{
+				count: 5
+				id: "5BD642367A44D71A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16F7736D1AAC532F"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5C53313BAF29BE8C"
+			rewards: [{
+				count: 5
+				id: "13775AA2B39E60BE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "13AD3070A2E406B6"
+				item: { Count: 8, id: "embers:caminite_brick" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "496C109D8470A569"
+			rewards: [{
+				count: 5
+				id: "472A0729E85D3610"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6457AEC83C50191F"
+				item: "embers:tinker_hammer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["656CABD6F67CED65"]
+			description: ["The bore must be placed over bedrock. Getting items in and out of a bore is not straightforward. Using a Mechanical Core on top of the bore will allow me to pull and push items from it."]
+			id: "0011F4DBA21BE1E7"
+			rewards: [{
+				count: 5
+				id: "30FE5B2A8DA6B4DE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3143A52A14536397"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0011F4DBA21BE1E7"]
+			id: "01ED53D4427141C3"
+			rewards: [{
+				count: 5
+				id: "6D9CB833D65E1E3B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E9F4B62C641F2C1"
+				item: "embers:ember_shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01ED53D4427141C3"]
+			description: ["Collecting shards is not enough. They must be processed to generate ember."]
+			id: "746B87F49FC94675"
+			rewards: [{
+				count: 5
+				id: "274D3DDB1665ABD5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F1D85525F15A304"
+				item: "embers:ember_activator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["746B87F49FC94675"]
+			id: "1EF602605C334C17"
+			rewards: [{
+				count: 5
+				id: "1C62A04D8684D40F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "064FB3AE5B779A7D"
+					item: "embers:ember_receiver"
+					type: "item"
+				}
+				{
+					id: "35F1A150A76A5B58"
+					item: "embers:ember_emitter"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["746B87F49FC94675"]
+			id: "3B7B5DE4A5E2F4F3"
+			rewards: [{
+				count: 5
+				id: "31B51596E56970D2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2073ED85BE67B7D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"embers:ember": 0.0d
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+					id: "embers:copper_cell"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["251B1C3192184524"]
+			id: "78B9DD764663F2BF"
+			rewards: [{
+				count: 5
+				id: "0DD6AFF059BFDFCE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "781DB1E13B296B2E"
+				item: "embers:atmospheric_gauge"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "52653889AFB92B64"
+			rewards: [{
+				count: 5
+				id: "16A1FD5CA68B3457"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "4EC8E1CF571CDFFB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["251B1C3192184524"]
+			id: "1DFDB7095FCA99C0"
+			rewards: [{
+				count: 5
+				id: "1BCA36C0E165EC0E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5DBBE018DA7C3490"
+					item: "embers:ember_dial"
+					type: "item"
+				}
+				{
+					id: "38F1B21E47A567AF"
+					item: "embers:item_dial"
+					type: "item"
+				}
+				{
+					id: "5ACB607CF41419F4"
+					item: "embers:fluid_dial"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["496C109D8470A569"]
+			id: "2AA76AC8DF120800"
+			rewards: [{
+				count: 5
+				id: "3329848E2B11D238"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "79F46174AF90FE08"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "1430A567B0110B83"
+					item: "embers:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "4F43AB9A849D0048"
+					item: "embers:item_extractor"
+					type: "item"
+				}
+				{
+					id: "39DB76C3FB4C1494"
+					item: "embers:fluid_extractor"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"496C109D8470A569"
+				"5C53313BAF29BE8C"
+			]
+			description: ["This essentialy extends the interface of the embers machines"]
+			id: "656CABD6F67CED65"
+			rewards: [{
+				count: 5
+				id: "21948388C4713166"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "39DA3D62D33A5C18"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["251B1C3192184524"]
+			id: "07B58FCD748C791A"
+			rewards: [{
+				count: 5
+				id: "70FD5E5FBBC035AB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4489A78AD40BBDC1"
+				item: "embers:tinker_lens"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1EF602605C334C17"]
+			description: [
+				"Melts ores in exchange of ember. Throw them in from the top."
+				"Pipe out the fluid from the top"
+			]
+			id: "6F598BC0C86B15C4"
+			rewards: [{
+				count: 5
+				id: "0F65E45171A1816E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "650D74CFD579EA63"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"16E9BF5E72D6B04A"
+				"6F598BC0C86B15C4"
+			]
+			id: "4419C5C100346E25"
+			rewards: [{
+				count: 5
+				id: "7AD467CED3D6B532"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "403FD4F527E2B09E"
+				item: "embers:geologic_separator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C53313BAF29BE8C"]
+			id: "16E9BF5E72D6B04A"
+			rewards: [{
+				count: 5
+				id: "226EFCAE0EEDA373"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06ADCE5CFAB10864"
+				item: "embers:fluid_vessel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6F598BC0C86B15C4"
+				"030770E78E3D3FBD"
+			]
+			description: ["Place the stamper above the stamp base. Pipe in the fluids. Activate the stamper with ember energy. Collect the results by placing a bin under the stamp base and piping out those results"]
+			id: "63F97F4D8F9C9FF0"
+			rewards: [{
+				count: 5
+				id: "48D22CD6BCDE75E8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3CB395733137B849"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "48BD2BC8285A5960"
+					item: "embers:stamp_base"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C53313BAF29BE8C"]
+			id: "351C1A4B0A358B47"
+			rewards: [{
+				count: 5
+				id: "5BB3C18F10010983"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3CD265F62251B713"
+					item: "embers:ingot_stamp"
+					type: "item"
+				}
+				{
+					id: "6EFE78BE7E1806AD"
+					item: "embers:plate_stamp"
+					type: "item"
+				}
+				{
+					id: "4000149FE1756100"
+					item: "embers:gear_stamp"
+					type: "item"
+				}
+				{
+					id: "0F531D09624C3934"
+					item: "embers:nugget_stamp"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F598BC0C86B15C4"]
+			description: [
+				"Pipe in the fluid to the bottom."
+				"Pipe out the result from the top."
+				"As usual, ember energy is needed!"
+			]
+			id: "0738D46AC542CB90"
+			rewards: [{
+				count: 5
+				id: "527331D9DC010292"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DF2216E6B942CB6"
+				item: "embers:mixer_centrifuge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C53313BAF29BE8C"]
+			description: ["Collects items over it"]
+			id: "030770E78E3D3FBD"
+			rewards: [{
+				count: 5
+				id: "1DB00C8DE8E49931"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61514BE3049056D0"
+				item: "embers:bin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E87BC0C936A596E"]
+			id: "35E8EA29E383F442"
+			rewards: [{
+				count: 5
+				id: "5C34CF160C870B25"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "04F8BA964F3D8C34"
+					item: "embers:iron_aspectus"
+					type: "item"
+				}
+				{
+					id: "122BE114D8D9421B"
+					item: "embers:copper_aspectus"
+					type: "item"
+				}
+				{
+					id: "0129CED94BF35878"
+					item: "embers:lead_aspectus"
+					type: "item"
+				}
+				{
+					id: "4D763C692084C789"
+					item: "embers:silver_aspectus"
+					type: "item"
+				}
+				{
+					id: "71D97D2BC88988FB"
+					item: "embers:dawnstone_aspectus"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["746B87F49FC94675"]
+			id: "601352A7A4C1BE21"
+			rewards: [{
+				count: 5
+				id: "5FB9569BBC11BD39"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "635A1E0C757D4955"
+				item: "embers:pressure_refinery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1EF602605C334C17"]
+			id: "2AC9300136CF2541"
+			rewards: [{
+				count: 5
+				id: "0EC49FA3A26C195E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E40BB4E09BB5E0D"
+				item: "embers:ember_ejector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B7B5DE4A5E2F4F3"]
+			id: "1BCC41DCCD7CBDD0"
+			rewards: [{
+				count: 5
+				id: "41181F5EB23985D9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "355C5C799B1F41D9"
+				item: "embers:crystal_cell"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F598BC0C86B15C4"]
+			id: "3EB5F0FDFBA664B9"
+			rewards: [{
+				count: 5
+				id: "1386719E545F1B22"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EDBB053000D4DFF"
+				item: "embers:cinder_plinth"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["35E8EA29E383F442"]
+			id: "23FBA8FE191C7E67"
+			rewards: [{
+				count: 5
+				id: "71B3259C7297B778"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "730081036A8674A1"
+					item: "embers:alchemy_pedestal"
+					type: "item"
+				}
+				{
+					id: "017C9541F9D2D29D"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+				{
+					id: "3F5752E0DAF9B53C"
+					item: "embers:beam_cannon"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E87BC0C936A596E"]
+			id: "5B121F4228AAFCDD"
+			rewards: [{
+				count: 5
+				id: "6A42FBB717077C84"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C51873C5419AA6C"
+				item: "extendedcrafting:ender_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+	]
+	title: "Dawn"
+}

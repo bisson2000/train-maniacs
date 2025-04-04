@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: ""
+	icon: "storagedrawers:oak_full_drawers_1"
+	id: "103F8D6B8BA0632F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "49591BE0F3AA7360"
+			rewards: [{
+				count: 5
+				id: "64F29E156291C82E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B116F1BE64A1D9C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				match_nbt: true
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49591BE0F3AA7360"]
+			id: "55518256B1ABF0C0"
+			rewards: [{
+				count: 5
+				id: "312D787BD47BFD86"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18AD3795D0597E10"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49591BE0F3AA7360"]
+			id: "0C65844EBCFD42F0"
+			rewards: [{
+				count: 5
+				id: "682514792513FC39"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "736CCDAF73E458BB"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C65844EBCFD42F0"]
+			id: "033CB2CDE59C17CE"
+			rewards: [{
+				count: 5
+				id: "765D08B75AC8C89A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "710EC8AC5D6E2B10"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["033CB2CDE59C17CE"]
+			id: "530C1F9D0FAAC934"
+			rewards: [{
+				count: 5
+				id: "3EF34565CA6066FF"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12476D036CA8CEE6"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["530C1F9D0FAAC934"]
+			id: "503F335F371355D0"
+			rewards: [{
+				count: 5
+				id: "3A7D5157B7FA18BE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36032CD464EC0AAE"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["503F335F371355D0"]
+			id: "2F021F16FBE69325"
+			rewards: [{
+				count: 5
+				id: "1876B4219B2B68D3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "616232029A3C1C2B"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["49591BE0F3AA7360"]
+			description: ["Change denied"]
+			id: "446CC7E4E19080C9"
+			rewards: [{
+				count: 5
+				id: "027970D1A54D5733"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03CCA53C74A8A7BA"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49591BE0F3AA7360"]
+			id: "29114A8148DBB0BD"
+			rewards: [{
+				count: 5
+				id: "34211F31B887CB81"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68F37725C9703F7E"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49591BE0F3AA7360"]
+			id: "2C5FADB2B88CFD02"
+			rewards: [{
+				count: 5
+				id: "31200879C860A7D8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "062DF8B99711AAC5"
+				item: "storagedrawers:controller_slave"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49591BE0F3AA7360"]
+			id: "0816F49E5A9CFAAB"
+			rewards: [{
+				count: 5
+				id: "5CD2657CB2AE873F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69263D9C3A7FD001"
+				item: "storagedrawers:compacting_drawers_2"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0816F49E5A9CFAAB"]
+			id: "063B5BFFC411302C"
+			rewards: [{
+				count: 5
+				id: "3DF1BF4A1190EE6D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "459273736E68A096"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: ["An all-in-one tool to store all kinds of blocks"]
+			id: "4A60D7B792C9F4D2"
+			rewards: [{
+				count: 5
+				id: "711E63ACECAE546C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B3C6C7A46E3C326"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A60D7B792C9F4D2"]
+			id: "4A57AC87FC9254AB"
+			rewards: [{
+				count: 5
+				id: "2354C88685705581"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7786C5EE622C7BEB"
+				item: "dankstorage:dank_2"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A57AC87FC9254AB"]
+			id: "29E6FDE395027F38"
+			rewards: [{
+				count: 5
+				id: "76E6F69B30594FAB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22E09483DF488FEB"
+				item: "dankstorage:dank_3"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["29E6FDE395027F38"]
+			id: "4EAC26B4CE451418"
+			rewards: [{
+				count: 5
+				id: "1CB163ED25DD8584"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "380F68B7EEC5111D"
+				item: "dankstorage:dank_4"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EAC26B4CE451418"]
+			id: "6D92D29AEA706058"
+			rewards: [{
+				count: 5
+				id: "5BCB007E2A7BADB5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EF42B7E3C592FF3"
+				item: "dankstorage:dank_5"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6D92D29AEA706058"]
+			id: "17BC6EF63AB4DAA0"
+			rewards: [{
+				count: 5
+				id: "303D08CFD566AD55"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06A3DDC6BC3352F8"
+				item: "dankstorage:dank_6"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["17BC6EF63AB4DAA0"]
+			id: "7C8B050B1B798800"
+			rewards: [{
+				count: 5
+				id: "5E0E4B32AA0FC163"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AB42C43FD1D96F3"
+				item: "dankstorage:dank_7"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+	]
+	title: "Storage"
+}

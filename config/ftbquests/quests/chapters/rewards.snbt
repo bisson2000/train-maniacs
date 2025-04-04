@@ -1,0 +1,1360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rewards"
+	group: ""
+	icon: "extendedcrafting:the_ultimate_nugget"
+	id: "332A8F8CBAC08CE5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "6E8DF7FA1C1CBBB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D886D8571909F05"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:attribute_modifier/attack_steroids"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Reduce the cooldown rate when attacking"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "4124E274EFD34319"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Attack Steroids"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "55FD39D61DC4D39E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F0DD5E3D9614531"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:flight"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "79112698B79ADEAD"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Flight"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "642F41FD99130478"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CC6EBF312EC0A6E"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:attribute_modifier/heart_gainer"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Increase max health"
+			tasks: [{
+				consume_items: true
+				count: 15L
+				disable_toast: true
+				id: "78F023E03DAA9A03"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Heart Gainer"
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "7E32FDE9885E89DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CD312273BC70C07"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:attribute_modifier/hidden_chestplate"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Increase armor points"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "1A796CC117C670BC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Hidden Chestplate"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "3E224F64EA101CA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76A8A0CD240E71C4"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:attribute_modifier/knockback"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "67C34A5F9432518C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Knockback"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "2A68EC505AA08E39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E84B8CE5DF52F6C"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/absorption"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "02858ED58485937C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Absorbption"
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "78095DE1A5E07431"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76A838254E7C49BC"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/bad_omen_self"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "302DC70B560D6241"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Bad Omen"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "557A5489ADA524E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A51EEF493C9356C"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/conduit_power"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Gain underwater bonuses"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "0B0B2DED17068F82"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Conduit Power"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "741097D51547FCB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A93717141344743"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/dolphins_grace"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				disable_toast: true
+				id: "67655A78F85D7EB1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Dolphin's grace"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "1564E83002EC2A86"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DF2A849D2ED02E4"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/fire_resistance"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				disable_toast: true
+				id: "1615564E1B805116"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Fire Resistance"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "5684EF69D3311FF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C94CE99D5679AE3"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/haste"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "46B24F690E8ACA8A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Haste"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "33D716EDC5AC5931"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5844B5207708755B"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/hero_of_the_village"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "68C6E18F1C1C7489"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Hero of the village"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "101EB5A9C87C4992"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08F3FC389040AAAB"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/jump_boost"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				disable_toast: true
+				id: "17E7C1B40F356A32"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Jump Boost"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "5589E04313EF1289"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30C3197B72E1E1DE"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/luck"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "4FE3FC2C441B3A51"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Luck"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "51D4AAED481D412F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6239BA59E6F3AE62"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/unluck"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Entities in the area have a lower chance on good loot"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4D5D467CE6F3B105"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Unluck"
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "2965A2B717E49C70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "224F1D3069954CF5"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/night_vision"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 200L
+				disable_toast: true
+				id: "259F7B68A46C4B15"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Night Vision"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "2025F17D1E17117B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43036F43869DE613"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/regeneration"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				disable_toast: true
+				id: "79AA8C3B0E0AAC5F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Regeneration"
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "585A9CBF67EFB477"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E8C9848A559BD2A"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/resistance"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				disable_toast: true
+				id: "50090E3B635B2D7A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Resistance"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "62B275C6EAC4BB51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21E57815BCBF43ED"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/saturation"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				disable_toast: true
+				id: "122405588EA660A1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Saturation"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "732FC023D8938F84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E2782A4A77C3E2B"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/slow_falling"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "62B120B394E7BCC1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Slow Falling"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "1BC66F13DD352874"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B083A1C64267BBE"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/speed"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				disable_toast: true
+				id: "71E74BCD4F110B0A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Speed"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "2279F2C9C2B5E7D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F05235265A030AC"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/strength"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 15L
+				disable_toast: true
+				id: "274A2477316C25BB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Strength"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "40C466D21914E51E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "227B47CD319C500C"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/water_breathing"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Breathe underwater"
+			tasks: [{
+				consume_items: true
+				count: 50L
+				disable_toast: true
+				id: "654E5C21890A5D70"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Water Breathing"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "1AFDF3817DA24458"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AF637FF2B452623"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/glowing"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Entities in the area start glowing"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7D8DF7F0A5F5D274"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Glowing"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "3AEA57203330CA47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74EC8733D1BCE7D3"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/slowness"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Entities in the area move slower"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				disable_toast: true
+				id: "0840A4C4D5C4AA66"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Slowness"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "7B8A888F88D056E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6579B48C10CED7AA"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/mining_fatigue"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Entities in the area mine slower"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "69964DFC95F4FD2B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Mining Fatigue"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "6DBAE9FE1197939B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "342BE878179D8B77"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:bonemealer"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Bonemeal the area"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5CE7C87DB2972EB4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Bonemealer"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "39849DD3E7E6142B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55CD3E7BE4828427"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:fertility"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Animals in the area become fertile"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "09D9FC591D8582F9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Fertility"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "5678943F0F9BB3C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "055282561619E236"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:magnetize"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Attract nearby items"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "50FC5FCBBC586AE9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Magnetize"
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "4DBBAAF9B27DE048"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D70500163938F20"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:power_stare"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Push away entities you're looking at"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "1BA78D9596CA1BE3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Power Stare"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "48185ABF899B52F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C6996E9BECF1DD9"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:step_assist"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "690141DA43B6978C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Step Assist"
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			id: "6B53475635037CE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21CF570ADC9D7BC1"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/weakness"
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "Entities in the area become weaker"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "646D9EDD447AC59F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			title: "Weakness"
+			x: 4.5d
+			y: -2.5d
+		}
+	]
+	title: "Rewards"
+}

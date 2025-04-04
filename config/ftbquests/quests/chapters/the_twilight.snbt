@@ -1,0 +1,318 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight"
+	group: ""
+	icon: "twilightforest:magic_map_focus"
+	id: "55ABE68D298BDAF3"
+	order_index: 5
+	quest_links: [{
+		id: "7C04CCE92B1BF0D9"
+		linked_quest: "7E87BC0C936A596E"
+		x: 2.5d
+		y: -7.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"6DAC539D6B8AF3AE"
+				"0E75D999DA90DDA6"
+			]
+			id: "6323FCFDD52B1170"
+			rewards: [{
+				count: 5
+				id: "2ED67B6920331067"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay Naga"
+			tasks: [{
+				id: "7D2E47A46845F1F5"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6DAC539D6B8AF3AE"
+				"0E75D999DA90DDA6"
+			]
+			description: [""]
+			id: "3D41C923E20D6C4D"
+			rewards: [{
+				count: 5
+				id: "59335F6EDD0BBBAF"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the Lich"
+			tasks: [{
+				id: "4EE8A13DD454F5DF"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6DAC539D6B8AF3AE"
+				"0E75D999DA90DDA6"
+			]
+			id: "2E2735B9ABC2A718"
+			rewards: [{
+				count: 5
+				id: "260B1393FA33CE94"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the Minoshroom"
+			tasks: [{
+				id: "0D6343261468EDB7"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6DAC539D6B8AF3AE"
+				"0E75D999DA90DDA6"
+			]
+			id: "34F91EC48AE1EFC1"
+			rewards: [{
+				count: 5
+				id: "25CB993797A504B8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the Hydra"
+			tasks: [{
+				id: "1A355D629BD20835"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6DAC539D6B8AF3AE"
+				"0E75D999DA90DDA6"
+			]
+			id: "0CAFE26F24C2A3E2"
+			rewards: [{
+				count: 5
+				id: "6E8D964D21161ECC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the Knight Phatom"
+			tasks: [{
+				id: "2357F291D883CFD1"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6DAC539D6B8AF3AE"
+				"0E75D999DA90DDA6"
+			]
+			id: "1EDD26906C146E4A"
+			rewards: [{
+				count: 5
+				id: "37735500389B4BCB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the Ur-Ghast"
+			tasks: [{
+				id: "415174EFB3DAECB1"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6DAC539D6B8AF3AE"
+				"0E75D999DA90DDA6"
+			]
+			id: "5EE393F8EE0C1DDA"
+			rewards: [{
+				count: 5
+				id: "03E08C6C7927F5EB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the Alpha Yeti"
+			tasks: [{
+				id: "4063D3F76653E83C"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6DAC539D6B8AF3AE"
+				"0E75D999DA90DDA6"
+			]
+			id: "32F952E29EDEF396"
+			rewards: [{
+				count: 5
+				id: "58B76AA70F0D3A2F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Slay the Snow Queen"
+			tasks: [{
+				id: "3F0EA6EDFE57E9E7"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79CA295D6796FD74"]
+			description: ["Finally some redstone! It seems like I can only find it in this dimension..."]
+			id: "6DAC539D6B8AF3AE"
+			rewards: [{
+				count: 5
+				id: "4A7C8BD94A0A8A1B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07491443DCCD928E"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79CA295D6796FD74"]
+			description: ["Finally some zinc! It seems like I can only find it in this dimension..."]
+			id: "0E75D999DA90DDA6"
+			rewards: [{
+				count: 5
+				id: "0465C59E90C3C091"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D13804C738BFD40"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0CAFE26F24C2A3E2"
+				"3D41C923E20D6C4D"
+				"32F952E29EDEF396"
+				"1EDD26906C146E4A"
+				"2E2735B9ABC2A718"
+				"6323FCFDD52B1170"
+				"5EE393F8EE0C1DDA"
+				"34F91EC48AE1EFC1"
+			]
+			description: ["When finding that one structure is impossible"]
+			id: "35D96E7AC3FC855D"
+			rewards: [{
+				count: 5
+				id: "0351AECE5391291A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C613BED4B58E75F"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E87BC0C936A596E"]
+			description: ["By creating a 2x2x1 hole that contains water, surrounding it with flowers, and throwing a dawnstone ingot into it, I can create a portal to another dimension!"]
+			id: "79CA295D6796FD74"
+			rewards: [{
+				count: 5
+				id: "2CDAB433940B1EF3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "5B5B8FCB11B063A7"
+				type: "dimension"
+			}]
+			title: "The Twilight Forest"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["79CA295D6796FD74"]
+			description: ["I can build a zinc portal to travel to the Twilight Forest. With it, the trains can travel freely between the overworld and that dimension, allowing for resources to be transported between both of them."]
+			id: "23491F42D1198B13"
+			rewards: [{
+				count: 5
+				id: "513E301255A3D9B4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "01E112C034044101"
+					item: { Count: 8, id: "create:zinc_block" }
+					type: "item"
+				}
+				{
+					id: "2962C04ACEB6C2D7"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Train to the Twilight Forest"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79CA295D6796FD74"]
+			description: ["Finding the bosses just got easier!"]
+			id: "0EBD2089578E82D5"
+			tasks: [{
+				id: "26BF9379CB6C706D"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+	]
+	title: "Twilight"
+}

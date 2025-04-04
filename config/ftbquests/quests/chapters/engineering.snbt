@@ -1,0 +1,633 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "engineering"
+	group: ""
+	icon: "immersiveengineering:workbench"
+	id: "4495D3BB895A0BE2"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["By right clicking on structures, they can be assembled into their respective machines"]
+			id: "3313478C26C076CB"
+			rewards: [{
+				count: 5
+				id: "4BEF68387B5523D4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1256DE134C896EB4"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3313478C26C076CB"]
+			id: "2BEF1EA70A44E467"
+			rewards: [{
+				count: 5
+				id: "0DE0906948B98299"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26FEBD7C0A677758"
+				item: {
+					Count: 1
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3313478C26C076CB"]
+			description: ["Seeds for string"]
+			id: "4D206ECA80BA046F"
+			rewards: [{
+				count: 5
+				id: "77BD602E7445C173"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6917A355F1606117"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3313478C26C076CB"]
+			id: "6BE888F50D80832F"
+			rewards: [{
+				count: 5
+				id: "7F84B39E578A4F5A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D86287E341AC746"
+				item: "immersiveengineering:wirecoil_copper"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6BE888F50D80832F"]
+			id: "43E39DD8E3D7FA51"
+			rewards: [{
+				count: 5
+				id: "0C12F824B27C77B8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18C711DBDD6484F2"
+				item: "immersiveengineering:connector_lv"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6BE888F50D80832F"]
+			id: "731737A5ECE9196C"
+			rewards: [{
+				count: 5
+				id: "672167B1023F3B91"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58CEB24BBA5149A1"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3313478C26C076CB"]
+			description: ["Very slow, but will eventually produce coal coke"]
+			icon: "immersiveengineering:coke_oven"
+			id: "2801044F1E4F297C"
+			rewards: [{
+				count: 5
+				id: "6143F897B05009EB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "2DE8E2CB09A7CFEA"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "Coke Oven"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2801044F1E4F297C"]
+			id: "7DF492368DF644CB"
+			rewards: [{
+				count: 5
+				id: "130617385550A6D2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07F1BFC9BA1A83E4"
+				item: "immersiveengineering:treated_wood_packaged"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DF492368DF644CB"]
+			id: "1BD7884BBAD713FF"
+			rewards: [{
+				count: 5
+				id: "35C5BB7AD54EFAAA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F7E85A72ED70680"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3313478C26C076CB"]
+			id: "766E2D9A73F47A86"
+			rewards: [{
+				count: 5
+				id: "6F5CB092459EDAE1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E475B43156790F6"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD7884BBAD713FF"]
+			id: "50BB9AB59993B850"
+			rewards: [{
+				count: 5
+				id: "00824099EB4BFE15"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F6D1007A44B1E9D"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BD7884BBAD713FF"]
+			description: ["Essential for wires!"]
+			icon: "immersiveengineering:metal_press"
+			id: "0848B00C76AD9D74"
+			rewards: [{
+				count: 5
+				id: "35CBB1722DC28DB9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "159AC52EA74F1B53"
+					item: "immersiveengineering:mold_wire"
+					type: "item"
+				}
+				{
+					id: "7EAE42FB6DF354D3"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "552AE2754D0BBDC6"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "108EB183B8845038"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7B21D50AD98A910E"
+					item: { Count: 2, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5731170803BE2DA7"
+					item: { Count: 2, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
+			title: "Metal Press"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3313478C26C076CB"]
+			description: ["Making the first steel takes patience and dedication"]
+			icon: "immersiveengineering:blast_furnace"
+			id: "2C9E4B251E15509A"
+			rewards: [{
+				count: 5
+				id: "2EFF7F66D7965001"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "1443B10F84022C86"
+				item: { Count: 27, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			title: "Blast Furnace"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C9E4B251E15509A"]
+			id: "5A07FDBF5E3C1688"
+			rewards: [{
+				count: 5
+				id: "30B6C1DD58D290FC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0737EA72E56CB6D3"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BD7884BBAD713FF"]
+			description: ["When crafting components is too time consuming"]
+			icon: "immersiveengineering:auto_workbench"
+			id: "7430BEBF4740BB76"
+			rewards: [{
+				count: 5
+				id: "4DB05EEB69C36B24"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "35B7F33F0EDBAC4F"
+					item: { Count: 4, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "535CCE67D496F421"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "38A66D8BB947D6EF"
+					item: { Count: 2, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "191CEFA2B771E5B3"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "05A7AAACFD44108B"
+					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2F45733F46911192"
+					item: { Count: 2, id: "immersiveengineering:slab_treated_wood_horizontal" }
+					type: "item"
+				}
+			]
+			title: "Automated Engineer's workbench"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BD7884BBAD713FF"]
+			description: ["Don't fall in!"]
+			icon: "immersiveengineering:crusher"
+			id: "0E95EAB442D54BFE"
+			rewards: [{
+				count: 5
+				id: "6B0B985FE3A5742C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "2A33F33AA518258C"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "10A3BA3B573EDCD3"
+					item: { Count: 10, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6BCEF9FFEFE28120"
+					item: { Count: 9, id: "minecraft:hopper" }
+					type: "item"
+				}
+				{
+					id: "01E00488721E6E47"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "28D89B39EF782E08"
+					item: { Count: 8, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+			]
+			title: "Crusher"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1BD7884BBAD713FF"]
+			description: ["Oil"]
+			icon: "immersiveengineering:squeezer"
+			id: "2AAD5BCF76822EB5"
+			rewards: [{
+				count: 5
+				id: "1490A071C6E1017F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "267CBDB75BD22C67"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3B9FE3D129813E33"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "70BCE77BD19B4DB8"
+					item: { Count: 4, id: "immersiveengineering:wooden_barrel" }
+					type: "item"
+				}
+				{
+					id: "59456BA355C218C9"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "4434063FDBC10433"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "228FED00EDB0B949"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "46029AD5E7EADD62"
+					item: { Count: 3, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+			]
+			title: "Industrial Squeezer"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AAD5BCF76822EB5"]
+			description: ["Crude oil made easy!"]
+			icon: "immersiveengineering:refinery"
+			id: "7223A70487E47E32"
+			rewards: [{
+				count: 5
+				id: "728A59AADFE4337B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "5AFE51F3AA4D9756"
+					item: { Count: 16, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "38C08E948276213B"
+					item: { Count: 3, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "574A54A2555D9E26"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6D499CBB6254B349"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "629862B580CB9B92"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0622C445C7AE3DA0"
+					item: { Count: 8, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+			]
+			title: "Refinery"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1BD7884BBAD713FF"]
+			description: ["Ethanol"]
+			icon: "immersiveengineering:fermenter"
+			id: "25E2577A0393323F"
+			rewards: [{
+				count: 5
+				id: "3642BB56A005A42D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "5E727C48248281C1"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "78E666DCED526F30"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "068A02E2314FADE7"
+					item: { Count: 4, id: "minecraft:cauldron" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6DC2DB911E761F45"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2716D3B6967A8BB0"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "379B3E434F9DD9A2"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Industrial Fermenter"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "720F737CD835E301"
+			rewards: [{
+				count: 5
+				id: "4721F0ADB52FD0AA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46E01833CBD6A71C"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			title: "Wireless energy"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["720F737CD835E301"]
+			id: "69388B75E0BAF533"
+			rewards: [{
+				count: 5
+				id: "6F90C03FD50227FA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4806739202652A66"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			title: "Receiver"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["720F737CD835E301"]
+			id: "74751E9B57E06472"
+			rewards: [{
+				count: 5
+				id: "63D85A25D5B1F241"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C177324B80A0F42"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			title: "Transmitter"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7223A70487E47E32"]
+			id: "6F193631C7161E32"
+			rewards: [{
+				count: 5
+				id: "1C053DC8C1F41AA5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "138A7A151EF5637F"
+				item: "pneumaticcraft:oil_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+	title: "Engineering"
+}

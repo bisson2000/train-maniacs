@@ -1,0 +1,1176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "computer"
+	group: ""
+	icon: "ae2:controller"
+	id: "4A69A368DB0C7FE8"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["263ACD67B0B31013"]
+			description: ["Every computer needs quartz. How else would they get a clock?"]
+			id: "61B04986A896DD4D"
+			rewards: [{
+				count: 5
+				id: "641D38FA32B30C6A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22AD3D280741DBA8"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61B04986A896DD4D"]
+			id: "24588EE82C7661B3"
+			rewards: [{
+				count: 5
+				id: "297EAB16F408A77E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C13C7903299A26C"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["61B04986A896DD4D"]
+			id: "0F52A81541902D9C"
+			rewards: [{
+				count: 5
+				id: "6EDE3B5C11EFCEAB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76325EB4072B87DD"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0F52A81541902D9C"]
+			id: "58B7D48FA8BABAE2"
+			rewards: [{
+				count: 5
+				id: "549E76728AB57F4C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "628BDF13BDF21211"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58B7D48FA8BABAE2"]
+			id: "7998031E89BAFED8"
+			rewards: [{
+				count: 5
+				id: "738C78BFBBA0D429"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2405634006D39A62"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7998031E89BAFED8"]
+			description: [
+				"Small smart cables hold 8 channels."
+				"Large smart cables hold 32 channels."
+			]
+			id: "58CEBAB822F6F2AC"
+			rewards: [{
+				count: 5
+				id: "2F3B7F54BB1E088C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F0A153DC492CB7D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_cable"
+						}
+					}
+					title: "Any #ae2:smart_cable"
+					type: "item"
+				}
+				{
+					id: "2F038F8FB6F90E37"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_dense_cable"
+						}
+					}
+					title: "Any #ae2:smart_dense_cable"
+					type: "item"
+				}
+			]
+			title: "Smart cabling"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["61B04986A896DD4D"]
+			id: "2FB0F4C4F2438D28"
+			rewards: [{
+				count: 5
+				id: "4643522CC56CBAB8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57E4E9222C2CA74C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:inscriber_presses"
+					}
+				}
+				title: "Any #ae2:inscriber_presses"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2FB0F4C4F2438D28"]
+			id: "613D0FCAEBB09C01"
+			rewards: [{
+				count: 5
+				id: "4DFF117DF2FD7C56"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26F8909D0F7A40BE"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A3200742219A2CB"]
+			description: ["The start of stealing a flawless budding certus quartz. Take a look at the guide."]
+			id: "299F2AB5802125B7"
+			rewards: [{
+				count: 5
+				id: "3F4B69628556D8B7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "269850DE7008388E"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["299F2AB5802125B7"]
+			description: ["With a flawless budding certus quartz, it can be surrounded with growth accelerators to grow  certus quartz. All I need to do is attach an annihilation plane in front of it and have it only break fully grown buds."]
+			id: "1A9E9D43633088DB"
+			rewards: [{
+				count: 5
+				id: "4AE49797195FC011"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52EBDB1C27AEA3B1"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A9E9D43633088DB"]
+			id: "124A0618C3003D34"
+			rewards: [{
+				count: 5
+				id: "61B782F3A7021EC2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6481E141D2A9E45B"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2FB0F4C4F2438D28"]
+			id: "2DE7E4A2F70817F8"
+			rewards: [{
+				count: 5
+				id: "5772B6BEBEF9F084"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "19A1EE3D9E4F8DF5"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "4D090A56704A144B"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "3738C4CC8A2F774C"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58B7D48FA8BABAE2"]
+			id: "42995DB9BDC73EAF"
+			rewards: [{
+				count: 5
+				id: "73182B444D812503"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4E8C7C2B87318C51"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "2C274FFAD729BA67"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					id: "231514BA3AB7A8E5"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "5F62BCAD7D67D2A1"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0B86E1EB91F5EAC9"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+				{
+					id: "5AADB78CD6AD493A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:interface"
+						}
+					}
+					title: "Any #ae2:interface"
+					type: "item"
+				}
+				{
+					id: "02E6B23DF91D8DEE"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
+			title: "Interfaces"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["500E6B96EED0C530"]
+			id: "11B20A147514D98C"
+			rewards: [{
+				count: 5
+				id: "1482FB1695EEA56A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A2222E93DC12037"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11B20A147514D98C"]
+			id: "11A60F82B6470857"
+			rewards: [{
+				count: 5
+				id: "2D42E4EE04AB39EA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6781021019B6A25B"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11A60F82B6470857"]
+			id: "3791EB39688B3102"
+			rewards: [{
+				count: 5
+				id: "335D20111E741F34"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A46FB0F80A6B716"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3791EB39688B3102"]
+			id: "1B2B04F62A68A196"
+			rewards: [{
+				count: 5
+				id: "019D541AD2C06ADB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E507945875D3D56"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B2B04F62A68A196"]
+			id: "207B92368CD98131"
+			rewards: [{
+				count: 5
+				id: "0D4361BF56B50AE0"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3305F0DC785F068C"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["207B92368CD98131"]
+			id: "4C52DE2FE6F13DE1"
+			rewards: [{
+				count: 5
+				id: "24B7C3877701C72D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3257A77E79057959"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4C52DE2FE6F13DE1"]
+			id: "2888583004B3D3B6"
+			rewards: [{
+				count: 5
+				id: "50E97DF32C7AC72F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "629A459712B655F5"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2888583004B3D3B6"]
+			id: "3D560D661B8F6A79"
+			rewards: [{
+				count: 5
+				id: "42B445FBA300C2AB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "454FB1183C04DD99"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3D560D661B8F6A79"]
+			id: "281E31AAB4A734D4"
+			rewards: [{
+				count: 5
+				id: "7B4625EF2DF80022"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3520F42E41C90347"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["281E31AAB4A734D4"]
+			id: "00E7857A9570FF1B"
+			rewards: [{
+				count: 5
+				id: "063FEC4DE65A836C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "528A3E3909CF5F3D"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["00E7857A9570FF1B"]
+			id: "2BCE55F9CB81D8C7"
+			rewards: [{
+				count: 5
+				id: "27C2507282C89FF7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F4D3B83694DBF2"
+				item: "megacells:256m_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["281E31AAB4A734D4"]
+			id: "01EAE4E7A09B58A5"
+			rewards: [{
+				count: 5
+				id: "20FC59A482B960BE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A7923ACE309C8D3"
+				item: "megacells:64m_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3D560D661B8F6A79"]
+			id: "4AEB6AA883BE9F5E"
+			rewards: [{
+				count: 5
+				id: "27C3A8EFBF1E38CF"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2018783E6C7EC63C"
+				item: "megacells:16m_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2888583004B3D3B6"]
+			id: "536A1A432EB188F9"
+			rewards: [{
+				count: 5
+				id: "6C75BB7CDD077AA2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35EC0B71FD3A9AEE"
+				item: "megacells:4m_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4C52DE2FE6F13DE1"]
+			id: "4F1BD1E7E32AFD56"
+			rewards: [{
+				count: 5
+				id: "5AC17A405DF4FCE9"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "632A7EE89F53808E"
+				item: "megacells:1m_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["207B92368CD98131"]
+			id: "180C55DE8263DD61"
+			rewards: [{
+				count: 5
+				id: "2ADE799254B9C565"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50DA27B0F25D4DE2"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B2B04F62A68A196"]
+			id: "76D347725820D8EF"
+			rewards: [{
+				count: 5
+				id: "51148FB440C445BF"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6025971B36CA400E"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3791EB39688B3102"]
+			id: "756458D810FCC4D3"
+			rewards: [{
+				count: 5
+				id: "0DE97FB6A1F376B7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7482F348EE4F296F"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11A60F82B6470857"]
+			id: "2F49660CC5A9D214"
+			rewards: [{
+				count: 5
+				id: "4D18A741DABFA872"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AFFB4DD93EABA6F"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11B20A147514D98C"]
+			description: ["The brain behind autocrafting"]
+			id: "264E22C5C7C77060"
+			rewards: [{
+				count: 5
+				id: "3F1511158B832589"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "597A8622F5A1CF37"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F52A81541902D9C"]
+			id: "2A3200742219A2CB"
+			rewards: [{
+				count: 5
+				id: "599046DCABFB4D12"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "671033B64595ACC7"
+				item: "ae2:quartz_glass"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A3200742219A2CB"]
+			description: ["Converts RF into the energy used by AE2"]
+			id: "705EE376BB5637D6"
+			rewards: [{
+				count: 5
+				id: "0B8FCBB1037690B0"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68102C5523919D1A"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["500E6B96EED0C530"]
+			id: "225BDB16E082D05E"
+			rewards: [{
+				count: 5
+				id: "185490E99E7A594C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "345F565A30BD09F3"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "00CEAE67FB112BE9"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "1686C55AB29727FD"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61B04986A896DD4D"]
+			description: ["The start of autocrafting"]
+			id: "652EC7E02EC394F4"
+			rewards: [{
+				count: 5
+				id: "7D1FE4558B2E3D66"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40208313BE5776F8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:pattern_provider"
+					}
+				}
+				title: "Any #ae2:pattern_provider"
+				type: "item"
+			}]
+			title: "Pattern provider"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["652EC7E02EC394F4"]
+			description: ["The autocrafting. Combined with a pattern provider, the molecular assembler can truly stretch its legs"]
+			id: "69C84084B2566524"
+			rewards: [{
+				count: 5
+				id: "35164632D18D277B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FAFC220B8E0D9FC"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["61B04986A896DD4D"]
+			description: ["Simple network beginings"]
+			id: "594F87F9E96F82D1"
+			rewards: [{
+				count: 5
+				id: "496F9D897BF428FE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10028DB6C5E6D14D"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["61B04986A896DD4D"]
+			description: ["The brain of a network. Every side of the ME controller can hold up to 32 channels."]
+			id: "500E6B96EED0C530"
+			rewards: [{
+				count: 5
+				id: "6D8369B1399FA8FE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74BED193F7B17134"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["299F2AB5802125B7"]
+			id: "2292465CB794B1D2"
+			rewards: [{
+				count: 5
+				id: "472B740122D19178"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B41798120AD98BB"
+				item: "ae2:spatial_io_port"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A9E9D43633088DB"]
+			description: ["Only breaking fully grown certus quartz may require to format a drive to only hold certus quartz..."]
+			id: "0A976105FB7205F3"
+			rewards: [{
+				count: 5
+				id: "4104F2DB96F9B5F5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "024413706E452384"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["500E6B96EED0C530"]
+			description: ["Holds the drives used in a network"]
+			id: "021861E526C55549"
+			rewards: [{
+				count: 5
+				id: "442F009D22C3A966"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70E676212572BBFC"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["500E6B96EED0C530"]
+			id: "667E17F9D6E38FA8"
+			rewards: [{
+				count: 5
+				id: "775A7C46B4F9FC52"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A63123039252162"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11B20A147514D98C"]
+			description: ["The second, third, fourth and more brain to autocraft in parallel"]
+			id: "421DCB6D761EA3FC"
+			rewards: [{
+				count: 5
+				id: "13698B899E866DD7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04457151B97ED4DB"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C52DE2FE6F13DE1"]
+			id: "2B1F86789304AE67"
+			rewards: [{
+				count: 5
+				id: "644F0861C23EC349"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10ED732F51148BD3"
+				item: "megacells:mega_crafting_accelerator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["11B20A147514D98C"]
+			description: ["What is going on in there?"]
+			id: "29C60C49DF3064E4"
+			rewards: [{
+				count: 5
+				id: "66F9D0D24108D13A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F2163C0B53A48E7"
+				item: "ae2:crafting_monitor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C52DE2FE6F13DE1"]
+			id: "25A89063C009877C"
+			rewards: [{
+				count: 5
+				id: "0C15CF9355EDA6F7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E7EC8E7FC628B45"
+				item: "megacells:mega_crafting_monitor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["421DCB6D761EA3FC"]
+			description: ["Why wait for items now, when you can wait in advance!"]
+			id: "666E0E0B2432C5D5"
+			rewards: [{
+				count: 5
+				id: "06FC94AB9903F16E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50341725923DB001"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["667E17F9D6E38FA8"]
+			id: "04EFE47CB4F41D00"
+			rewards: [{
+				count: 5
+				id: "04E6CD5274AE4828"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CFEC64EF68F524F"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04EFE47CB4F41D00"]
+			id: "066BC070C6A34C7D"
+			rewards: [{
+				count: 5
+				id: "59DD2164C95F5CF2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CEF1C34FF0647DC"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["066BC070C6A34C7D"]
+			id: "189828490D469747"
+			rewards: [{
+				count: 5
+				id: "67901745B833001C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61EE4C0AD62BC819"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["299F2AB5802125B7"]
+			id: "6CC59C316EA1FFF5"
+			rewards: [{
+				count: 5
+				id: "322D2805396EE2F8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E5396E4D7E5FC7B"
+				item: "ae2:spatial_cell_component_2"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CC59C316EA1FFF5"]
+			id: "4E0C407254B50543"
+			rewards: [{
+				count: 5
+				id: "5C27A81CFF69AB4E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "756BB9E475738FBF"
+				item: "ae2:spatial_cell_component_16"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E0C407254B50543"]
+			id: "409B7CA15F4476CD"
+			rewards: [{
+				count: 5
+				id: "26AA81C5DB65B94C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "381CC07E8074057C"
+				item: "ae2:spatial_cell_component_128"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2DE7E4A2F70817F8"]
+			id: "608061448AD9207F"
+			rewards: [{
+				count: 5
+				id: "7C5CB290EE70E71E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C15222DFF04FDBD"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7040D49EFE58D00A"]
+			id: "674F8483A0C3F611"
+			rewards: [{
+				count: 5
+				id: "61E890B7F606D3D4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31AF83073E94498B"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["24588EE82C7661B3"]
+			id: "223397843C967C1D"
+			rewards: [{
+				count: 5
+				id: "136D74C5678A10A5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C0BA22150B9385F"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["223397843C967C1D"]
+			id: "7040D49EFE58D00A"
+			rewards: [{
+				count: 5
+				id: "4878F22611EC90E1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2949D6F2A0434E32"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["674F8483A0C3F611"]
+			id: "1360E950607ED06B"
+			rewards: [{
+				count: 5
+				id: "0BA7A728D9813897"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1334EA49D0415B11"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			description: ["Where is that meteorite?"]
+			id: "263ACD67B0B31013"
+			tasks: [{
+				id: "15B9A93AE38B2662"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+	title: "Computer"
+}

@@ -1,0 +1,242 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sky"
+	group: ""
+	icon: "minecraft:glowstone"
+	id: "5BF3B3A0230E7588"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2B3E870EFC5C6D65"
+			rewards: [{
+				count: 5
+				id: "46468C790400F9FE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "60C46923BDCEBA7C"
+				type: "dimension"
+			}]
+			title: "The Aether"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B3E870EFC5C6D65"]
+			id: "23125639C052894B"
+			rewards: [{
+				count: 5
+				id: "13C15E71AA6E4176"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "783A1E626BF0E2F9"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B3E870EFC5C6D65"]
+			id: "310E7EAEE93F73A3"
+			rewards: [{
+				count: 5
+				id: "3078DB8EE75E0120"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "616C8B840819B63D"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B3E870EFC5C6D65"]
+			id: "4B251D76E89FAB52"
+			rewards: [{
+				count: 5
+				id: "3FD543C0D06E3200"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0908DE434F11C525"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B3E870EFC5C6D65"]
+			id: "147E22755E29A674"
+			rewards: [{
+				count: 5
+				id: "20F7317EA53D8A2A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5251168B87D8ADA3"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B3E870EFC5C6D65"]
+			id: "40218B91A360D469"
+			rewards: [{
+				count: 5
+				id: "10A10FFF12120A7E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "The bronze dungeon"
+			tasks: [{
+				id: "4907551583DD9A55"
+				item: "kubejs:knowledge_of_the_mines"
+				type: "item"
+			}]
+			title: "Slay the Slider"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B3E870EFC5C6D65"]
+			id: "4C94073B5BAE54B7"
+			rewards: [{
+				count: 5
+				id: "1F18384562B0D270"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "The silver dungeon"
+			tasks: [{
+				id: "24FD9D1419B3EA4D"
+				item: "kubejs:knowledge_of_the_sky"
+				type: "item"
+			}]
+			title: "Slay the Valkyrie Queen"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B3E870EFC5C6D65"]
+			id: "7ECFF48EAB882D27"
+			rewards: [{
+				count: 5
+				id: "775C4B2034B08B01"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "The gold dungeon"
+			tasks: [{
+				id: "2342095298EC15BD"
+				item: "kubejs:knowledge_of_hell"
+				type: "item"
+			}]
+			title: "Slay the Sun Spirit"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B3E870EFC5C6D65"]
+			id: "2FB4F96387FB230A"
+			rewards: [{
+				count: 5
+				id: "36463C504E22A6A4"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "The platinum dungeon"
+			tasks: [{
+				id: "61C50F5C993350E6"
+				item: "kubejs:knowledge_of_the_galaxies"
+				type: "item"
+			}]
+			title: "Slay the Aerwhale King"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C94073B5BAE54B7"]
+			id: "6889DAF4C70BF527"
+			rewards: [{
+				count: 5
+				id: "170190E4CB610CD8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "364FA1D63E1C119C"
+				item: "kubejs:fragment_of_knowledge_of_the_sky"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40218B91A360D469"]
+			id: "45803305A47ED026"
+			rewards: [{
+				count: 5
+				id: "167DF66C6E799BCC"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66EFC7D8237A1F98"
+				item: "kubejs:fragment_of_knowledge_of_the_mines"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7ECFF48EAB882D27"]
+			id: "6543CDE8344521AA"
+			rewards: [{
+				count: 5
+				id: "5B71D9C04207DB0D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E771BBED4CFDC83"
+				item: "kubejs:fragment_of_knowledge_of_hell"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FB4F96387FB230A"]
+			id: "7C41B8EECF6DC241"
+			rewards: [{
+				count: 5
+				id: "487A5EBFCD671BC3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "724B2E1F152D7851"
+				item: "kubejs:fragment_of_knowledge_of_the_galaxies"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+	title: "Sky"
+}

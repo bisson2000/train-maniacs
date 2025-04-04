@@ -1,0 +1,1369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refine"
+	group: ""
+	icon: {
+		Count: 1
+		id: "mekanism:creative_energy_cube"
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "18446744073709551615.9999"
+				}]
+				componentConfig: {
+					config0: {
+						side0: 4
+						side1: 4
+						side2: 4
+						side3: 4
+						side4: 4
+						side5: 4
+					}
+				}
+			}
+		}
+	}
+	id: "24F1DE0E1B1E5655"
+	order_index: 13
+	quest_links: [
+		{
+			id: "302DB09DC6BABC7C"
+			linked_quest: "2EE8D29401D93254"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "4A594EBAC2521E88"
+			linked_quest: "69A75D5B6A22E544"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "7CB70F4E0542DCE3"
+			linked_quest: "62B30380B1C1CA34"
+			x: -1.5d
+			y: 6.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"69A75D5B6A22E544"
+				"2EE8D29401D93254"
+			]
+			description: ["Advanced machines all share the same frame"]
+			id: "31B1A9F9BC186945"
+			rewards: [{
+				count: 5
+				id: "2226BC9D6CFA0AAB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "1736792CD047257E"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "13C1D2E7230B6C4C"
+			rewards: [{
+				count: 5
+				id: "557306EF9F8B4E22"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19B3D2F916D07A0D"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "7BAA57E4FF09DE4E"
+			rewards: [{
+				count: 5
+				id: "780D7FAF0EC6B531"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E2110A8E283FB3F"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			description: ["Enriching alloys"]
+			id: "4F37F03FCE7A5D87"
+			rewards: [{
+				count: 5
+				id: "5703D5D8EA674BDA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75AA23903B7184DF"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "3BADB39C54A5B939"
+			rewards: [{
+				count: 5
+				id: "2FC1304EEE1EB4E8"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35EC4F7818F645AD"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "2E32BDB65BA46E96"
+			rewards: [{
+				count: 5
+				id: "6F04672B5B40ABCB"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "59694BF7BCEFB906"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+				{
+					id: "6D7C8E0D36DF2A3A"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "5B534019E98C61C7"
+			rewards: [{
+				count: 5
+				id: "731F7E85D911FF74"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D5965A0B630E534"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "3DCA4B07A2BB74CF"
+			rewards: [{
+				count: 5
+				id: "4F6340711A943B3C"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DBF15274CBA184C"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A2553E949E16EE5"]
+			description: ["From machine to factory"]
+			id: "1477927E791B6863"
+			rewards: [{
+				count: 5
+				id: "763696336FA43432"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7705EA2975A92912"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1477927E791B6863"
+				"03187AA960FE3791"
+			]
+			id: "6D48646B2416D17E"
+			rewards: [{
+				count: 5
+				id: "59002C5AB8925DD6"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10FA58B356609246"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6D48646B2416D17E"
+				"48FB572E97609252"
+			]
+			id: "73CA11B7536AD4DA"
+			rewards: [{
+				count: 5
+				id: "3D0EE91EF952CC5B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3342DC5EF1064ABA"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"73CA11B7536AD4DA"
+				"0706E39E181384DA"
+			]
+			id: "6FE913CBE7621DEB"
+			rewards: [{
+				count: 5
+				id: "1E5377A774F4B738"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F2C5AF2CA9C8291"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53B13C9BE044753D"]
+			id: "117C93ABF6147D82"
+			rewards: [{
+				count: 5
+				id: "70F387D9CFA1D13E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "288EE2081BE0BF59"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			description: ["Infuses items to change their properties"]
+			id: "6ACEB97CC117506A"
+			rewards: [{
+				count: 5
+				id: "29BF4197F8A879B7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A0398E9827A7AA0"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "31E5398D77A812BA"
+			rewards: [{
+				count: 5
+				id: "3793C14AFC5C6C0E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00CCB9C0A0755F79"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"31E5398D77A812BA"
+				"4F920A741F85417B"
+			]
+			id: "1AF6A267DBCEF525"
+			rewards: [{
+				count: 5
+				id: "21FF6B9822D84A39"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C53F9C621C78B17"
+				item: "mekanism:advanced_fluid_tank"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1AF6A267DBCEF525"
+				"1E2DFB4059A5CDD8"
+			]
+			id: "24882712F57351AA"
+			rewards: [{
+				count: 5
+				id: "73DA3FA6F8B50738"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B6257DFB1C9D39B"
+				item: "mekanism:elite_fluid_tank"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"24882712F57351AA"
+				"73212DF2B9197D88"
+			]
+			id: "095747B797DB2EE6"
+			rewards: [{
+				count: 5
+				id: "41715C51AD1BBECE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BBC0B25C86B29E8"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6ACEB97CC117506A"]
+			id: "1A2553E949E16EE5"
+			rewards: [{
+				count: 5
+				id: "155523110425EED2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42C7C7492EADC101"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1A2553E949E16EE5"
+				"4F920A741F85417B"
+			]
+			id: "03187AA960FE3791"
+			rewards: [{
+				count: 5
+				id: "21FCF8D156B7F7B3"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BD3DD6782E77ADB"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"03187AA960FE3791"
+				"1E2DFB4059A5CDD8"
+			]
+			id: "48FB572E97609252"
+			rewards: [{
+				count: 5
+				id: "73F8B95423339445"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CCD404C649C5454"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"48FB572E97609252"
+				"73212DF2B9197D88"
+			]
+			id: "0706E39E181384DA"
+			rewards: [{
+				count: 5
+				id: "0B6DBE762DD04292"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B89FA948F2F88F5"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F37F03FCE7A5D87"]
+			id: "17CD0FF867E26D8F"
+			rewards: [{
+				count: 5
+				id: "38C4B72025F11166"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10F5FD9E5B81F6B4"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F37F03FCE7A5D87"]
+			id: "6BFC79AC44A3C87E"
+			rewards: [{
+				count: 5
+				id: "6640C84B8AEB8CF2"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3238040F4BA21607"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7BAA57E4FF09DE4E"]
+			description: ["1 of these is worth 8 of their raw form"]
+			id: "0BBF46102F0A782C"
+			rewards: [{
+				count: 5
+				id: "16FB60D446087E45"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0169112020A01F47"
+					item: "mekanism:enriched_carbon"
+					type: "item"
+				}
+				{
+					id: "4D5756E44DE7E93E"
+					item: "mekanism:enriched_redstone"
+					type: "item"
+				}
+				{
+					id: "378B9ED69F4A82E1"
+					item: "mekanism:enriched_diamond"
+					type: "item"
+				}
+				{
+					id: "2EA070DB8C4DC7D9"
+					item: "mekanism:enriched_refined_obsidian"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ACEB97CC117506A"]
+			id: "4F920A741F85417B"
+			rewards: [{
+				count: 5
+				id: "10F9287288D0F11A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23A8DBF62E8AFDC5"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F920A741F85417B"]
+			id: "1E2DFB4059A5CDD8"
+			rewards: [{
+				count: 5
+				id: "6024256D6EE7B112"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0181CD0C79163C5B"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E2DFB4059A5CDD8"]
+			id: "73212DF2B9197D88"
+			rewards: [{
+				count: 5
+				id: "1E55E8518B521B2A"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15D0D82C7A94FEA8"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "5A6A62F3C03051C9"
+			rewards: [{
+				count: 5
+				id: "64DD653D63453E68"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49F0515E7125CEDB"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A6A62F3C03051C9"]
+			id: "70E9571744893854"
+			rewards: [{
+				count: 5
+				id: "1F90B08750FCD601"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4064D3BB10609AA2"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["70E9571744893854"]
+			id: "0DAB73D6B9A72738"
+			rewards: [{
+				count: 5
+				id: "2D9E97DFE780DB85"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BC99727F95B60E1"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3BADB39C54A5B939"]
+			id: "2A02D7E830CEE2A9"
+			rewards: [{
+				count: 5
+				id: "28EE1CE373EB7B1D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FE75E42DA9B38A7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:fuels/bio"
+					}
+				}
+				title: "Any #forge:fuels/bio"
+				type: "item"
+			}]
+			title: "Bio fuel"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "026532FE16E2E168"
+			rewards: [{
+				count: 5
+				id: "3647D6B45BEAD614"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "470950099BEAA66A"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2A02D7E830CEE2A9"
+				"13C1D2E7230B6C4C"
+				"026532FE16E2E168"
+			]
+			id: "29DD3D6B8D634B94"
+			rewards: [{
+				count: 5
+				id: "50274E3A6C618697"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C7B4E8C702061A0"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29DD3D6B8D634B94"]
+			description: ["An essential step in the meka-suit construction"]
+			id: "6797D46EAA9897F0"
+			rewards: [{
+				count: 5
+				id: "203AC182FD1CF4CE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76CCBB25894626D4"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			description: ["From liquid to gaz, and from gaz to liquid"]
+			id: "06B146BC2CEA44E5"
+			rewards: [{
+				count: 5
+				id: "3ECB040958FDB931"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1591C8F2D16AC185"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13C1D2E7230B6C4C"]
+			description: ["A great way to generate more energy than regular dynamos. The easiest way to generate lots of energy is to feed ethylene directly into the gas-burning generator."]
+			id: "24C5A7263BDE55FA"
+			rewards: [{
+				count: 5
+				id: "24FE4277CCDF2FEF"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E64A68105A471C7"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24C5A7263BDE55FA"]
+			id: "2627BF0B9EE7D286"
+			rewards: [{
+				count: 5
+				id: "04033033B9D8A055"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "401926A65394F17D"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"31B1A9F9BC186945"
+				"2A02D7E830CEE2A9"
+			]
+			id: "2681019A6F7C109B"
+			rewards: [{
+				count: 5
+				id: "56DE7FA2A59F7A1D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0540B716281CFE85"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			description: ["Brine and lithium are made in there"]
+			id: "75202113E6CAD383"
+			rewards: [{
+				count: 5
+				id: "3CC07122E09A08BD"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			subtitle: "Max height of 18"
+			tasks: [
+				{
+					id: "5EFA3943D1024100"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6EFDF379247A5294"
+					item: { Count: 2, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+				{
+					count: 213L
+					id: "15BCD4FDC1A72F61"
+					item: { Count: 4, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "338D8EB5565472CC"
+					item: { Count: 4, id: "mekanismgenerators:advanced_solar_generator" }
+					type: "item"
+				}
+			]
+			title: "Thermal Evaporation Chamber"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "7D54E52DBE1C2C32"
+			rewards: [{
+				count: 5
+				id: "03240130F818A52D"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AB24772210C1883"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33C439EFE2E75820"]
+			id: "629AA5F686EFD181"
+			rewards: [{
+				count: 5
+				id: "71005757D7EA94A5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "471F1DB72165F816"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["629AA5F686EFD181"]
+			id: "619C203F3B8325AB"
+			rewards: [{
+				count: 5
+				id: "6F9876A48CB573BA"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "469093AAEFF89DB5"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			description: ["This machine is the start of ore multiplication. From one ore, we can create at least 5!"]
+			id: "33C439EFE2E75820"
+			rewards: [{
+				count: 5
+				id: "2F0A9AD555433116"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "339D12BDAE10AB95"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["619C203F3B8325AB"]
+			id: "53B13C9BE044753D"
+			rewards: [{
+				count: 5
+				id: "4AAC9F86B440F77E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32EE597D57EE6A23"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			description: ["Cut wood even more efficiently"]
+			id: "3844445F034293B0"
+			rewards: [{
+				count: 5
+				id: "0B98CFAE9A35825F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B12C850009D548D"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"33E48269FA5BF1B5"
+				"62B30380B1C1CA34"
+			]
+			description: ["Essential for making fissile fuel"]
+			hide_dependency_lines: false
+			id: "3E742D3440D90E2B"
+			rewards: [{
+				count: 5
+				id: "60390795E3246B91"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53FD1452098F1644"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			id: "33E48269FA5BF1B5"
+			rewards: [{
+				count: 5
+				id: "60EBF45F08CAA20E"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08A33FC829D7C9B4"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E742D3440D90E2B"]
+			description: ["With steam and a rotor, energy can be made. Water can be extracted from the top of the turbine"]
+			id: "2A4E82C10A981C9A"
+			rewards: [{
+				count: 5
+				id: "7140875551A12D85"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 34L
+					id: "12C824FE3E97AB49"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "442E1DBDBA7EEAC5"
+					item: { Count: 9, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5ED5812FE4F087E2"
+					item: { Count: 6, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "255C39B7699A6D1C"
+					item: { Count: 2, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+				{
+					id: "5E2062ED870E7274"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2C19A68D170EF8A5"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4C3DDC511C869479"
+					item: { Count: 9, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "565330F7129293C6"
+					item: { Count: 12, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+				{
+					count: 98L
+					id: "2451037ED67AD616"
+					item: { Count: 98, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+			]
+			title: "Industrial Turbine"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3E742D3440D90E2B"]
+			description: ["Boilers are great, but do you know what's greater? Unstable uranium thrown in precisely controlled rods. Control rods placed inside a fission reactor must have a control rod assembly at the top of them. They also should not touch each other."]
+			id: "65439AFC3929B1DE"
+			rewards: [{
+				count: 5
+				id: "3D27960F8CB768E6"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 45L
+					id: "3E1660FACF2FC10D"
+					item: { Count: 45, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 57L
+					id: "6CA0C55296F4DFD0"
+					item: { Count: 57, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "084C9548AA831013"
+					item: { Count: 20, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "37E87E9A4BFE506B"
+					item: { Count: 2, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "35774E4A81EC8B81"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1B1E08577DBA3966"
+					item: { Count: 5, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+			]
+			title: "Fission Reactor"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3E742D3440D90E2B"]
+			description: ["Boil the water into steam."]
+			id: "17BC1E4BD404C70D"
+			rewards: [{
+				count: 5
+				id: "5E4A22F6AE2440C5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 82L
+					id: "21DE2C4D805434A2"
+					item: { Count: 82, id: "mekanism:boiler_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A0C5B3E9C5E2E41"
+					item: { Count: 2, id: "mekanism:boiler_valve" }
+					type: "item"
+				}
+				{
+					count: 46L
+					id: "3A5C4CC930FC37ED"
+					item: { Count: 46, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "299D3C8F9CAC9335"
+					item: { Count: 9, id: "mekanism:superheating_element" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "429448AAB7EA3F52"
+					item: { Count: 9, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+			]
+			title: "Thermoelectric Boiler"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31ACFD911C7ACCCA"]
+			description: ["Build the fusion reactor in a sphere formation. Taking a look at the Mekanism wiki helps with knowing the exact shape. Then, charge 1 GRF with a laser and shoot into it. The best setups use the fusion reactor to boil water and then use the resulting steam into a steam turbine."]
+			id: "71E40A99B0E11CBF"
+			rewards: [{
+				count: 5
+				id: "4E1C4180E70ACFE5"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6C62997510FAE9B7"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "20C5A3BF61784CBA"
+					item: { Count: 16, id: "mekanismgenerators:fusion_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "56663658F9A89339"
+					item: { Count: 2, id: "mekanismgenerators:laser_focus_matrix" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "66FC33D0CC2F3090"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5CE7DFBAF7BCA6A0"
+					item: { Count: 2, id: "mekanism:laser" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "69313958645779DF"
+					item: { Count: 12, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "13CFC08603F8034F"
+					item: { Count: 36, id: "mekanismgenerators:fusion_reactor_frame" }
+					type: "item"
+				}
+			]
+			title: "Fusion Reactor"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["65439AFC3929B1DE"]
+			description: ["Recycling waste into useful products"]
+			id: "31ACFD911C7ACCCA"
+			rewards: [{
+				count: 5
+				id: "0152B37A72CE19AE"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "316744AA04FDFF67"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E5F8C7FC7EBDEDB"]
+			description: ["Multiblock battery. Can get ridiculous"]
+			id: "21644620B52134D3"
+			rewards: [{
+				count: 5
+				id: "26FAE6EA2B4DFBC1"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AC06E3AC7F5E74D"
+				item: "mekanism:basic_induction_cell"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			description: ["Basic energy buffer"]
+			id: "1E5F8C7FC7EBDEDB"
+			rewards: [{
+				count: 5
+				id: "129BFA04CD2A2674"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0968FF6145F13D53"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			description: ["Antimatter matters"]
+			id: "3F383AAE12F3D7BD"
+			rewards: [{
+				count: 5
+				id: "477A33A1A96A1C77"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "58B58F868ED63E23"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "25BBC893DD2194A2"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "2A1C322400912031"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "SPS"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F383AAE12F3D7BD"]
+			id: "635635BA5B489FC6"
+			rewards: [{
+				count: 5
+				id: "3AEDF14586EC339B"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AFDD673744E57A1"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["31ACFD911C7ACCCA"]
+			id: "0DF4CF506DB85433"
+			rewards: [{
+				count: 5
+				id: "2415F8D4D1C9D6E7"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "568E2FED6F62AD05"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0DF4CF506DB85433"]
+			description: ["Spent nuclear waste can by discarded by feeding it into a rotary condensator."]
+			id: "06EF2E4DA93FF754"
+			tasks: [{
+				id: "2DEE065C2BFD5758"
+				title: "Discarding nuclear waste"
+				type: "checkmark"
+			}]
+			title: "Discarding spent nuclear waste"
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			description: ["To configure pipes. Shift right click on connected ends to modifiy their connection mode"]
+			id: "791A8D93FDD169FD"
+			rewards: [{
+				count: 5
+				id: "7929B93F11FDDB37"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22DF40C203ACB15B"
+				item: "mekanism:configurator"
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31B1A9F9BC186945"]
+			description: ["Almost overpowered pickaxe."]
+			id: "5F492296A621CB21"
+			rewards: [{
+				count: 5
+				id: "6C1CBE6951C06890"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4039C55056022A82"
+				item: "mekanism:atomic_disassembler"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+	]
+	title: "Refine"
+}
