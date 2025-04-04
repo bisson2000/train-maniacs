@@ -100,5 +100,19 @@ Thumbs.db
 
 # others
 .curseclient
+.qmenu_opened.marker
+ESM/
+backups/
+local/
+modernfix/
 mods/
 minecraftinstance.json
+options.txt
+patchouli_data.json
+rhino.local.properties
+saves/
+usercache.json
+usernamecache.json
+xaero/
+/XaeroWaypoints*
+/XaeroWorldMap
