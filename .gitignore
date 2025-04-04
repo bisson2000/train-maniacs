@@ -91,3 +91,9 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Exclude exported CurseForge zip files
+*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack
