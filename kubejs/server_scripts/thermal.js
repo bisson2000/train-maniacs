@@ -126,6 +126,6 @@ ServerEvents.recipes(event => {
     event.recipes.thermal.pulverizer([Item.of("create:cinder_flour", 4)], [Item.of("minecraft:netherrack")], 0, 1000);
 });
 
-ServerEvents.tags('item', event => {
+ServerEvents.tags("item", event => {
     event.add("minecraft:coals", "thermal:coal_coke");
 })

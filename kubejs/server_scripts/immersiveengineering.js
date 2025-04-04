@@ -38,25 +38,25 @@ ServerEvents.recipes(event => {
     });
     event.shaped(Item.of("immersiveengineering:component_iron", 1),
     [
-      'IRI',
-      'RCR',
-      'IRI'
+      "IRI",
+      "RCR",
+      "IRI"
     ],
     {
-      I: '#forge:plates/iron',
-      R: 'kubejs:flux_induced_iron',
-      C: '#forge:ingots/copper',
+      I: "#forge:plates/iron",
+      R: "kubejs:flux_induced_iron",
+      C: "#forge:ingots/copper",
     });
     event.shaped(Item.of("immersiveengineering:component_steel", 1),
     [
-      'IRI',
-      'RCR',
-      'IRI'
+      "IRI",
+      "RCR",
+      "IRI"
     ],
     {
-      I: '#forge:plates/steel',
-      R: '#forge:ingots/redstone_alloy',
-      C: '#forge:ingots/copper',
+      I: "#forge:plates/steel",
+      R: "#forge:ingots/redstone_alloy",
+      C: "#forge:ingots/copper",
     });
 
     // coal coke
@@ -73,49 +73,49 @@ ServerEvents.recipes(event => {
     event.remove({mod: "immersiveengineering", id: "immersiveengineering:crafting/capacitor_lv"});
     event.shaped(Item.of("immersiveengineering:capacitor_lv", 1), // arg 1: output
     [
-      'LLL',
-      'WSW', // arg 2: the shape (array of strings)
-      'TCT'
+      "LLL",
+      "WSW", // arg 2: the shape (array of strings)
+      "TCT"
     ],
     {
-      L: '#forge:plates/lead',
-      W: 'immersiveengineering:wirecoil_copper',
-      T: '#forge:treated_wood',
-      C: 'immersiveengineering:clinker_brick',
+      L: "#forge:plates/lead",
+      W: "immersiveengineering:wirecoil_copper",
+      T: "#forge:treated_wood",
+      C: "immersiveengineering:clinker_brick",
       S: "immersiveengineering:sheetmetal_iron"
     });
 
     event.remove({mod: "immersiveengineering", id: "immersiveengineering:crafting/capacitor_mv"});
     event.shaped(Item.of("immersiveengineering:capacitor_mv", 1), // arg 1: output
     [
-      'BBB',
-      'WSW', // arg 2: the shape (array of strings)
-      'TCT'
+      "BBB",
+      "WSW", // arg 2: the shape (array of strings)
+      "TCT"
     ],
     {
-      B: '#forge:plates/bronze',
-      W: 'immersiveengineering:wirecoil_electrum',
-      T: '#forge:treated_wood',
-      C: 'immersiveengineering:clinker_brick',
+      B: "#forge:plates/bronze",
+      W: "immersiveengineering:wirecoil_electrum",
+      T: "#forge:treated_wood",
+      C: "immersiveengineering:clinker_brick",
       S: "immersiveengineering:capacitor_lv"
     });
 
     event.remove({mod: "immersiveengineering", id: "immersiveengineering:crafting/capacitor_hv"});
     event.shaped(Item.of("immersiveengineering:capacitor_hv", 1), // arg 1: output
     [
-      'BBB',
-      'WSW', // arg 2: the shape (array of strings)
-      'TCT'
+      "BBB",
+      "WSW", // arg 2: the shape (array of strings)
+      "TCT"
     ],
     {
-      B: '#forge:plates/aluminum',
-      W: 'immersiveengineering:wirecoil_electrum_ins',
-      T: '#forge:treated_wood',
-      C: 'immersiveengineering:clinker_brick',
+      B: "#forge:plates/aluminum",
+      W: "immersiveengineering:wirecoil_electrum_ins",
+      T: "#forge:treated_wood",
+      C: "immersiveengineering:clinker_brick",
       S: "immersiveengineering:capacitor_mv"
     });
 
-    // Remove excavator - won't do
+    // Remove excavator - won"t do
 
     // Oil refining¸
     event.custom({

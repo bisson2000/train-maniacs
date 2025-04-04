@@ -22,7 +22,6 @@ JEIEvents.hideItems(event => {
   event.hide(Item.of("extendedcrafting:redstone_ingot_block"));
 
   // mekanism
-  //event.hide(Item.of("mekanism:digital_miner"));
   event.hide(Item.of("mekanism:quantum_entangloporter"));
 
   // immersiveengineering

@@ -3,14 +3,14 @@
 ServerEvents.recipes(event => {
 
     // for clay
-    event.shaped(Item.of('minecraft:pointed_dripstone', 1), [
-        'CCC',
-        'G G',
-        ' S '
+    event.shaped(Item.of("minecraft:pointed_dripstone", 1), [
+        "CCC",
+        "G G",
+        " S "
       ], {
         C: "#forge:cobblestone/normal",
-        G: '#forge:gravel',
-        S: '#forge:sand',
+        G: "#forge:gravel",
+        S: "#forge:sand",
     });
 
     // remove all instances of nuggets

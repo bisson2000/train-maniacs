@@ -18,17 +18,17 @@ ServerEvents.recipes(event => {
      * How to source emeralds? - With mob farm
      * Make drawers upgrades incremental - done
      * Nerf ae2 spacial storage to prevent abuse - no need
-     * Disable mekanism miner and immersiveengineering excavator - done. Won't remove mekanism miner
+     * Disable mekanism miner and immersiveengineering excavator - done. Won"t remove mekanism miner
      * Portals to dimensions: planets, twilight forest, end (aether integrated with create already) - done
      * Change ore generation on planets - done
      * Make ores more sparse. Encourage trains - done
      * Compressed ores recipes - done
-     * Add armor leveling system (armor plus) - won't do
+     * Add armor leveling system (armor plus) - won"t do
      * Add chaos fragment duplication in mekanism - done
      * Modify botania - done
-     * Remove tconstruct cheese - won't do
+     * Remove tconstruct cheese - won"t do
      * Remove fluorite rock crusher - done
-     * Defeat all bosses in twilightforest to unlock the explorer's compass
+     * Defeat all bosses in twilightforest to unlock the explorer"s compass
      * Add ironwood logic with torchberries - done
      * Add boss requirement for rockets - done
      * Add dawnstone logic. Unclock recipe when first dawnstone is created - done
@@ -75,8 +75,8 @@ ServerEvents.recipes(event => {
     );
 
     // flux_induced_iron
-    event.smelting('1x kubejs:flux_induced_iron', 'kubejs:raw_flux_induced_iron', 0.25, 200); // 0.25xp and 10s (200 ticks)
-    event.blasting('1x kubejs:flux_induced_iron', 'kubejs:raw_flux_induced_iron', 0.25, 100);
+    event.smelting("1x kubejs:flux_induced_iron", "kubejs:raw_flux_induced_iron", 0.25, 200); // 0.25xp and 10s (200 ticks)
+    event.blasting("1x kubejs:flux_induced_iron", "kubejs:raw_flux_induced_iron", 0.25, 100);
 
     // knowledge
     event.custom({
@@ -107,24 +107,24 @@ ServerEvents.recipes(event => {
     // TODO:
     // capacitors
     event.shaped(
-        Item.of('kubejs:grainy_capacitor', 1), // arg 1: output
+        Item.of("kubejs:grainy_capacitor", 1), // arg 1: output
         [
-          ' G ',
-          ' R ', // arg 2: the shape (array of strings)
-          ' R '
+          " G ",
+          " R ", // arg 2: the shape (array of strings)
+          " R "
         ],
         {
-          G: 'enderio:grains_of_infinity',
-          R: 'kubejs:flux_induced_iron',  //arg 3: the mapping object
+          G: "enderio:grains_of_infinity",
+          R: "kubejs:flux_induced_iron",  //arg 3: the mapping object
         }
     );
     event.remove({mod: "enderio", id: "enderio:double_layer_capacitor"});
     event.shaped(
-      Item.of('enderio:double_layer_capacitor', 1), // arg 1: output
+      Item.of("enderio:double_layer_capacitor", 1), // arg 1: output
       [
-        'BQE',
-        'CDC', // arg 2: the shape (array of strings)
-        'EQB'
+        "BQE",
+        "CDC", // arg 2: the shape (array of strings)
+        "EQB"
       ],
       {
         E: "#forge:ingots/energetic_alloy",
@@ -136,11 +136,11 @@ ServerEvents.recipes(event => {
     );
     event.remove({mod: "enderio", id: "enderio:octadic_capacitor"});
     event.shaped(
-      Item.of('enderio:octadic_capacitor', 1),
+      Item.of("enderio:octadic_capacitor", 1),
       [
-        'PVZ',
-        'CDC',
-        'ZVP'
+        "PVZ",
+        "CDC",
+        "ZVP"
       ],
       {
         V: "#forge:ingots/vibrant_alloy",
@@ -190,16 +190,16 @@ ServerEvents.recipes(event => {
     // Mechanical Core
     event.remove({mod: "embers", id: "embers:mechanical_core"});
     event.shaped(
-        Item.of('embers:mechanical_core', 1),
+        Item.of("embers:mechanical_core", 1),
         [
-          'ICI',
-          'SPS',
-          'ISI'
+          "ICI",
+          "SPS",
+          "ISI"
         ],
         {
           C: "embers:caminite_bricks",
-          P: '#forge:plates/lead',
-          S: 'tconstruct:seared_brick',
+          P: "#forge:plates/lead",
+          S: "tconstruct:seared_brick",
           I: "#forge:ingots/iron",
         }
     );
@@ -223,17 +223,17 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod:"thermal", input: "#forge:dusts/redstone"}, "#forge:dusts/redstone", "kubejs:flux_induced_iron");
     event.remove({mod: "thermal", id: "thermal:machine_frame"}); // frame
     event.shaped(
-      Item.of('thermal:machine_frame', 1), // arg 1: output
+      Item.of("thermal:machine_frame", 1), // arg 1: output
       [
-        'ZGD',
-        'GHG', // arg 2: the shape (array of strings)
-        'DGZ'
+        "ZGD",
+        "GHG", // arg 2: the shape (array of strings)
+        "DGZ"
       ],
       {
-        Z: '#forge:ingots/brass',
-        D: 'extendedcrafting:ender_ingot',
-        G: 'mob_grinding_utils:tinted_glass',
-        H: 'immersiveengineering:heavy_engineering',  //arg 3: the mapping object
+        Z: "#forge:ingots/brass",
+        D: "extendedcrafting:ender_ingot",
+        G: "mob_grinding_utils:tinted_glass",
+        H: "immersiveengineering:heavy_engineering",  //arg 3: the mapping object
       }
     );
     // Thermal dynamos
@@ -261,15 +261,15 @@ ServerEvents.recipes(event => {
     event.shaped(
       Item.of("enderio:primitive_alloy_smelter", 1),
       [
-        'FFF',
-        'DGD',
-        'CDC'
+        "FFF",
+        "DGD",
+        "CDC"
       ],
       {
-        F: 'minecraft:furnace',
-        G: 'kubejs:grainy_capacitor',
-        C: 'minecraft:deepslate',
-        D: 'extendedcrafting:ender_ingot',
+        F: "minecraft:furnace",
+        G: "kubejs:grainy_capacitor",
+        C: "minecraft:deepslate",
+        D: "extendedcrafting:ender_ingot",
       }
     );
     event.replaceInput({mod:"enderio", id: "enderio:alloy_smelter"}, "minecraft:furnace", "enderio:primitive_alloy_smelter");
@@ -294,17 +294,17 @@ ServerEvents.recipes(event => {
     // ad_astra
     event.remove({mod: "ad_astra", id: "ad_astra:nasa_workbench"});
     event.shaped(
-      Item.of('ad_astra:nasa_workbench', 1),
+      Item.of("ad_astra:nasa_workbench", 1),
       [
-        'RKR',
-        'AWA',
-        'PSP'
+        "RKR",
+        "AWA",
+        "PSP"
       ],
       {
         K: "aether:zanite_block",
-        R: '#forge:rods/electrum',
+        R: "#forge:rods/electrum",
         W: "thermal:machine_frame",
-        S: '#forge:storage_blocks/steel',
+        S: "#forge:storage_blocks/steel",
         P: "#forge:plates/steel",
         A: "enderio:redstone_alloy_ingot"
       }
@@ -546,7 +546,7 @@ ServerEvents.recipes(event => {
       O: "#forge:ingots/osmium",
       F: "thermal:machine_frame"
     });
-    // Rabbit's foot
+    // Rabbit"s foot
     event.custom({
       "type":"mekanism:nucleosynthesizing",
       "duration":200,

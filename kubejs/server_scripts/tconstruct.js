@@ -133,24 +133,24 @@ ServerEvents.recipes(event => {
     // faucet requires dawnstone
     event.remove({mod: "tconstruct", id: "tconstruct:smeltery/seared/faucet"});
     event.shaped(
-        Item.of('tconstruct:seared_faucet', 1), [
-          '   ',
-          'BVB',
-          ' B '
+        Item.of("tconstruct:seared_faucet", 1), [
+          "   ",
+          "BVB",
+          " B "
         ], {
-          V: 'extendedcrafting:ender_ingot',
-          B: 'tconstruct:seared_brick',
+          V: "extendedcrafting:ender_ingot",
+          B: "tconstruct:seared_brick",
         }
     );
     event.remove({mod: "tconstruct", id: "tconstruct:smeltery/scorched/faucet"});
     event.shaped(
-        Item.of('tconstruct:scorched_faucet', 1), [
-          '   ',
-          'BVB',
-          ' B '
+        Item.of("tconstruct:scorched_faucet", 1), [
+          "   ",
+          "BVB",
+          " B "
         ], {
-          V: 'extendedcrafting:ender_ingot',
-          B: 'tconstruct:scorched_brick',
+          V: "extendedcrafting:ender_ingot",
+          B: "tconstruct:scorched_brick",
         }
     );
 
