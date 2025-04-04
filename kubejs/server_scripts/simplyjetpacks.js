@@ -4,30 +4,30 @@
 ServerEvents.recipes(event => {
  
     event.shaped(Item.of("simplyjetpacks:armorplating_te2", 1), [
-      "ABA",
-      "BAB",
-      "ABA"
+        "ABA",
+        "BAB",
+        "ABA"
     ], {
-      A: "#forge:ingots/bronze",
-      B: "#forge:ingots/iron"
+        A: "#forge:ingots/bronze",
+        B: "#forge:ingots/iron"
     });
 
     event.shaped(Item.of("simplyjetpacks:armorplating_te3", 1), [
-      "ABA",
-      "BAB",
-      "ABA"
+        "ABA",
+        "BAB",
+        "ABA"
     ], {
-      A: "#forge:ingots/invar",
-      B: "#forge:ingots/bronze"
+        A: "#forge:ingots/invar",
+        B: "#forge:ingots/bronze"
     });
 
     event.shaped(Item.of("simplyjetpacks:armorplating_te4", 1), [
-      "ABA",
-      "BAB",
-      "ABA"
+        "ABA",
+        "BAB",
+        "ABA"
     ], {
-      A: "#forge:ingots/enderium",
-      B: "#forge:ingots/invar"
+        A: "#forge:ingots/enderium",
+        B: "#forge:ingots/invar"
     });
 
     // Flux chestplate

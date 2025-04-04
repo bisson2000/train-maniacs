@@ -28,10 +28,4 @@ ServerEvents.recipes(event => {
         ingredients: [{tag:"forge:ingots/iron"}, {tag:"forge:dusts/coal"}, {tag:"forge:dusts/coal"}, {tag:"forge:dusts/coal"}],
         result: {count:1, id:"mekanism:ingot_steel"}
     });
-
-    // remove engines. They are now unlocked through stages
-    //event.stage({output: "ad_astra:steel_engine"}, "tier_1_rocket");
-    //event.stage({output: "ad_astra:desh_engine"}, "tier_1_rocket");
-    //event.stage({output: "ad_astra:ostrum_engine"}, "tier_3_rocket");
-    //event.stage({output: "ad_astra:calorite_engine"}, "tier_4_rocket");
 });

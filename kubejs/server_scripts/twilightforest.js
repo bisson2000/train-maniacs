@@ -18,6 +18,5 @@ ServerEvents.recipes(event => {
 // Portal activation requires dawnstone
 ServerEvents.tags("item", event => {
     event.removeAll("twilightforest:portal/activator");
-    //event.remove("twilightforest:portal/activator", "minecraft:diamond");
     event.add("twilightforest:portal/activator", "embers:dawnstone_ingot");
 })

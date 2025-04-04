@@ -25,14 +25,6 @@ ServerEvents.recipes(event => {
         event.forEachRecipe({mod: "embers"}, recipe => {
             let changedFlag = false;
 
-            // Input
-            //console.info(`recipe: ${recipe.json}`);
-            //if (recipe.json?.get("input")?.getAsJsonObject().get("fluid")?.asString === fluid) {
-            //    recipe.json.get("input").addProperty("fluid", replacement);
-            //    console.info(`match: ${replacement}`);
-            //    changedFlag = true;
-            //}
-
             // output
             if (recipe.json 
                 && recipe.json.get("output")

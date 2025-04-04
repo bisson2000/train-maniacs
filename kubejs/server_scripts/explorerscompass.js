@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         "ABC",
         "HZD",
         "GFE"
-      ], {
+    ], {
         A: Item.of("twilightforest:naga_trophy"),
         B: Item.of("twilightforest:lich_trophy"),
         C: Item.of("twilightforest:minoshroom_trophy"),
@@ -18,5 +18,5 @@ ServerEvents.recipes(event => {
         G: Item.of("twilightforest:alpha_yeti_trophy"),
         H: Item.of("twilightforest:snow_queen_trophy"),
         Z: "minecraft:compass",
-      });
+    });
 });

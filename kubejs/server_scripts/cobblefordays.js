@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         "ZZZ",
         "WCL",
         "ZZZ"
-      ], {
+    ], {
         C: "cobblefordays:tier_1",
         W: "minecraft:water_bucket",
         L: "minecraft:lava_bucket",
@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         "ZZZ",
         "WCL",
         "ZZZ"
-      ], {
+    ], {
         C: "cobblefordays:tier_2",
         W: "minecraft:water_bucket",
         L: "minecraft:lava_bucket",
@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
         "ZZZ",
         "WCL",
         "ZZZ"
-      ], {
+    ], {
         C: "cobblefordays:tier_3",
         W: "minecraft:water_bucket",
         L: "minecraft:lava_bucket",
@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
         "ZMZ",
         "WCL",
         "ZMZ"
-      ], {
+    ], {
         C: "cobblefordays:tier_4",
         W: "minecraft:water_bucket",
         L: "minecraft:lava_bucket",
