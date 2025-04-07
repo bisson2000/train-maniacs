@@ -117,6 +117,7 @@ saves/
 usercache.json
 user-prefs.json
 usernamecache.json
+servers.*
 xaero/
 /XaeroWaypoints*
 /XaeroWorldMap

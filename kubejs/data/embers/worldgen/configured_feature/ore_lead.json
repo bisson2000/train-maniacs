@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "embersrekindled:lead_ore"
+          "Name": "embers:lead_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
@@ -15,7 +15,7 @@
       },
       {
         "state": {
-          "Name": "embersrekindled:deepslate_lead_ore"
+          "Name": "embers:deepslate_lead_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
