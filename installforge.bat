@@ -14,7 +14,7 @@ if not exist libraries\net\minecraftforge\forge\%FORGE_VERSION%\win_args.txt (
 	%JAVA% -jar forge-%FORGE_VERSION%-installer.jar --installServer
 	echo Forge %FORGE_VERSION% installed.
 
-
+    REM Generate run.bat
     (
     echo @echo off
     echo REM Forge requires a configured set of both JVM and program arguments.
@@ -25,6 +25,7 @@ if not exist libraries\net\minecraftforge\forge\%FORGE_VERSION%\win_args.txt (
     echo pause
     ) > run.bat
 
+    REM # Generate run.sh
     (
     echo #!/usr/bin/env sh
     echo # Forge requires a configured set of both JVM and program arguments.
