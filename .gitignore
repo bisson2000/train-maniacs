@@ -114,6 +114,7 @@ patchouli_data.json
 packmaker/
 rhino.local.properties
 saves/
+TrashSlotSaveState.json
 usercache.json
 user-prefs.json
 usernamecache.json

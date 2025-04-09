@@ -22,7 +22,7 @@ Make sure you have Java 17 installed on your machine. You can check this by open
 
 2. Run the forge installer
 
-3. The forge installer will open. Select `Install Server` and choose the installation location to be the root directory of the modpack (The directory that contains server.jar)
+3. The forge installer will open. Select `Install Server` and choose the installation location to be the root directory of the modpack
 
 4. The `run.bat` (Windows) and the `run.sh` (Linux) scripts will get generated.
 
@@ -30,10 +30,10 @@ Make sure you have Java 17 installed on your machine. You can check this by open
 
 ### Launching the server
 
-By default `run.bat` and `run.sh` are configured to use 8GB of memory. You can change this with Xms and Xmx in `user_jvm_args.txt` if you want to. 8GB is recommended, but you can go higher if you want to.
+By default `run.bat` and `run.sh` are configured to use 8GB of memory. You can change this with Xms and Xmx in `user_jvm_args.txt`. 8GB is recommended, but you can go higher if you want to.
 
 1. Run the start script `run.bat` if on Windows, `run.sh` if on Linux
 
-2. `eula.txt` will get generated. The server cannot start if you don't agree to the eula. Open `eula.txt` and change the value to true if you agree to the eula [https://aka.ms/MinecraftEULA](https://aka.ms/MinecraftEULA).
+2. `eula.txt` will get generated. The server cannot start if you don't agree to the eula. Open `eula.txt` and change the value to `true` if you agree to the eula [https://aka.ms/MinecraftEULA](https://aka.ms/MinecraftEULA)
 
 3. Re-run the start script after agreeing to the eula and the server should boot

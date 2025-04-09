@@ -1,6 +1,8 @@
 /**
      * TODOs: 
-     * Add descriptions for quests
+     * Remove scattered ore generation
+     * Remove structure essentials. Clashes with embers
+     * Add descriptions for quests - done
      * Add Gaia singularity - done
      * Add flux network quests - done
      * Add portal quests - done 
@@ -50,8 +52,4 @@
      * explain infinite glowstone loop. Make cinder flour easier? - done
      * 
      * Lock rocket crafting behind progression
-     * Tier 1: Silver key
-     * Tier 3: Gold key (Infernal)
-     * Tier 2: Bronze key
-     * Tier 4: Platinum key
      */
