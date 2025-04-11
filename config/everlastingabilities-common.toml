@@ -9,7 +9,7 @@
 		#If ability effects should apply. Disable this if you don't want any abilities to work. Useful for debugging.
 		tickAbilities = true
 		#The multiplier for ability XP requirement
-		abilityXpMultiplier = 10
+		abilityXpMultiplier = 0
 		#If potion abilities should show particle effects. This will also make them appear as in-game symbols.
 		showPotionEffectParticles = false
 		#If players should have particle effects for the abilities they carry.
@@ -19,9 +19,9 @@
 		#true: Abilities drop when players die; false: Abilities drop when players die by the hand of other players.
 		alwaysDropAbilities = false
 		#Mobs that won't have abilities that can be dropped via totems. You can add things like 'minecraft:pig'.
-		mobDropBlacklist = []
+		mobDropBlacklist = [".*"]
 		#1/x chance for mobs to have abilities.
-		mobAbilityChance = 50
+		mobAbilityChance = 1
 		#The amount of exhaustion that should by applied to the player per active ability per second.
 		exhaustionPerAbilityTick = 0.001
 		#The maximum rarity of totems to spawn when a player first logs in. [0-3], -1 disables totem spawning.

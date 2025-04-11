@@ -1,7 +1,15 @@
 /**
      * TODOs: 
+     * Fix bonsai pot quest
+     * Remove special ennemies dropping totems
+     * Remove tp with waypoints
+     * Add another recipe besides kelp. Cactus + snow block
      * Remove scattered ore generation
-     * Remove structure essentials. Clashes with embers
+     * Add quest link to show players need dawnstone for the forge
+     * Fix smeltery quest
+     * Remove xp for totems
+     * Item extractor remove redstone in the recipe - done
+     * Remove structure essentials. Clashes with embers - done
      * Add descriptions for quests - done
      * Add Gaia singularity - done
      * Add flux network quests - done

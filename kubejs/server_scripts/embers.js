@@ -55,4 +55,8 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod: "embers", id: "embers:ember_bore"}, "minecraft:iron_ingot", "#forge:plates/iron");
     event.replaceInput({mod: "embers", id: "embers:ember_bore"}, "minecraft:copper_ingot", "#forge:plates/copper");
 
+    // Item extractor
+    event.replaceInput({mod: "embers", id: "embers:item_extractor"}, "minecraft:redstone", "minecraft:red_dye");
+    event.replaceInput({mod: "embers", id: "embers:fluid_extractor"}, "minecraft:redstone", "minecraft:red_dye");
+
 });
