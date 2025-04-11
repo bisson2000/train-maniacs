@@ -6,7 +6,12 @@
 	icon: "minecraft:oak_log"
 	id: "7FD905BE37B0F065"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "63AE03936B30EA1D"
+		linked_quest: "7E87BC0C936A596E"
+		x: -15.0d
+		y: -6.5d
+	}]
 	quests: [
 		{
 			dependencies: ["38056FEB0E5CF804"]
@@ -412,12 +417,12 @@
 					type: "item"
 				}
 				{
-					id: "5ABFABF8BA5FF22B"
-					item: "tconstruct:scorched_basin"
+					id: "2C9EA546084B9373"
+					item: "tconstruct:seared_basin"
 					type: "item"
 				}
 				{
-					id: "7F9B92ED59C37355"
+					id: "3C76CA7174DE3FB5"
 					item: "tconstruct:seared_drain"
 					type: "item"
 				}
@@ -522,8 +527,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "4641D928E3976FBC"
+				id: "67E807B0EC1403EF"
 				item: "bonsaitrees3:bonsaipot"
+				match_nbt: false
+				only_from_crafting: false
 				type: "item"
 			}]
 			x: -15.0d

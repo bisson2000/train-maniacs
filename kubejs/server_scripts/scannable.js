@@ -23,8 +23,25 @@ ServerEvents.recipes(event => {
         " Y "
     ], {
         K: "minecraft:dried_kelp",
-        Y: "minecraft:yellow_dye",
+        Y: "#forge:dyes",
     });
+    event.shaped(Item.of("scannable:blank_module", 1), [
+        "KKK",
+        "KKK",
+        " Y "
+    ], {
+        K: "minecraft:snow_block",
+        Y: "#forge:dyes",
+    });
+    event.shaped(Item.of("scannable:blank_module", 1), [
+        "KKK",
+        "KKK",
+        " Y "
+    ], {
+        K: "minecraft:cactus",
+        Y: "#forge:dyes",
+    });
+
 
     event.remove({mod: "scannable", id: "scannable:common_ores_module"});
     event.shapeless(
