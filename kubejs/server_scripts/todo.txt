@@ -1,11 +1,12 @@
 /**
      * TODOs: 
      * Remove scattered ore generation
-     * Fix bonsai pot quest
-     * Remove tp with waypoints
-     * Add another recipe besides kelp. Cactus + snow block
-     * Add quest link to show players need dawnstone for the forge
-     * Fix smeltery quest
+     * Fix bonsai pot quest - done by removing ftb quest optimizer
+     * Remove tp with waypoints - Cannot do
+     * Removed ftb quest optimizer, was slowing down detection - done
+     * Add another recipe besides kelp. Cactus + snow block - done
+     * Add quest link to show players need dawnstone for the forge - done
+     * Fix smeltery quest - done
      * Remove special ennemies dropping totems - done
      * Remove xp for totems - done
      * Item extractor remove redstone in the recipe - done
