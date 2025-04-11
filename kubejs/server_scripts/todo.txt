@@ -1,6 +1,6 @@
 /**
      * TODOs: 
-     * Remove scattered ore generation
+     * Remove scattered ore generation - done by implementing custom overworld.json and setting ore_veins_enabled to false
      * Fix bonsai pot quest - done by removing ftb quest optimizer
      * Remove tp with waypoints - Cannot do
      * Removed ftb quest optimizer, was slowing down detection - done

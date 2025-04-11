@@ -37,3 +37,17 @@ By default `run.bat` and `run.sh` are configured to use 8GB of memory. You can c
 2. `eula.txt` will get generated. The server cannot start if you don't agree to the eula. Open `eula.txt` and change the value to `true` if you agree to the eula [https://aka.ms/MinecraftEULA](https://aka.ms/MinecraftEULA)
 
 3. Re-run the start script after agreeing to the eula and the server should boot
+
+
+### Aditional information
+
+The server pack has the following mods removed:
+- bwncr (bad wither no cookie)
+- Ding
+- entity_texture_features
+- ExtremeSoundMuffler
+- gpumemleakfix
+- ImmediatelyFast
+- MouseTweaks
+- probejs
+- transparent
