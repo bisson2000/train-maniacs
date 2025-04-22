@@ -109,7 +109,7 @@ local/
 modernfix/
 mods/
 minecraftinstance.json
-options.txt
+# options.txt will be pûshed
 patchouli_data.json
 packmaker/
 rhino.local.properties
@@ -122,3 +122,4 @@ servers.*
 xaero/
 /XaeroWaypoints*
 /XaeroWorldMap
+.vscode

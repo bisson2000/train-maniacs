@@ -1,5 +1,12 @@
 /**
      * TODOs: 
+     * Train maniacs menu not appearing
+     * Reduce attack steroids from max 10 level to max 5 - Done. Nerfed effect by half instead
+     * Balance saturation. Put 1 level and change price from 50 to 500 - done
+     * Portals need 10 blocks. Fix quest - done
+     * Seared melter add it for quest completion - done
+     * What to input in the mechanical bore. Explain how to input - done
+     * Fix quest to kill ancient golem - done
      * Remove scattered ore generation - done by implementing custom overworld.json and setting ore_veins_enabled to false
      * Fix bonsai pot quest - done by removing ftb quest optimizer
      * Remove tp with waypoints - Cannot do

@@ -470,9 +470,9 @@
 			}]
 			tasks: [
 				{
-					count: 8L
+					count: 10L
 					id: "4FC551A9A1A56A65"
-					item: { Count: 8, id: "minecraft:end_stone_bricks" }
+					item: "minecraft:end_stone_bricks"
 					type: "item"
 				}
 				{

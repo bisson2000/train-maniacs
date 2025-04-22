@@ -41,7 +41,7 @@
 			subtitle: "Reduce the cooldown rate when attacking"
 			tasks: [{
 				consume_items: true
-				count: 10L
+				count: 20L
 				disable_toast: true
 				id: "4124E274EFD34319"
 				item: "extendedcrafting:the_ultimate_nugget"
@@ -252,7 +252,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 10L
+				count: 20L
 				disable_toast: true
 				id: "02858ED58485937C"
 				item: "extendedcrafting:the_ultimate_nugget"
@@ -462,7 +462,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 10L
+				count: 50L
 				disable_toast: true
 				id: "46B24F690E8ACA8A"
 				item: "extendedcrafting:the_ultimate_nugget"
@@ -714,7 +714,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 20L
+				count: 50L
 				disable_toast: true
 				id: "79AA8C3B0E0AAC5F"
 				item: "extendedcrafting:the_ultimate_nugget"
@@ -798,7 +798,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 50L
+				count: 500L
 				disable_toast: true
 				id: "122405588EA660A1"
 				item: "extendedcrafting:the_ultimate_nugget"
@@ -881,7 +881,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 5L
+				count: 10L
 				disable_toast: true
 				id: "71E74BCD4F110B0A"
 				item: "extendedcrafting:the_ultimate_nugget"
@@ -1051,7 +1051,7 @@
 			subtitle: "Entities in the area move slower"
 			tasks: [{
 				consume_items: true
-				count: 5L
+				count: 10L
 				disable_toast: true
 				id: "0840A4C4D5C4AA66"
 				item: "extendedcrafting:the_ultimate_nugget"
@@ -1354,6 +1354,23 @@
 			title: "Weakness"
 			x: 4.5d
 			y: -2.5d
+		}
+		{
+			description: ["Allows to view/edit abilities"]
+			id: "706A3C640E03D0FF"
+			tasks: [{
+				id: "78193CE6C06AABB7"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_bottle"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
 		}
 	]
 	title: "Rewards"

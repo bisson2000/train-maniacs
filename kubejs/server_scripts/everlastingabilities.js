@@ -12,32 +12,32 @@
 
 /**
  * command                                                                                                                                                                          max lvl         price/lvl   total
- * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:attribute_modifier/attack_steroids", level: 1 }] }       max 10          10          100
+ * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:attribute_modifier/attack_steroids", level: 1 }] }       max 10          20          200
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:attribute_modifier/block_range", level: 1 }] }           Not in 1.20     
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:attribute_modifier/heart_gainer", level: 1 }] }          max 50          15          750
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:attribute_modifier/hidden_chestplate", level: 1 }] }     max 5           10          50
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:attribute_modifier/knockback", level: 1 }] }             max 5           10          50
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:attribute_modifier/impacting_legs", level: 1 }] }        Not in 1.20
- * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/absorption", "level": 1 }]}                       max 5           10          50
+ * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/absorption", "level": 1 }]}                       max 5           20          200
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/bad_omen_self", "level": 1 }]}                    max 4           1           4
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/conduit_power", "level": 1 }]}                    max 3           10          30
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/dolphins_grace", "level": 1 }]}                   max 1           100         100
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/fire_resistance", "level": 1 }]}                  max 1           100         100
- * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/haste", level: 1 }] }                             max 5           10          50
+ * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/haste", level: 1 }] }                             max 5           50          500
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/hero_of_the_village", level: 1 }] }               max 3           10          30
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/jump_boost", "level": 1 }]}                       max 5           5           25
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/luck", "level": 1 }]}                             max 3           10          30
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/night_vision", "level": 1 }]}                     max 1           200         200
- * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/regeneration", "level": 1 }]}                     max 3           20          60
+ * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/regeneration", "level": 1 }]}                     max 3           50          150
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/resistance", "level": 1 }]}                       max 3           20          60
- * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/saturation", "level": 1 }]}                       max 3           50          150
+ * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/saturation", "level": 1 }]}                       max 1           500         500
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/slow_falling", "level": 1 }]}                     max 1           1           1
- * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/speed", "level": 1 }]}                            max 5           5           25
+ * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/speed", "level": 1 }]}                            max 5           10          50
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/strength", "level": 1 }]}                         max 5           15          75
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/unluck", "level": 1 }]}                           max 3           1           3
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/water_breathing", "level": 1 }]}                  max 1           50          50
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/glowing", "level": 1 }]}                          max 3           1           3
- * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/slowness", "level": 1 }]}                         max 3           5           15
+ * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/slowness", "level": 1 }]}                         max 3           10          30
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:effect/weakness", "level": 1 }]}                         max 3           10          30
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:special/flight", "level": 1 }]}                          max 1           1000        1000
  * /give @s everlastingabilities:ability_totem{ "everlastingabilities:abilityStoreStack": [{ "name": "everlastingabilities:special/mining_fatigue", "level": 1 }]}                  max 3           1           3

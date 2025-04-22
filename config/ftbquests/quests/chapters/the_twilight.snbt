@@ -280,9 +280,9 @@
 			}]
 			tasks: [
 				{
-					count: 8L
+					count: 10L
 					id: "01E112C034044101"
-					item: { Count: 8, id: "create:zinc_block" }
+					item: "create:zinc_block"
 					type: "item"
 				}
 				{

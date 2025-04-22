@@ -596,9 +596,9 @@
 			}]
 			tasks: [
 				{
-					count: 8L
+					count: 10L
 					id: "261B7BF5CBE9653B"
-					item: { Count: 8, id: "ad_astra:cheese_block" }
+					item: "ad_astra:cheese_block"
 					type: "item"
 				}
 				{
@@ -623,9 +623,9 @@
 			}]
 			tasks: [
 				{
-					count: 8L
+					count: 10L
 					id: "0B34D0184B3FA9C9"
-					item: { Count: 8, id: "ad_astra:ostrum_block" }
+					item: "ad_astra:ostrum_block"
 					type: "item"
 				}
 				{
@@ -656,9 +656,9 @@
 			}]
 			tasks: [
 				{
-					count: 8L
+					count: 10L
 					id: "0C4DC2A4CB22E9A1"
-					item: { Count: 8, id: "mekanism:block_uranium" }
+					item: "mekanism:block_uranium"
 					type: "item"
 				}
 				{
@@ -722,9 +722,9 @@
 			}]
 			tasks: [
 				{
-					count: 8L
+					count: 10L
 					id: "0D6ED42139582E69"
-					item: { Count: 8, id: "mekanism:block_fluorite" }
+					item: "mekanism:block_fluorite"
 					type: "item"
 				}
 				{

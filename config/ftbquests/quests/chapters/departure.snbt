@@ -1268,9 +1268,9 @@
 			description: ["I can finally build a draconium portal to travel to my original world. All I need is to use the singularity to activate it. But over time, I've grown fond of this world. Maybe I can stay a little longer?"]
 			id: "1BAD7920E56EA676"
 			tasks: [{
-				count: 8L
+				count: 10L
 				id: "02D43B07BCDFB033"
-				item: { Count: 8, id: "draconicevolution:awakened_draconium_block" }
+				item: "draconicevolution:awakened_draconium_block"
 				type: "item"
 			}]
 			title: "Leaving"

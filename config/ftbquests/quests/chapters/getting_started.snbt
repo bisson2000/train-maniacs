@@ -364,10 +364,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: [
-				"077231599191F4C9"
-				"7E87BC0C936A596E"
-			]
+			dependencies: ["288D4F6F0649AF78"]
 			icon: "tconstruct:smeltery_controller"
 			id: "25A82617A27FBD32"
 			rewards: [{
@@ -378,25 +375,8 @@
 			}]
 			tasks: [
 				{
-					id: "17778C53275CA8D3"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "tconstruct:seared_tanks"
-						}
-					}
-					title: "Any #tconstruct:seared_tanks"
-					type: "item"
-				}
-				{
 					id: "2CE173497E8704F7"
 					item: "tconstruct:smeltery_controller"
-					type: "item"
-				}
-				{
-					id: "4526843C01C200B2"
-					item: "tconstruct:seared_faucet"
 					type: "item"
 				}
 				{
@@ -429,7 +409,7 @@
 			]
 			title: "Getting an upgrade"
 			x: -13.5d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2C6F8E84165D3657"]
@@ -638,6 +618,45 @@
 			title: "Getting around"
 			x: -16.5d
 			y: -12.5d
+		}
+		{
+			dependencies: [
+				"7E87BC0C936A596E"
+				"077231599191F4C9"
+			]
+			id: "288D4F6F0649AF78"
+			rewards: [{
+				count: 5
+				id: "6A066C961D826421"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4DA301DE186DB8DE"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "62D3FCA001520DA9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+					title: "Any #tconstruct:seared_tanks"
+					type: "item"
+				}
+				{
+					id: "5C3BC7C8324D9164"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -6.5d
 		}
 	]
 	title: "Arrival"

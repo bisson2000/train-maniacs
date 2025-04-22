@@ -1,0 +1,1 @@
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","builtin/resource/overrides_pack","file/TrainManiacsMenu.zip"]

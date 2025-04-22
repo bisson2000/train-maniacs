@@ -81,7 +81,7 @@
 		}
 		{
 			dependencies: ["656CABD6F67CED65"]
-			description: ["The bore must be placed over bedrock. Getting items in and out of a bore is not straightforward. Using a Mechanical Core on top of the bore will allow me to pull and push items from it."]
+			description: ["The bore must be placed over bedrock. Getting items in and out of a bore is not straightforward. Using a Mechanical Core on top of the bore will allow me to pull and push items from it. Take an item pipe and extract fuels from a chest to the mechanical core. Then extract the bore's results from the mechanical core into a different chest."]
 			id: "0011F4DBA21BE1E7"
 			rewards: [{
 				count: 5
@@ -134,6 +134,7 @@
 		}
 		{
 			dependencies: ["746B87F49FC94675"]
+			description: ["Limited range"]
 			id: "1EF602605C334C17"
 			rewards: [{
 				count: 5
@@ -213,7 +214,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "twilightforest:carminite_golem"
+				entity: "embers:ancient_golem"
 				id: "4EC8E1CF571CDFFB"
 				type: "kill"
 				value: 1L
