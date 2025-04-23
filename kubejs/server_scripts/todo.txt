@@ -1,6 +1,8 @@
 /**
      * TODOs: 
-     * Train maniacs menu not appearing
+     * Remove shader
+     * Modify bmc config
+     * Train maniacs menu not appearing - done, export options.txt
      * Reduce attack steroids from max 10 level to max 5 - Done. Nerfed effect by half instead
      * Balance saturation. Put 1 level and change price from 50 to 500 - done
      * Portals need 10 blocks. Fix quest - done
