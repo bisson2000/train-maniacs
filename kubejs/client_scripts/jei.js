@@ -25,6 +25,7 @@ JEIEvents.hideItems(event => {
     event.hide(Item.of("mekanism:quantum_entangloporter"));
 
     // immersiveengineering
+    event.hide(Item.of("immersiveengineering:coal_coke"));
 
     // ae2
     event.hide(Item.of("ae2:quantum_link"));
