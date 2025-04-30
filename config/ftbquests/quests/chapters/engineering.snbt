@@ -155,7 +155,14 @@
 			}]
 			tasks: [{
 				id: "07F1BFC9BA1A83E4"
-				item: "immersiveengineering:treated_wood_packaged"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:treated_wood"
+					}
+				}
+				title: "Any #forge:treated_wood"
 				type: "item"
 			}]
 			x: 0.0d

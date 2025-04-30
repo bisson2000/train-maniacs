@@ -218,7 +218,7 @@ ServerEvents.recipes(event => {
     
     event.remove({mod: "enderio", id: "enderio:alloy_smelting/redstone_alloy_ingot"});
     event.recipes.enderio.alloy_smelting(Item.of("enderio:redstone_alloy_ingot"), 
-        ["kubejs:flux_induced_iron", "#forge:silicon", "#forge:ingots/graphite"],
+        ["kubejs:flux_induced_iron", "#forge:silicon", "#forge:dusts/coal"],
         3200,
         1.0
     );
@@ -550,6 +550,7 @@ ServerEvents.recipes(event => {
 
     // minecraft
     event.replaceInput({mod: "minecraft", id: "minecraft:piston"}, "#forge:ingots/iron", "kubejs:flux_induced_iron");
+    event.replaceInput({mod: "aether", id: "aether:skyroot_piston"}, "#forge:ingots/iron", "kubejs:flux_induced_iron");
 
     
 });
