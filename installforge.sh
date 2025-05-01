@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 JAVA=java
-FORGE_VERSION=1.20.1-47.3.22
+FORGE_VERSION=1.20.1-47.4.0
 
 # Check if Forge is installed
 if [ ! -f "libraries/net/minecraftforge/forge/$FORGE_VERSION/unix_args.txt" ]; then

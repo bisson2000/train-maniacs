@@ -1,7 +1,7 @@
 @echo off
 
 set "JAVA=java"
-set "FORGE_VERSION=1.20.1-47.3.22"
+set "FORGE_VERSION=1.20.1-47.4.0"
 
 REM Check if Forge is installed
 if not exist libraries\net\minecraftforge\forge\%FORGE_VERSION%\win_args.txt (

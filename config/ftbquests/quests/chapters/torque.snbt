@@ -702,6 +702,7 @@
 		}
 		{
 			dependencies: ["4ABA8F33781AD43A"]
+			description: ["Loads the chunk it's placed in. F3 + G to view chunks!"]
 			id: "4F00CB4673691A85"
 			rewards: [{
 				count: 5
@@ -716,23 +717,6 @@
 			}]
 			x: 3.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["70465FE3C550A570"]
-			id: "0E73978471ACA1E9"
-			rewards: [{
-				count: 5
-				id: "7B8A67510EE7B9D2"
-				item: "extendedcrafting:the_ultimate_nugget"
-				type: "item"
-			}]
-			tasks: [{
-				id: "73B04DF23B7BC535"
-				item: "create_power_loader:brass_chunk_loader"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -8.0d
 		}
 		{
 			dependencies: ["546464EA03021946"]
@@ -876,6 +860,23 @@
 				{
 					id: "0E23B84B52BF0ED8"
 					item: "createaddition:alternator"
+					type: "item"
+				}
+				{
+					id: "5BB4255F492CFEB4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "createaddition:spools"
+						}
+					}
+					title: "Any #createaddition:spools"
+					type: "item"
+				}
+				{
+					id: "6F40FE2CF586D0A4"
+					item: "createaddition:large_connector"
 					type: "item"
 				}
 			]
@@ -1032,6 +1033,24 @@
 				type: "item"
 			}]
 			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["70465FE3C550A570"]
+			description: ["Loads the chunk it's placed in and can be configured. F3 + G to view chunks!"]
+			id: "4B7B5C92E1F7B3DA"
+			rewards: [{
+				count: 5
+				id: "32BB2292217EE190"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F569EB9DB896E0F"
+				item: "create_power_loader:brass_chunk_loader"
+				type: "item"
+			}]
+			x: 3.0d
 			y: -8.0d
 		}
 	]
