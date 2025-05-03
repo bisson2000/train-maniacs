@@ -29,4 +29,8 @@ ServerEvents.recipes(event => {
     event.remove({id: "thermal:compat/create/smelter_create_alloy_andesite_alloy"});
     event.recipes.thermal.smelter([Item.of("create:andesite_alloy")], ["#forge:andesite", "#forge:nuggets/zinc"], 0, 3200);
 
+    // compat
+    event.recipes.create.pressing([Item.of("thermal:invar_plate")], [Item.of("thermal:invar_ingot")]);
+    event.recipes.create.pressing([Item.of("thermal:bronze_plate")], [Item.of("mekanism:ingot_bronze")]);
+
 });

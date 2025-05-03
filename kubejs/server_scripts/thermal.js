@@ -124,6 +124,20 @@ ServerEvents.recipes(event => {
     // cinder flour, quadruple output
     event.remove({mod: "thermal", id: "thermal:compat/create/pulverizer_create_netherrack"});
     event.recipes.thermal.pulverizer([Item.of("create:cinder_flour", 4)], [Item.of("minecraft:netherrack")], 0, 1000);
+
+    // Steel
+    event.forEachRecipe({mod: "thermal", id: "thermal:machines/smelter/smelter_alloy_steel"}, recipe => {
+        if (recipe.json && recipe.json.getAsJsonArray("ingredients") && recipe.json.getAsJsonArray("ingredients").get(1) && recipe.json.getAsJsonArray("ingredients").get(1).get("tag")) {
+            recipe.json.getAsJsonArray("ingredients").forEach(res => {
+                if (res.asJsonObject && res.asJsonObject.get("tag") && res.asJsonObject.get("tag").asString === "forge:coal_coke") {
+                    res.asJsonObject.remove("tag");
+                    res.asJsonObject.addProperty("tag", "forge:dusts/coal");
+                    res.asJsonObject.addProperty("count", "3");
+                    recipe.save();
+                }
+            });
+        }
+    });
 });
 
 ServerEvents.tags("item", event => {

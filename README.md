@@ -41,11 +41,13 @@ By default `run.bat` and `run.sh` are configured to use 8GB of memory. You can c
 
 ### Aditional information
 
-The server pack has the following mods removed:
+The server pack has the following mods removed, because they are client-side only:
+- better ping display
 - bwncr (bad wither no cookie)
 - Ding
 - entity_texture_features
 - ExtremeSoundMuffler
+- Fast IP Ping
 - gpumemleakfix
 - ImmediatelyFast
 - MouseTweaks

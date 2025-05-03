@@ -230,9 +230,27 @@ ServerEvents.recipes(event => {
     ); 
 
     // Immersive Engineering
-    event.replaceInput({mod: "immersiveengineering", id: "immersiveengineering:crafting/heavy_engineering"}, "#forge:ingots/electrum", "immersiveengineering:light_engineering");
-    event.replaceInput({mod: "immersiveengineering", id: "immersiveengineering:crafting/light_engineering"}, "#forge:ingots/copper", "enderio:basic_capacitor");
-
+    event.remove({mod: "immersiveengineering", id: "immersiveengineering:crafting/light_engineering"});
+    event.shaped(Item.of("immersiveengineering:light_engineering", 2), [
+        "SCS",
+        "CMC",
+        "SCS"
+    ], {
+        S: "immersiveengineering:sheetmetal_iron",
+        C: "immersiveengineering:component_iron",
+        M: "enderio:basic_capacitor",
+    });
+    event.remove({mod: "immersiveengineering", id: "immersiveengineering:crafting/heavy_engineering"});
+    event.shaped(Item.of("immersiveengineering:heavy_engineering", 1), [
+        "SCS",
+        "CMC",
+        "SCS"
+    ], {
+        S: "immersiveengineering:sheetmetal_steel",
+        C: "immersiveengineering:component_steel",
+        M: "immersiveengineering:light_engineering",
+    });
+    
     // ad_astra
     event.remove({mod: "ad_astra", id: "ad_astra:nasa_workbench"});
     event.shaped(

@@ -1,8 +1,9 @@
 /**
      * TODOs: 
-     * Remove shader
      * Modify bmc config
      * Make ores more sparse, only spawn diamonds in twilight forest
+     * Add glowstone as an infinite minable resource
+     * Remove shader - done
      * Document bug with electric motor, as it makes the world hang. Workaround is to use its own cables - done
      * Modify carryon config, forbid create power loader, as it makes the world hang - done
      * Train maniacs menu not appearing - done, export options.txt
