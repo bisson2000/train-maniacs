@@ -2,7 +2,8 @@
      * TODOs: 
      * Modify bmc config
      * Make ores more sparse, only spawn diamonds in twilight forest
-     * Add glowstone as an infinite minable resource
+     * make mining more accessible. Make levelling addon even more accessible and create quest - done
+     * Add glowstone as an infinite minable resource - done
      * Remove shader - done
      * Document bug with electric motor, as it makes the world hang. Workaround is to use its own cables - done
      * Modify carryon config, forbid create power loader, as it makes the world hang - done

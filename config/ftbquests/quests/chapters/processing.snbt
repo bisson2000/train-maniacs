@@ -1529,11 +1529,25 @@
 				item: "extendedcrafting:the_ultimate_nugget"
 				type: "item"
 			}]
-			tasks: [{
-				id: "67D27B23E5BADC45"
-				item: "minecraft:glowstone_dust"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "67D27B23E5BADC45"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "25B098A884CBDF22"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:night_vision"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
 			x: -11.0d
 			y: -3.5d
 		}

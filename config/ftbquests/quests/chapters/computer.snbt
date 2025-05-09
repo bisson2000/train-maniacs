@@ -217,6 +217,7 @@
 		}
 		{
 			dependencies: ["1A9E9D43633088DB"]
+			description: ["Breaks what is in front of it"]
 			id: "124A0618C3003D34"
 			rewards: [{
 				count: 5
@@ -1086,6 +1087,7 @@
 		}
 		{
 			dependencies: ["7040D49EFE58D00A"]
+			description: ["Store energy!"]
 			id: "674F8483A0C3F611"
 			rewards: [{
 				count: 5

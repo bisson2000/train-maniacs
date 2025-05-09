@@ -200,13 +200,14 @@ ServerEvents.recipes(event => {
         "result":"embers:iron_aspectus"
     });
 
-    //event.forEachRecipe({mod: "kubejs", type: "tconstruct:alloy"}, recipe => {
-    //    console.info(`recipe: ${recipe.json}`);
-    //});
+    // blazing blood
+    
 
-    //event.replaceOutput({mod: "tconstruct", output: "forge:molten"})
-
-    //event.forEachRecipe({mod: "tconstruct"}, recipe => {
-    //    console.info(`recipe: ${recipe.json}`);
-    //});
+    // tinkerslevellingaddon
+    event.forEachRecipe({mod: "tinkerslevellingaddon", type: "tconstruct:modifier"}, recipe => {
+        if (recipe.json && recipe.json.getAsJsonArray("inputs")) {
+            recipe.json.add("inputs", [{"item":"minecraft:book"}]);
+            recipe.save();
+        }
+    })
 });

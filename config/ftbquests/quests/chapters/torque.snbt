@@ -256,7 +256,7 @@
 		}
 		{
 			dependencies: ["31D7DECA825CE6D0"]
-			description: ["This drill mines naturally generated ores infinitely. I can use this with those large patches of ores to effectively gather an infinite amount of resources. Thankfully, this machine can be enchanted, giving me the option to only place a few of them for big results"]
+			description: ["This drill mines naturally generated ores and glowstone infinitely. I can use this with those large patches of ores to effectively gather an infinite amount of resources. Thankfully, this machine can be enchanted, giving me the option to only place a few of them for big results"]
 			id: "74BC27BBB4D26852"
 			rewards: [{
 				count: 5

@@ -11,7 +11,7 @@
 	#Which block tags are NOT allowed to be mined more than once. Write the tag with modid:tag_name
 	"Denied tags" = []
 	#Which blocks are allowed to be mined more than once. Write the block with modid:block_name
-	"Allowed blocks" = ["minecraft:iron_ore", "minecraft:deepslate_iron_ore"]
+	"Allowed blocks" = ["minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:glowstone"]
 	#Which blocks are NOT allowed to be mined more than once. Write the block with modid:block_name
 	"Denied blocks" = ["minecraft:oak_log", "minecraft:acacia_log"]
 	#True if you want the enchanted blocks to have a glint effect
