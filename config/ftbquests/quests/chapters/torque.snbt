@@ -1053,6 +1053,36 @@
 			x: 3.0d
 			y: -8.0d
 		}
+		{
+			dependencies: ["32FD52A489480ED8"]
+			description: ["Once a train station is designed, it might be usefull to reuse it."]
+			id: "7C6FDA1579D0AF0F"
+			rewards: [{
+				count: 5
+				id: "1EB26AA6E66A4592"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B2A5C21F1C9D8AE"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "3D8C2A6330E4161A"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "1802FDDDCC7DA397"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -5.0d
+		}
 	]
 	title: "Trains"
 }

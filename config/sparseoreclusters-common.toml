@@ -1,0 +1,15 @@
+
+["Configs for Sparse Ore Clusters"]
+	# How many different features can spawn in a chunk
+	#Range: > 0
+	"Variety per chunk" = 1
+	# The odds of a chunk containing features. Value should be between 0 and 1.
+	# 0 means there won't be any features at all, while 1 means there will be a feature in every chunk
+	#Range: 0.0 ~ 1.0
+	"Odds of features in chunk" = 0.75
+	# A list of weights each feature has. The higher the weight, the more likely it is for the feature to appear.
+	# Takes in pairs of values (modid:feature, weight). The weight should be above 0. By default, all features have a weight of 1.
+	# Make sure to write the weight as a floating point number. E.g.: writing "1
+	# will not work, but "1.0" will.
+	"Weight list" = [["minecraft:ore_diamond", 0.5], ["minecraft:ore_diamond_large", 0.5], ["minecraft:ore_diamond_buried", 0.5], ["minecraft:ore_debris_small", 0.2], ["create:zinc_ore", 5.0]]
+
