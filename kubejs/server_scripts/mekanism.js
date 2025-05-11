@@ -80,6 +80,19 @@ ServerEvents.recipes(event => {
         "output":{"item":"nuclearcraft:lithium_dust"}
     });
 
+    // atomic disassembler
+    event.remove({mod: "mekanism", id: "mekanism:atomic_disassembler"});
+    event.shaped(Item.of("mekanism:atomic_disassembler", 1), [
+        "ITI",
+        "III",
+        " R "
+    ], {
+        I: "mekanism:alloy_infused",
+        T: "mekanism:energy_tablet",
+        R: "mekanism:ingot_refined_obsidian"
+    });
+
+    //event.replaceInput({mod: "mekanism", id: "mekanism:atomic_disassembler"}, "mekanism:alloy_atomic", "mekanism:alloy_infused");
 
     // TODO: Units for armor
 });

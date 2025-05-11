@@ -474,13 +474,14 @@ ServerEvents.recipes(event => {
 
     event.remove({mod: "mekanism", id: "mekanism:control_circuit/elite"});
     event.shaped(Item.of("mekanism:elite_control_circuit", 1), [
-        " M ",
+        "OMO",
         "ACA",
-        " M "
+        "OMO"
     ], {
         M: "kubejs:microchip_tier_3",
         A: "mekanism:alloy_reinforced",
         C: "mekanism:advanced_control_circuit",
+        O: "ad_astra:ostrum_block"
     });
 
     event.remove({mod: "mekanism", id: "mekanism:control_circuit/ultimate"});

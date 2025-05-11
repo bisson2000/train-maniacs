@@ -1,0 +1,38 @@
+{
+  "type": "mekanism:ore",
+  "config": {
+    "oreVeinType": {
+      "type": "uranium",
+      "index": 0
+    },
+    "targets": [
+      {
+        "state": {
+          "Name": "mekanismaaa:mercury_uranium_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:mercury_stone"
+        }
+      },
+      {
+        "state": {
+          "Name": "mekanismaaa:venus_uranium_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:venus_stone"
+        }
+      },
+      {
+        "state": {
+          "Name": "mekanismaaa:glacio_uranium_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:glacio_stone"
+        }
+      }
+    ]
+  }
+}
