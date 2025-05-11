@@ -566,6 +566,8 @@ ServerEvents.recipes(event => {
         D: "draconicevolution:wyvern_core",
     });
 
+    event.recipes.thermal.insolator(["2x twilightforest:torchberries"], ["twilightforest:torchberries"]); // infinite torchberries
+
 
     // minecraft
     event.replaceInput({mod: "minecraft", id: "minecraft:piston"}, "#forge:ingots/iron", "kubejs:flux_induced_iron");

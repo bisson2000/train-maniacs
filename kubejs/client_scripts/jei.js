@@ -36,6 +36,9 @@ JEIEvents.hideItems(event => {
 
     // nuclearcraft
     event.hide(Item.of("nuclearcraft:leacher"));
+
+    // Easy villagers
+    event.hide(Item.of("easy_villagers:iron_farm"));
 });
 
 JEIEvents.hideFluids(event => {

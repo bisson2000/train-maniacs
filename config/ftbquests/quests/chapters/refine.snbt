@@ -1243,6 +1243,7 @@
 			tasks: [{
 				id: "0968FF6145F13D53"
 				item: "mekanism:basic_energy_cube"
+				match_nbt: false
 				type: "item"
 			}]
 			x: -1.5d

@@ -75,7 +75,7 @@
 		}
 		{
 			dependencies: ["79346C69254A3F27"]
-			description: ["In the cursed pyramid"]
+			description: ["In the cursed pyramid. Bring a brush"]
 			id: "1C97D9B961C73CC3"
 			rewards: [{
 				count: 5
@@ -230,7 +230,7 @@
 		}
 		{
 			dependencies: ["7A3D74AC5C8104B7"]
-			description: ["In the sunken city"]
+			description: ["In the sunken city. Bring an abyssal sacrifice."]
 			id: "056A6A475FC0EDD6"
 			rewards: [{
 				count: 5
@@ -280,7 +280,7 @@
 		}
 		{
 			dependencies: ["58E0F36548184A30"]
-			description: ["In the ancient factory"]
+			description: ["In the ancient factory. A nether star will wake it up."]
 			id: "7D950C68804D41B2"
 			rewards: [{
 				count: 5

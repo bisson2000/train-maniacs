@@ -593,6 +593,7 @@
 		}
 		{
 			dependencies: ["35E8EA29E383F442"]
+			description: ["By placing pedestals in a circle formation around the exchange tablet, and then firing a beam canon on it, we can perform alchemy. Unsuccessful alchemy will yield alchemical waste. Taking the waste and inspecting it will yield the information needed to perform the right combination. A codebreaking slate can also be used to decipher the correct recipe."]
 			id: "23FBA8FE191C7E67"
 			rewards: [{
 				count: 5
@@ -602,6 +603,7 @@
 			}]
 			tasks: [
 				{
+					count: 4L
 					id: "730081036A8674A1"
 					item: "embers:alchemy_pedestal"
 					type: "item"
@@ -635,6 +637,24 @@
 				type: "item"
 			}]
 			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["35E8EA29E383F442"]
+			description: ["Decipher alchemy"]
+			id: "17031FFC3C2520B0"
+			rewards: [{
+				count: 5
+				id: "5D0737DB1ED6CA5F"
+				item: "extendedcrafting:the_ultimate_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04E526D11F7CB2B5"
+				item: "embers:codebreaking_slate"
+				type: "item"
+			}]
+			x: 6.0d
 			y: 5.5d
 		}
 	]

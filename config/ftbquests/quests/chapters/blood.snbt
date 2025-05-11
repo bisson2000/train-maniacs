@@ -105,6 +105,7 @@
 		}
 		{
 			dependencies: ["3CD83683249EB998"]
+			description: ["Right click the orb to connect it to you"]
 			id: "253A4DF17667738A"
 			rewards: [{
 				count: 5
@@ -481,7 +482,7 @@
 		}
 		{
 			dependencies: ["253A4DF17667738A"]
-			description: ["Helps understand the sould network as well as the altar tier."]
+			description: ["Helps understand the soul network as well as the altar tier."]
 			id: "7B77A27F43A5C371"
 			rewards: [{
 				count: 5
@@ -673,7 +674,7 @@
 		}
 		{
 			dependencies: ["46B5617E4915B4A2"]
-			description: ["Demonite must be present in this dimension. To get access to the mine, the foreman's key must be found. Then, with some demonite, the miner's key can be crafter to reach deeper into the mine."]
+			description: ["Demonite must be present in this dimension. To get access to the mine, the foreman's key must be found. Then, with some demonite, the miner's key can be crafted to reach deeper into the mine."]
 			id: "7441F85C810B525C"
 			rewards: [{
 				count: 5

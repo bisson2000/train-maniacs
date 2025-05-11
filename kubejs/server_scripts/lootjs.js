@@ -15,10 +15,10 @@ LootJS.modifiers((event) => {
     event.addLootTableModifier("minecraft:chests/igloo_chest").removeLoot("endrem:cold_eye");
     event.addLootTableModifier("minecraft:chests/pillager_outpost").removeLoot("endrem:corrupted_eye");
     //event.addLootTableModifier("minecraft:chests/bastion_treasure").removeLoot("endrem:cursed_eye"); // kept as is
-    // event.addEntityLootModifier("minecraft:elder_guardian").removeLoot("endrem:guardian_eye"); // kept
+    event.addEntityLootModifier("minecraft:elder_guardian").removeLoot("endrem:guardian_eye"); // changed loot table
     event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("endrem:lost_eye");
-    // event.addLootTableModifier("minecraft:chests/woodland_mansion").removeLoot("endrem:magical_eye");
-    // event.addEntityLootModifier("minecraft:evoker").removeLoot("endrem:magical_eye"); // kept
+    // event.addLootTableModifier("minecraft:chests/woodland_mansion").removeLoot("endrem:magical_eye"); // Removed
+    event.addEntityLootModifier("minecraft:evoker").removeLoot("endrem:magical_eye"); // changed loot table
     event.addLootTableModifier("minecraft:chests/nether_bridge").removeLoot("endrem:nether_eye");
     event.addLootTableModifier("minecraft:chests/desert_pyramid").removeLoot("endrem:old_eye");
     event.addLootTableModifier("minecraft:chests/jungle_temple").removeLoot("endrem:rogue_eye");
@@ -34,4 +34,7 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("cataclysm:the_leviathan").addLoot("endrem:cryptic_eye");
     event.addEntityLootModifier("cataclysm:ignis").addLoot("endrem:nether_eye");
     event.addEntityLootModifier("cataclysm:maledictus").addLoot("endrem:cold_eye");
+    event.addEntityLootModifier("minecraft:evoker").addLoot("endrem:magical_eye");
+    event.addEntityLootModifier("minecraft:elder_guardian").addLoot("endrem:guardian_eye");
+    event.addEntityLootModifier("minecraft:piglin_brute").addLoot("endrem:cursed_eye");
 });
