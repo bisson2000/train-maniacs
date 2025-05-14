@@ -1,8 +1,13 @@
-# Train maniacs
+## Train Maniacs
+
+<a href="https://www.curseforge.com/minecraft/mc-mods/train-maniacs" target="_blank"><img src="https://cf.way2muchnoise.eu/1265495.svg?badge_style=flat"/></a><a href="https://www.curseforge.com/minecraft/mc-mods/train-maniacs" target="_blank"><img src="http://cf.way2muchnoise.eu/versions/1265495.svg?badge_style=flat" /></a>
+
+![logo](logo.png)
+
 
 ## Where can I find and download the modpack?
 
-
+You can find the mod on CurseForge: https://legacy.curseforge.com/minecraft/mc-mods/train-maniacs
 
 
 ## Server installation guide
@@ -14,11 +19,11 @@ Make sure you have Java 17 installed on your machine. You can check this by open
 
 #### Automatic Forge installation
 
-1. After the server pack has been extracted, run `installforge.bat` (Windows) or `installforge.sh` (Linux). This will install forge 47.3.22 in the root directory (Where config, mods, etc... are located).
+1. After the server pack has been extracted, run `installforge.bat` (Windows) or `installforge.sh` (Linux). This will install forge 47.4.0 in the root directory (Where config, mods, etc... are located).
 
 #### Manual Forge installation
 
-1. After the server pack has been extracted, download the forge [47.3.22 installer](https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.22/forge-1.20.1-47.3.22-installer.jar). You can find the installer on [curseforge](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html). The installer should be a jar file
+1. After the server pack has been extracted, download the forge [47.4.0 installer](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar). You can find the installer on [curseforge](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html). The installer should be a jar file
 
 2. Run the forge installer
 
