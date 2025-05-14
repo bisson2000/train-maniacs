@@ -1,6 +1,7 @@
 /**
      * TODOs: 
      * Modify bmc config
+     * Remove Yung better dungeons for interfering with endrem - done
      * Make ores more sparse, only spawn diamonds in twilight forest - done
      * make mining more accessible. Make levelling addon even more accessible and create quest - done
      * Add glowstone as an infinite minable resource - done
