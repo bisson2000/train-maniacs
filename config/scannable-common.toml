@@ -36,7 +36,7 @@
 [range]
 	#Relative amount of base scan radius added by each installed range module.
 	#Range: 0.0 ~ 1.0
-	rangeModifierModuleRange = 0.5
+	rangeModifierModuleRange = 1.0
 	#Relative effective range of the common ore module.
 	#Range: 0.0 ~ 1.0
 	rangeModifierModuleOreCommon = 0.5

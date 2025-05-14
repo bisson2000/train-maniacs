@@ -56,5 +56,10 @@ The server pack has the following mods removed, because they are client-side onl
 - gpumemleakfix
 - ImmediatelyFast
 - MouseTweaks
-- probejs
 - transparent
+
+
+## Issues
+
+If you find an issue or think of an improvement, open an issue at [https://github.com/bisson2000/train-maniacs/issues](https://github.com/bisson2000/train-maniacs/issues). This modpack is in constant improvement. Any help is greatly appreciated!
+
