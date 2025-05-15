@@ -1,13 +1,13 @@
 ## Train Maniacs
 
-<a href="https://www.curseforge.com/minecraft/mc-mods/train-maniacs" target="_blank"><img src="https://cf.way2muchnoise.eu/1265495.svg?badge_style=flat"/></a><a href="https://www.curseforge.com/minecraft/mc-mods/train-maniacs" target="_blank"><img src="http://cf.way2muchnoise.eu/versions/1265495.svg?badge_style=flat"/></a>
+<a href="https://www.curseforge.com/minecraft/modpacks/train-maniacs" target="_blank"><img src="https://cf.way2muchnoise.eu/1265495.svg?badge_style=flat"/></a><a href="https://www.curseforge.com/minecraft/modpacks/train-maniacs" target="_blank"><img src="http://cf.way2muchnoise.eu/versions/1265495.svg?badge_style=flat"/></a>
 
 ![logo](Pictures/Logo_horizontal.png)
 
 
 ## Where can I find and download the modpack?
 
-You can find the mod on CurseForge: https://legacy.curseforge.com/minecraft/mc-mods/train-maniacs
+You can find the mod on CurseForge: [https://www.curseforge.com/minecraft/modpacks/train-maniacs](https://www.curseforge.com/minecraft/modpacks/train-maniacs)
 
 
 ## Server installation guide
